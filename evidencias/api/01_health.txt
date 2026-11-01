@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+date: Sun, 01 Nov 2026 19:35:45 GMT
+server: uvicorn
+content-length: 120
+content-type: application/json
+vary: Origin
+x-request-id: e4c31551d264
+
+{"status":"ok","modelo_cargado":true,"version":"2.0.0","entorno":"docker","modo_generacion":"extractivo","detalle":null}

@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.16, pytest-9.2.0, pluggy-1.7.0 -- /Users/martinlimon/Documents/Maestria/Fase_II_Proyecto_IA/01_Repositorio_Proyecto/.venv/bin/python
+rootdir: /Users/martinlimon/Documents/Maestria/Fase_II_Proyecto_IA/01_Repositorio_Proyecto
+plugins: anyio-4.16.0, cov-7.0.0
+collecting ... collected 7 items
+
+tests/test_integration.py::test_servicio_saludable PASSED                [ 14%]
+tests/test_integration.py::test_frontend_disponible PASSED               [ 28%]
+tests/test_integration.py::test_frontend_a_api_a_modelo PASSED           [ 42%]
+tests/test_integration.py::test_flujo_humano_en_el_ciclo PASSED          [ 57%]
+tests/test_integration.py::test_resumen_crm PASSED                       [ 71%]
+tests/test_integration.py::test_errores_se_propagan_correctamente PASSED [ 85%]
+tests/test_integration.py::test_documentacion_api PASSED                 [100%]
+
+============================== 7 passed in 0.11s ===============================

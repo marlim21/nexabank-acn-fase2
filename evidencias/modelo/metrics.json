@@ -1,0 +1,147 @@
+{
+  "classifier": {
+    "cross_validation_train": {
+      "folds": 5,
+      "strategy": "StratifiedGroupKFold (grupo = frase núcleo)",
+      "selected_C": 0.5,
+      "accuracy_mean": 0.8104,
+      "accuracy_std": 0.0769,
+      "f1_macro_mean": 0.8084,
+      "f1_macro_std": 0.076
+    },
+    "hyperparameter_search": [
+      {
+        "C": 0.5,
+        "accuracy_mean": 0.8104,
+        "accuracy_std": 0.0769,
+        "f1_macro_mean": 0.8084,
+        "f1_macro_std": 0.076
+      },
+      {
+        "C": 2.0,
+        "accuracy_mean": 0.8054,
+        "accuracy_std": 0.074,
+        "f1_macro_mean": 0.8035,
+        "f1_macro_std": 0.0742
+      },
+      {
+        "C": 8.0,
+        "accuracy_mean": 0.7995,
+        "accuracy_std": 0.0679,
+        "f1_macro_mean": 0.7969,
+        "f1_macro_std": 0.0674
+      },
+      {
+        "C": 32.0,
+        "accuracy_mean": 0.7953,
+        "accuracy_std": 0.0693,
+        "f1_macro_mean": 0.793,
+        "f1_macro_std": 0.069
+      }
+    ],
+    "test": {
+      "n": 300,
+      "accuracy": 0.7733,
+      "f1_macro": 0.7623,
+      "f1_weighted": 0.7623,
+      "mean_confidence": 0.3539,
+      "sensitive_recall": 0.85
+    },
+    "confidence_analysis": {
+      "threshold_selected_oof": 0.3,
+      "target_precision": 0.9,
+      "test_coverage_above_threshold": 0.5567,
+      "test_accuracy_above_threshold": 0.9162,
+      "test_accuracy_below_threshold": 0.594
+    },
+    "baseline_most_frequent_test_accuracy": 0.1,
+    "per_class": {
+      "aclaracion_cargo": {
+        "precision": 0.6122,
+        "recall": 1.0,
+        "f1-score": 0.7595,
+        "support": 30.0
+      },
+      "actualizacion_datos": {
+        "precision": 0.9091,
+        "recall": 1.0,
+        "f1-score": 0.9524,
+        "support": 30.0
+      },
+      "banca_digital": {
+        "precision": 0.9444,
+        "recall": 0.5667,
+        "f1-score": 0.7083,
+        "support": 30.0
+      },
+      "bloqueo_tarjeta": {
+        "precision": 0.7297,
+        "recall": 0.9,
+        "f1-score": 0.806,
+        "support": 30.0
+      },
+      "consulta_saldo": {
+        "precision": 0.7317,
+        "recall": 1.0,
+        "f1-score": 0.8451,
+        "support": 30.0
+      },
+      "credito_prestamo": {
+        "precision": 0.8125,
+        "recall": 0.4333,
+        "f1-score": 0.5652,
+        "support": 30.0
+      },
+      "posible_fraude": {
+        "precision": 0.6774,
+        "recall": 0.7,
+        "f1-score": 0.6885,
+        "support": 30.0
+      },
+      "queja_servicio": {
+        "precision": 0.9375,
+        "recall": 1.0,
+        "f1-score": 0.9677,
+        "support": 30.0
+      },
+      "tarjeta_credito": {
+        "precision": 0.6538,
+        "recall": 0.5667,
+        "f1-score": 0.6071,
+        "support": 30.0
+      },
+      "transferencias": {
+        "precision": 1.0,
+        "recall": 0.5667,
+        "f1-score": 0.7234,
+        "support": 30.0
+      }
+    }
+  },
+  "retriever": {
+    "standalone": {
+      "n_queries": 30,
+      "recall_at_1": 0.8667,
+      "recall_at_3": 1.0,
+      "mrr": 0.9333
+    },
+    "with_classifier_hint": {
+      "n_queries": 30,
+      "recall_at_1": 0.9667,
+      "recall_at_3": 1.0,
+      "mrr": 0.9833
+    },
+    "holdout_standalone": {
+      "n_queries": 22,
+      "recall_at_1": 0.5455,
+      "recall_at_3": 0.7273,
+      "mrr": 0.6494
+    },
+    "holdout_with_classifier_hint": {
+      "n_queries": 22,
+      "recall_at_1": 0.5455,
+      "recall_at_3": 0.7727,
+      "mrr": 0.6728
+    }
+  }
+}

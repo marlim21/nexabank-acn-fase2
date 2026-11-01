@@ -1,0 +1,36 @@
+{
+    "motivo": {
+        "intent": "aclaracion_cargo",
+        "etiqueta": "Aclaración de cargo",
+        "confianza": 0.3149,
+        "alternativas": [
+            {
+                "intent": "consulta_saldo",
+                "confianza": 0.0983
+            },
+            {
+                "intent": "queja_servicio",
+                "confianza": 0.0931
+            }
+        ],
+        "sensible": false,
+        "confianza_baja": false
+    },
+    "resumen": "Motivo de contacto: Aclaración de cargo. El cliente indica: Me cobraron dos veces 899 pesos en Netflix el 3 de octubre. Última acción del agente: Registré la aclaración con folio 55821.",
+    "entidades": {
+        "montos": [
+            "899 pesos"
+        ],
+        "fechas": [
+            "3 de octubre"
+        ]
+    },
+    "acciones_sugeridas": [
+        "Verificar si el cargo está liquidado o pendiente",
+        "Levantar aclaración si el cargo ya fue liquidado"
+    ],
+    "fuente": "KB-004",
+    "escalamiento_requerido": false,
+    "requiere_aprobacion_humana": true,
+    "turnos_procesados": 2
+}

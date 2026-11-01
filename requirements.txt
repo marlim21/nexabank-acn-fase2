@@ -1,0 +1,10 @@
+# Dependencias de ejecución (backend + modelo). Versiones fijadas para reproducibilidad:
+# el modelo serializado con joblib debe cargarse con la MISMA versión de scikit-learn.
+fastapi==0.162.0
+uvicorn[standard]==0.54.0
+pydantic==2.14.2
+scikit-learn==1.9.1
+numpy==2.5.4
+joblib==1.6.0
+# Generación opcional con Claude (solo se usa si ANTHROPIC_API_KEY está definida)
+anthropic==1.17.0

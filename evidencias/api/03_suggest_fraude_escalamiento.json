@@ -1,0 +1,51 @@
+{
+    "id_sugerencia": "2d665396-a7d1-44e6-8486-dd66b472d764",
+    "motivo": {
+        "intent": "posible_fraude",
+        "etiqueta": "Posible fraude o suplantación",
+        "confianza": 0.5941,
+        "alternativas": [
+            {
+                "intent": "bloqueo_tarjeta",
+                "confianza": 0.1838
+            },
+            {
+                "intent": "tarjeta_credito",
+                "confianza": 0.0831
+            }
+        ],
+        "sensible": true,
+        "confianza_baja": false
+    },
+    "sugerencia": "Gracias por avisarnos. Por su seguridad voy a bloquear preventivamente sus productos y canalizar su caso con nuestra área de Prevención de Fraudes, que le dará seguimiento con un folio. Recuerde que NexaBank nunca solicita su NIP, contraseñas ni códigos por teléfono, correo o mensaje.",
+    "modo_generacion": "extractivo",
+    "fuentes": [
+        {
+            "id": "KB-007",
+            "titulo": "Protocolo ante posible fraude o suplantación",
+            "categoria": "posible_fraude",
+            "score": 0.1701
+        },
+        {
+            "id": "KB-008",
+            "titulo": "Phishing, enlaces sospechosos y robo de identidad",
+            "categoria": "posible_fraude",
+            "score": 0.1195
+        },
+        {
+            "id": "KB-006",
+            "titulo": "Bloqueo temporal y desbloqueo de tarjeta",
+            "categoria": "bloqueo_tarjeta",
+            "score": 0.0966
+        }
+    ],
+    "acciones_sugeridas": [
+        "Bloquear preventivamente los productos afectados",
+        "Escalar al área de Prevención de Fraudes con folio",
+        "Recordar que NexaBank nunca solicita NIP ni códigos"
+    ],
+    "escalamiento_requerido": true,
+    "requiere_aprobacion_humana": true,
+    "mensaje_enmascarado": "Me llamaron del banco y les di mi NIP, mi tarjeta es [TARJETA]",
+    "latencia_ms": 2.08
+}

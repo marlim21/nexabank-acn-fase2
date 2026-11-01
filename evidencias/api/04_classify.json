@@ -1,0 +1,17 @@
+{
+    "intent": "banca_digital",
+    "etiqueta": "Banca digital y acceso",
+    "confianza": 0.8051,
+    "alternativas": [
+        {
+            "intent": "bloqueo_tarjeta",
+            "confianza": 0.028
+        },
+        {
+            "intent": "posible_fraude",
+            "confianza": 0.0251
+        }
+    ],
+    "sensible": false,
+    "confianza_baja": false
+}

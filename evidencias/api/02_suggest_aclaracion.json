@@ -1,0 +1,45 @@
+{
+    "id_sugerencia": "a3ec2a4a-110d-4176-bb3b-8b89742601b5",
+    "motivo": {
+        "intent": "aclaracion_cargo",
+        "etiqueta": "Aclaración de cargo",
+        "confianza": 0.8448,
+        "alternativas": [
+            {
+                "intent": "credito_prestamo",
+                "confianza": 0.0242
+            },
+            {
+                "intent": "banca_digital",
+                "confianza": 0.0205
+            }
+        ],
+        "sensible": false,
+        "confianza_baja": false
+    },
+    "sugerencia": "Gracias por comunicarse con NexaBank. Lamento la situación. Voy a registrar una aclaración por el cargo que no reconoce; necesito la fecha, el monto y el comercio. NexaBank le dará respuesta en un plazo máximo de 45 días naturales y le compartiré su número de folio.",
+    "modo_generacion": "extractivo",
+    "fuentes": [
+        {
+            "id": "KB-003",
+            "titulo": "Aclaración de cargos no reconocidos",
+            "categoria": "aclaracion_cargo",
+            "score": 0.2905
+        },
+        {
+            "id": "KB-004",
+            "titulo": "Cobros duplicados y comisiones no reconocidas",
+            "categoria": "aclaracion_cargo",
+            "score": 0.2195
+        }
+    ],
+    "acciones_sugeridas": [
+        "Registrar folio de aclaración con fecha, monto y comercio",
+        "Informar el plazo de respuesta de 45 días naturales",
+        "Evaluar si procede abono provisional"
+    ],
+    "escalamiento_requerido": false,
+    "requiere_aprobacion_humana": true,
+    "mensaje_enmascarado": "No reconozco un cargo de 1,200 pesos en Amazon de ayer",
+    "latencia_ms": 2.87
+}

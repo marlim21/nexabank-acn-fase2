@@ -1,0 +1,1201 @@
+text,label,core_id
+"Señorita, quiero descargar mi estado de cuenta en pdf ¿cómo le hago?",consulta_saldo,consulta_saldo:16
+"Hola, me pueden prestar 15,000 pesos a plazos ¿me pueden ayudar?",credito_prestamo,credito_prestamo:11
+"señorita, necesito la carta finiquito de mi crédito",credito_prestamo,credito_prestamo:8
+"Oiga, cambie de telefono de casa y quiero registrarlo por favor",actualizacion_datos,actualizacion_datos:5
+perdi mi tarjeta de debito y quiero bloquearla gracias,bloqueo_tarjeta,bloqueo_tarjeta:1
+"Oiga, me estafaron con un supuesto premio del banco ¿cómo le hago?",posible_fraude,posible_fraude:21
+"Buenas tardes, no puedo registrar un nuevo beneficiario para transferir ¿me pueden ayudar?",transferencias,transferencias:15
+"Buenas tardes, necesito un credito para mi negocio gracias",credito_prestamo,credito_prestamo:15
+"Oiga, no encuentro mi tarjeta, quiero apagarla ¿qué hago?",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Hola buenas noches, hicieron compras con mi tarjeta y yo la tengo conmigo ¿me apoya?",posible_fraude,posible_fraude:15
+"Buen día, me dijeron que mi cuenta estaba en riesgo y me pidieron el token ¿cómo le hago?",posible_fraude,posible_fraude:20
+"Hola buenas noches, no puedo iniciar sesión en la app",banca_digital,banca_digital:13
+"Hola buenas noches, ya me cayó el depósito o todavía no es urgente",consulta_saldo,consulta_saldo:12
+"Buenas tardes, me están marcando de un número que dice ser del banco y me piden datos por favor",posible_fraude,posible_fraude:12
+"señorita, me mudé, dónde actualizo mi dirección gracias",actualizacion_datos,actualizacion_datos:14
+"Hola, aparece una compra de una tienda en línea que no realicé ¿qué hago?",aclaracion_cargo,aclaracion_cargo:8
+"Joven, no puedo iniciar sesion en la app ¿me apoya?",banca_digital,banca_digital:13
+"Hola buenas noches, quiero pasar una compra a meses sin intereses por favor",tarjeta_credito,tarjeta_credito:5
+"Oiga, cuánto dinero hay en mi cuenta de ahorro ¿me pueden ayudar?",consulta_saldo,consulta_saldo:20
+"Qué tal, quiero diferir una compra de 5,000 a pagos fijos ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:8
+"Hola buenas noches, me llamaron del banco pidiendome el codigo que me llego por mensaje ¿que hago?",posible_fraude,posible_fraude:0
+"Senorita, estoy muy molesto, ya es la quinta vez que llamo por lo mismo ¿me apoya?",queja_servicio,queja_servicio:3
+"Disculpe, me pueden prestar 15,000 pesos a plazos ¿me pueden ayudar?",credito_prestamo,credito_prestamo:11
+"joven, no reconoce mi huella para entrar a la app ¿me apoya?",banca_digital,banca_digital:11
+"Qué tal, cuánto dinero me queda después de el 3 de octubre gracias",consulta_saldo,consulta_saldo:11
+Meti mis datos en una pagina que parecia del banco ¿que hago?,posible_fraude,posible_fraude:10
+"joven, cuál es el pago mínimo de este mes necesito ayuda",tarjeta_credito,tarjeta_credito:16
+"Señorita, creo que alguien está usando mi identidad para pedir créditos necesito ayuda",posible_fraude,posible_fraude:7
+"Señorita, me tienen dando vueltas y nadie resuelve",queja_servicio,queja_servicio:17
+"Joven, me pidieron actualizar mis datos, qué documentos necesito gracias",actualizacion_datos,actualizacion_datos:10
+"Buen día, quiero checar mis movimientos de esta semana es urgente",consulta_saldo,consulta_saldo:13
+"Qué tal, hicieron compras con mi tarjeta y yo la tengo conmigo ¿me apoya?",posible_fraude,posible_fraude:15
+cómo consulto el estado de un spei ¿qué hago?,transferencias,transferencias:21
+"Que tal, quiero levantar una queja formal por favor",queja_servicio,queja_servicio:5
+"Joven, llevo una hora esperando y nadie me resuelve, es pésimo servicio gracias",queja_servicio,queja_servicio:1
+"Oiga, cuándo es mi fecha límite de pago quedo atento",tarjeta_credito,tarjeta_credito:3
+"Buenas tardes, cuanto dinero me queda despues de la semana pasada ¿como le hago?",consulta_saldo,consulta_saldo:11
+"Buenas tardes, necesito actualizar mi correo electronico necesito ayuda",actualizacion_datos,actualizacion_datos:2
+"Buen día, la app no me deja hacer nada, se queda cargando ¿qué hago?",banca_digital,banca_digital:8
+"Señorita, quiero pagar por completo mi crédito ¿me pueden ayudar?",credito_prestamo,credito_prestamo:14
+"Disculpe, quiero checar mis movimientos de esta semana necesito ayuda",consulta_saldo,consulta_saldo:13
+"Señorita, quiero solicitar un préstamo personal ¿me pueden ayudar?",credito_prestamo,credito_prestamo:0
+Me iban a depositar por SPEI y no me ha llegado gracias,transferencias,transferencias:9
+"Hola, ya me cayó el depósito o todavía no necesito ayuda",consulta_saldo,consulta_saldo:12
+"Joven, me pueden decir cuanto tengo disponible para retirar gracias",consulta_saldo,consulta_saldo:17
+"Hola, me equivoqué en un dígito de la cuenta al transferir ¿qué hago?",transferencias,transferencias:7
+Quiero subir el límite de mi tarjeta necesito ayuda,tarjeta_credito,tarjeta_credito:14
+"señorita, una persona me pidió el token por teléfono y se lo di necesito ayuda",posible_fraude,posible_fraude:9
+"Buen día, cómo desbloqueo mi tarjeta, ya no me deja pagar por favor",bloqueo_tarjeta,bloqueo_tarjeta:11
+"Que tal, quiero levantar una queja formal gracias",queja_servicio,queja_servicio:5
+"Buenas tardes, me pueden prestar 1,200 pesos a plazos por favor",credito_prestamo,credito_prestamo:11
+"Buenas tardes, quiero levantar una aclaración por un cobro indebido quedo atento",aclaracion_cargo,aclaracion_cargo:4
+"Hola, me están marcando de un número que dice ser del banco y me piden datos por favor",posible_fraude,posible_fraude:12
+"Qué tal, deposité a una CLABE equivocada por favor",transferencias,transferencias:18
+"Hola buenas noches, el comercio me hizo un reembolso y no lo veo ¿qué hago?",aclaracion_cargo,aclaracion_cargo:20
+Aparece una compra de una tienda en línea que no realicé necesito ayuda,aclaracion_cargo,aclaracion_cargo:8
+"hola, cómo agrego beneficiarios ¿me apoya?",actualizacion_datos,actualizacion_datos:15
+No me llega el código SMS para activar la app ¿me apoya?,banca_digital,banca_digital:5
+cambié de celular y no sé cómo activar la app ¿qué hago?,banca_digital,banca_digital:3
+"Buenas tardes, me mudé, dónde actualizo mi dirección ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:14
+"Que tal, no reconozco un retiro de 640 pesos",aclaracion_cargo,aclaracion_cargo:17
+"Hola buenas noches, quiero levantar una queja formal por favor",queja_servicio,queja_servicio:5
+"Señorita, no me llega el estado de cuenta a mi correo es urgente",consulta_saldo,consulta_saldo:6
+"joven, creo que me clonaron la tarjeta por favor",posible_fraude,posible_fraude:3
+"Oiga, no puedo registrar un nuevo beneficiario para transferir gracias",transferencias,transferencias:15
+"Hola buenas noches, cómo agrego beneficiarios",actualizacion_datos,actualizacion_datos:15
+"Buenas tardes, no reconozco un retiro de 1,200 pesos es urgente",aclaracion_cargo,aclaracion_cargo:17
+"Señorita, no encuentro mi tarjeta, quiero apagarla",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Qué tal, quiero dar de baja la tarjeta extraviada ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Hola buenas noches, aparece una compra de una gasolinera que no realicé ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:8
+"Hola, tengo mal escrito mi nombre en la cuenta necesito ayuda",actualizacion_datos,actualizacion_datos:6
+"hola buenas noches, se me cayó la tarjeta en la calle ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Qué tal, cómo evito pagar intereses en la tarjeta necesito ayuda",tarjeta_credito,tarjeta_credito:21
+"Buen día, metí mis datos en una página que parecía del banco ¿me apoya?",posible_fraude,posible_fraude:10
+"Senorita, me iban a depositar por SPEI y no me ha llegado ¿que hago?",transferencias,transferencias:9
+"Buenas tardes, creo que me clonaron la tarjeta es urgente",posible_fraude,posible_fraude:3
+"Señorita, quiero modificar a los beneficiarios de mi cuenta es urgente",actualizacion_datos,actualizacion_datos:7
+"Disculpe, me bloquearon el usuario por intentos fallidos ¿qué hago?",banca_digital,banca_digital:2
+"qué tal, me cobraron una anualidad que me dijeron que no tenía necesito ayuda",aclaracion_cargo,aclaracion_cargo:9
+"Joven, me ofrecieron un crédito en la app, cómo lo acepto ¿me pueden ayudar?",credito_prestamo,credito_prestamo:18
+"hola, me hackearon la app y movieron mi dinero quedo atento",posible_fraude,posible_fraude:8
+"Hola buenas noches, quiero hablar con el gerente necesito ayuda",queja_servicio,queja_servicio:18
+"Joven, no puedo entrar a la banca en línea es urgente",banca_digital,banca_digital:1
+"Qué tal, no recibo el mensaje con el código por favor",banca_digital,banca_digital:17
+Necesito la carta finiquito de mi crédito ¿cómo le hago?,credito_prestamo,credito_prestamo:8
+"Hola, me descontaron dinero por algo que nunca compré quedo atento",aclaracion_cargo,aclaracion_cargo:12
+"Buenas tardes, no puedo registrar un nuevo beneficiario para transferir ¿cómo le hago?",transferencias,transferencias:15
+"Buenas tardes, olvidé la tarjeta en un taxi gracias",bloqueo_tarjeta,bloqueo_tarjeta:19
+"Oiga, quiero mandar dinero a otra cuenta ¿qué hago?",transferencias,transferencias:14
+"Buen día, cuánto dinero hay en mi cuenta de ahorro necesito ayuda",consulta_saldo,consulta_saldo:20
+"Buen día, transferí dinero a una cuenta equivocada ¿me pueden ayudar?",transferencias,transferencias:2
+"Oiga, quiero saber cuanto dinero tengo en mi cuenta quedo atento",consulta_saldo,consulta_saldo:0
+"Señorita, me dice que la CLABE es incorrecta al transferir necesito ayuda",transferencias,transferencias:4
+"Buen día, una persona me pidió el token por teléfono y se lo di",posible_fraude,posible_fraude:9
+"Buen día, transferí dinero a una cuenta equivocada ¿me apoya?",transferencias,transferencias:2
+"Joven, no encuentro mi tarjeta, quiero apagarla ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Hola buenas noches, quiero reestructurar mi deuda necesito ayuda",credito_prestamo,credito_prestamo:10
+"Hola buenas noches, quiero presentar una queja es urgente",queja_servicio,queja_servicio:12
+me cobraron una anualidad que me dijeron que no tenia,aclaracion_cargo,aclaracion_cargo:9
+"hola, me están marcando de un número que dice ser del banco y me piden datos necesito ayuda",posible_fraude,posible_fraude:12
+"Disculpe, cómo activo el NexaToken en mi nuevo teléfono ¿me pueden ayudar?",banca_digital,banca_digital:6
+"Que tal, quiero reclamar un cobro que no me corresponde",aclaracion_cargo,aclaracion_cargo:21
+"Joven, quiero cambiar el celular donde me llegan los avisos ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:19
+"Oiga, me asaltaron y se llevaron mis tarjetas ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:8
+"Qué tal, qué requisitos piden para un crédito ¿me apoya?",credito_prestamo,credito_prestamo:1
+"Buen dia, la atencion fue pesima necesito ayuda",queja_servicio,queja_servicio:14
+Quiero saber el saldo para liquidar mi credito quedo atento,credito_prestamo,credito_prestamo:17
+"Buen día, cómo hago una transferencia a otro banco necesito ayuda",transferencias,transferencias:1
+"Señorita, quiero subir el límite de mi tarjeta",tarjeta_credito,tarjeta_credito:14
+"Hola buenas noches, quiero dar de baja la tarjeta extraviada necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:20
+qué requisitos piden para un crédito ¿me pueden ayudar?,credito_prestamo,credito_prestamo:1
+"Buenas tardes, cómo hago una transferencia a otro banco es urgente",transferencias,transferencias:1
+"Hola, necesito la clave de rastreo de mi transferencia por favor",transferencias,transferencias:6
+"Senorita, como pongo una compra a meses ¿como le hago?",tarjeta_credito,tarjeta_credito:15
+"Buenas tardes, cuánto tengo que pagar para no generar intereses quedo atento",tarjeta_credito,tarjeta_credito:1
+"Buenas tardes, quiero subir el límite de mi tarjeta ¿me apoya?",tarjeta_credito,tarjeta_credito:14
+"Buenas tardes, el comercio me hizo un reembolso y no lo veo es urgente",aclaracion_cargo,aclaracion_cargo:20
+"hola, necesito la clave de rastreo de mi transferencia ¿me apoya?",transferencias,transferencias:6
+"Señorita, cómo consulto el estado de un SPEI ¿me apoya?",transferencias,transferencias:21
+"Buenas tardes, me asaltaron y se llevaron mis tarjetas necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:8
+"Senorita, compre otro celular y necesito pasar la app necesito ayuda",banca_digital,banca_digital:15
+Necesito actualizar mi correo electronico gracias,actualizacion_datos,actualizacion_datos:2
+"Disculpe, el cajero no me dio el dinero pero sí me lo descontó por favor",aclaracion_cargo,aclaracion_cargo:14
+"Qué tal, me cobraron una comisión que no me corresponde ¿qué hago?",aclaracion_cargo,aclaracion_cargo:5
+"qué tal, me pueden mandar una constancia de saldo necesito ayuda",consulta_saldo,consulta_saldo:7
+"Buen día, quiero levantar una aclaración por un cobro indebido ¿qué hago?",aclaracion_cargo,aclaracion_cargo:4
+"Qué tal, metí mis datos en una página que parecía del banco quedo atento",posible_fraude,posible_fraude:10
+"Señorita, quiero aumentar mi límite de transferencias diarias es urgente",transferencias,transferencias:3
+"Buenas tardes, me llegó un mensaje con un enlace para actualizar mis datos y lo abrí ¿qué hago?",posible_fraude,posible_fraude:1
+"Buenas tardes, ya no uso ese correo, quiero poner otro",actualizacion_datos,actualizacion_datos:9
+"Estoy muy molesto, ya es la quinta vez que llamo por lo mismo ¿me pueden ayudar?",queja_servicio,queja_servicio:3
+"Hola, no entiendo los intereses que me cobraron en el corte quedo atento",tarjeta_credito,tarjeta_credito:11
+"Joven, me casé y quiero cambiar mi apellido quedo atento",actualizacion_datos,actualizacion_datos:18
+"Oiga, compre otro celular y necesito pasar la app quedo atento",banca_digital,banca_digital:15
+"Hola buenas noches, tengo mal escrito mi nombre en la cuenta ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:6
+"Buen día, cuánto dinero me queda después de la semana pasada quedo atento",consulta_saldo,consulta_saldo:11
+"Hola buenas noches, tengo mal escrito mi nombre en la cuenta ¿cómo le hago?",actualizacion_datos,actualizacion_datos:6
+"Buenas tardes, me equivoque en un digito de la cuenta al transferir ¿como le hago?",transferencias,transferencias:7
+"Buen día, el servicio de este banco es un desastre, quiero reportarlo ¿cómo le hago?",queja_servicio,queja_servicio:8
+"Joven, me dijeron que mi cuenta estaba en riesgo y me pidieron el token",posible_fraude,posible_fraude:20
+"Oiga, ya me cayó el depósito o todavía no por favor",consulta_saldo,consulta_saldo:12
+"señorita, una persona me pidió el token por teléfono y se lo di por favor",posible_fraude,posible_fraude:9
+transferí dinero a una cuenta equivocada gracias,transferencias,transferencias:2
+"buenas tardes, estoy harto de que no me resuelvan por favor",queja_servicio,queja_servicio:13
+"Oiga, me llego un mensaje con un enlace para actualizar mis datos y lo abri es urgente",posible_fraude,posible_fraude:1
+"Buen día, necesito estados de cuenta de hace dos años ¿me pueden ayudar?",consulta_saldo,consulta_saldo:10
+"Buen día, compré otro celular y necesito pasar la app",banca_digital,banca_digital:15
+"Hola buenas noches, cómo activo el nexatoken en mi nuevo teléfono quedo atento",banca_digital,banca_digital:6
+"Me pidieron actualizar mis datos, qué documentos necesito necesito ayuda",actualizacion_datos,actualizacion_datos:10
+"Joven, la app no me deja hacer nada, se queda cargando ¿me pueden ayudar?",banca_digital,banca_digital:8
+"Buen día, no encuentro mi tarjeta, quiero apagarla",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Buenas tardes, me equivoque en un digito de la cuenta al transferir ¿me apoya?",transferencias,transferencias:7
+"Hola, quiero poner mi nuevo número de teléfono ¿cómo le hago?",actualizacion_datos,actualizacion_datos:13
+"Señorita, el servicio de este banco es un desastre, quiero reportarlo ¿me apoya?",queja_servicio,queja_servicio:8
+"qué tal, cuándo es mi fecha límite de pago ¿me apoya?",tarjeta_credito,tarjeta_credito:3
+"Me ofrecieron un crédito en la app, cómo lo acepto es urgente",credito_prestamo,credito_prestamo:18
+"Senorita, me dijeron que mi cuenta estaba en riesgo y me pidieron el token ¿como le hago?",posible_fraude,posible_fraude:20
+"Qué tal, quiero que quede registrado mi descontento",queja_servicio,queja_servicio:10
+"Disculpe, me cobraron una comisión que no me corresponde por favor",aclaracion_cargo,aclaracion_cargo:5
+"Joven, me cobraron una comision que no me corresponde ¿me apoya?",aclaracion_cargo,aclaracion_cargo:5
+"Hola buenas noches, necesito una tarjeta nueva porque la perdí ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"Buenas tardes, me cobraron una anualidad que me dijeron que no tenía ¿me apoya?",aclaracion_cargo,aclaracion_cargo:9
+"joven, me asaltaron y se llevaron mis tarjetas ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:8
+Pagué en una tienda en línea y me descontaron el doble ¿me apoya?,aclaracion_cargo,aclaracion_cargo:6
+"Joven, quiero presentar una queja ¿cómo le hago?",queja_servicio,queja_servicio:12
+"Buen día, quiero aumentar mi límite de transferencias diarias gracias",transferencias,transferencias:3
+"me pidieron actualizar mis datos, qué documentos necesito quedo atento",actualizacion_datos,actualizacion_datos:10
+"Hola, quiero cambiar el celular donde me llegan los avisos es urgente",actualizacion_datos,actualizacion_datos:19
+"Qué tal, quiero cambiar mi contraseña de la app quedo atento",banca_digital,banca_digital:20
+"Buenas tardes, cambié de celular y no sé cómo activar la app ¿cómo le hago?",banca_digital,banca_digital:3
+me equivoqué en un dígito de la cuenta al transferir necesito ayuda,transferencias,transferencias:7
+"Oiga, quiero hablar con un supervisor, el ejecutivo fue grosero quedo atento",queja_servicio,queja_servicio:2
+"Hola buenas noches, quiero aumentar mi limite de transferencias diarias ¿me pueden ayudar?",transferencias,transferencias:3
+"Hola buenas noches, me llamaron del banco pidiéndome el código que me llegó por mensaje necesito ayuda",posible_fraude,posible_fraude:0
+Cómo pago mi tarjeta de crédito desde la app es urgente,tarjeta_credito,tarjeta_credito:6
+Se me extravió la tarjeta de crédito la semana pasada es urgente,bloqueo_tarjeta,bloqueo_tarjeta:2
+"Joven, no puedo registrar un nuevo beneficiario para transferir ¿qué hago?",transferencias,transferencias:15
+"Hola, no reconozco un cobro de Amazon por 5,000 ¿como le hago?",aclaracion_cargo,aclaracion_cargo:1
+"Joven, transferí dinero a una cuenta equivocada ¿me pueden ayudar?",transferencias,transferencias:2
+"Buen día, la banca en línea no carga quedo atento",banca_digital,banca_digital:19
+"Senorita, necesito actualizar mi expediente ¿me apoya?",actualizacion_datos,actualizacion_datos:20
+"Hola buenas noches, me trataron muy mal en la sucursal hoy en la mañana gracias",queja_servicio,queja_servicio:6
+"Buen día, se me cayó la tarjeta en la calle ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Senorita, necesito el comprobante de la transferencia ¿me pueden ayudar?",transferencias,transferencias:17
+Necesito un convenio de pago porque no me alcanza,credito_prestamo,credito_prestamo:21
+"Senorita, necesito una constancia de retenciones ¿me pueden ayudar?",consulta_saldo,consulta_saldo:18
+necesito cambiar mi correo registrado necesito ayuda,actualizacion_datos,actualizacion_datos:12
+"Que tal, necesito un credito para mi negocio gracias",credito_prestamo,credito_prestamo:15
+"Joven, quiero descargar mi estado de cuenta en pdf necesito ayuda",consulta_saldo,consulta_saldo:16
+"qué tal, me cobraron una comisión que no me corresponde quedo atento",aclaracion_cargo,aclaracion_cargo:5
+"Buen día, quiero descargar mi estado de cuenta en pdf",consulta_saldo,consulta_saldo:16
+"señorita, alguien se llevó mi bolso con la tarjeta adentro por favor",bloqueo_tarjeta,bloqueo_tarjeta:14
+"Qué tal, no recibo el mensaje con el código ¿cómo le hago?",banca_digital,banca_digital:17
+"Buen día, qué día corta mi tarjeta gracias",tarjeta_credito,tarjeta_credito:18
+"Buenas tardes, quiero poner una queja por la mala atención en sucursal es urgente",queja_servicio,queja_servicio:0
+"Joven, quiero corregir mi fecha de nacimiento gracias",actualizacion_datos,actualizacion_datos:17
+"Oiga, la app me marca error ¿me apoya?",banca_digital,banca_digital:16
+"Oiga, necesito la carta finiquito de mi crédito ¿cómo le hago?",credito_prestamo,credito_prestamo:8
+"disculpe, necesito actualizar mi expediente por favor",actualizacion_datos,actualizacion_datos:20
+"Buenas tardes, estoy harto de que no me resuelvan es urgente",queja_servicio,queja_servicio:13
+"señorita, quiero presentar una queja ¿qué hago?",queja_servicio,queja_servicio:12
+"Señorita, me cobraron una anualidad que me dijeron que no tenía ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:9
+"Joven, no puedo pagar mi prestamo este mes, que opciones tengo ¿como le hago?",credito_prestamo,credito_prestamo:5
+"Qué tal, deposité a una CLABE equivocada es urgente",transferencias,transferencias:18
+Como hago para comprar una casa con credito ¿me apoya?,credito_prestamo,credito_prestamo:20
+"Hola, quiero saber el saldo de mi tarjeta de crédito gracias",tarjeta_credito,tarjeta_credito:19
+"Oiga, voy a ir a condusef si no me resuelven ¿me apoya?",queja_servicio,queja_servicio:4
+Me cobraron intereses en mi tarjeta de credito,tarjeta_credito,tarjeta_credito:13
+"Hola buenas noches, quiero cambiar mi contraseña de la app quedo atento",banca_digital,banca_digital:20
+"ya no uso ese correo, quiero poner otro ¿me apoya?",actualizacion_datos,actualizacion_datos:9
+"Oiga, me cambié de domicilio y quiero actualizarlo ¿cómo le hago?",actualizacion_datos,actualizacion_datos:1
+"Hola, perdí mi celular y tenía la app instalada quedo atento",banca_digital,banca_digital:9
+"Joven, cuando tengo que pagar la tarjeta de credito ¿como le hago?",tarjeta_credito,tarjeta_credito:12
+"Joven, quiero aumentar mi límite de transferencias diarias necesito ayuda",transferencias,transferencias:3
+"Buenas tardes, hay un pago que no autoricé en mi estado de cuenta ¿me apoya?",aclaracion_cargo,aclaracion_cargo:13
+"Disculpe, quiero pagar por completo mi crédito ¿cómo le hago?",credito_prestamo,credito_prestamo:14
+"Buen dia, creo que alguien esta usando mi identidad para pedir creditos es urgente",posible_fraude,posible_fraude:7
+"Buen día, alguien entró a mi banca en línea sin permiso",posible_fraude,posible_fraude:19
+"Hola buenas noches, quiero reponer mi tarjeta porque se perdio ¿que hago?",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Hola, recibi un correo raro que dice que mi cuenta sera cancelada gracias",posible_fraude,posible_fraude:5
+Me cobraron una comisión que no me corresponde gracias,aclaracion_cargo,aclaracion_cargo:5
+"Oiga, tengo mal escrito mi nombre en la cuenta quedo atento",actualizacion_datos,actualizacion_datos:6
+"Qué tal, quiero descargar mi estado de cuenta en pdf necesito ayuda",consulta_saldo,consulta_saldo:16
+como activo el NexaToken en mi nuevo telefono ¿me apoya?,banca_digital,banca_digital:6
+"Señorita, quiero que me devuelvan un cargo duplicado de 2,499.90 necesito ayuda",aclaracion_cargo,aclaracion_cargo:10
+"Oiga, me cobraron intereses en mi tarjeta de credito por favor",tarjeta_credito,tarjeta_credito:13
+"Oiga, no me llega el estado de cuenta a mi correo ¿me apoya?",consulta_saldo,consulta_saldo:6
+"Qué tal, quiero un préstamo a 24 meses quedo atento",credito_prestamo,credito_prestamo:19
+quiero checar mis movimientos de esta semana por favor,consulta_saldo,consulta_saldo:13
+"Joven, cuándo es mi fecha límite de pago ¿me apoya?",tarjeta_credito,tarjeta_credito:3
+me cobraron intereses en mi tarjeta de crédito ¿me apoya?,tarjeta_credito,tarjeta_credito:13
+"Senorita, mi tarjeta se quedo atorada en el cajero gracias",bloqueo_tarjeta,bloqueo_tarjeta:17
+"qué tal, me pueden prestar 12,750 pesos a plazos por favor",credito_prestamo,credito_prestamo:11
+"Joven, me mude, donde actualizo mi direccion",actualizacion_datos,actualizacion_datos:14
+"Hola, cambie de telefono de casa y quiero registrarlo ¿me apoya?",actualizacion_datos,actualizacion_datos:5
+me cobraron intereses en mi tarjeta de crédito ¿qué hago?,tarjeta_credito,tarjeta_credito:13
+"Hola buenas noches, el cajero se quedó con mi tarjeta ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:5
+"Joven, quiero saber cuánto dinero tengo en mi cuenta gracias",consulta_saldo,consulta_saldo:0
+"Oiga, voy a ir a CONDUSEF si no me resuelven es urgente",queja_servicio,queja_servicio:4
+"Señorita, llevo una hora esperando y nadie me resuelve, es pésimo servicio necesito ayuda",queja_servicio,queja_servicio:1
+"Qué tal, no sé cuánto me queda en la tarjeta de débito quedo atento",consulta_saldo,consulta_saldo:14
+"Señorita, tengo mal escrito mi nombre en la cuenta por favor",actualizacion_datos,actualizacion_datos:6
+Hay un pago que no autorice en mi estado de cuenta gracias,aclaracion_cargo,aclaracion_cargo:13
+"qué tal, me robaron la identidad y abrieron una cuenta a mi nombre ¿cómo le hago?",posible_fraude,posible_fraude:16
+"Disculpe, hay un cargo en mi tarjeta que no reconozco de ayer gracias",aclaracion_cargo,aclaracion_cargo:3
+"buen día, cuáles son los documentos para cambiar mi domicilio",actualizacion_datos,actualizacion_datos:21
+"Buen día, me sale un error al iniciar sesión ¿me apoya?",banca_digital,banca_digital:7
+"señorita, el cajero no me dio el dinero pero sí me lo descontó ¿me apoya?",aclaracion_cargo,aclaracion_cargo:14
+"Hola, no puedo iniciar sesión en la app gracias",banca_digital,banca_digital:13
+no puedo iniciar sesion en la app es urgente,banca_digital,banca_digital:13
+"Joven, me rechazaron una compra por falta de línea de crédito quedo atento",tarjeta_credito,tarjeta_credito:20
+"Hola buenas noches, quiero checar mis movimientos de esta semana ¿cómo le hago?",consulta_saldo,consulta_saldo:13
+"Joven, cambié de celular y no sé cómo activar la app",banca_digital,banca_digital:3
+"Hola buenas noches, me tienen dando vueltas y nadie resuelve ¿que hago?",queja_servicio,queja_servicio:17
+"Hola buenas noches, quiero agregar un beneficiario a mi cuenta necesito ayuda",actualizacion_datos,actualizacion_datos:4
+"Buen día, cómo doy de alta una cuenta para transferir gracias",transferencias,transferencias:10
+"Señorita, necesito estados de cuenta de hace dos años gracias",consulta_saldo,consulta_saldo:10
+"Oiga, me llamaron del banco pidiendome el codigo que me llego por mensaje ¿como le hago?",posible_fraude,posible_fraude:0
+"qué tal, quiero corregir mi fecha de nacimiento necesito ayuda",actualizacion_datos,actualizacion_datos:17
+"Joven, me trataron muy mal en la sucursal el lunes necesito ayuda",queja_servicio,queja_servicio:6
+"Hola buenas noches, quiero un préstamo a 24 meses ¿qué hago?",credito_prestamo,credito_prestamo:19
+"Oiga, en la app no me aparecen mis movimientos recientes ¿me pueden ayudar?",consulta_saldo,consulta_saldo:19
+"Hola, cuánto tengo que pagar para no generar intereses ¿qué hago?",tarjeta_credito,tarjeta_credito:1
+"Hola buenas noches, en la app no me aparecen mis movimientos recientes ¿me apoya?",consulta_saldo,consulta_saldo:19
+"Joven, voy a ir a CONDUSEF si no me resuelven quedo atento",queja_servicio,queja_servicio:4
+"Disculpe, me descontaron dinero por algo que nunca compré gracias",aclaracion_cargo,aclaracion_cargo:12
+"Qué tal, hay un pago que no autoricé en mi estado de cuenta necesito ayuda",aclaracion_cargo,aclaracion_cargo:13
+"Señorita, voy a ir a CONDUSEF si no me resuelven ¿me pueden ayudar?",queja_servicio,queja_servicio:4
+"Joven, necesito actualizar mi correo electrónico por favor",actualizacion_datos,actualizacion_datos:2
+"Oiga, no se cuanto me queda en la tarjeta de debito gracias",consulta_saldo,consulta_saldo:14
+"Señorita, compré otro celular y necesito pasar la app por favor",banca_digital,banca_digital:15
+"Senorita, me rechazaron la transferencia y no se por que por favor",transferencias,transferencias:16
+"Oiga, quiero corregir mi fecha de nacimiento por favor",actualizacion_datos,actualizacion_datos:17
+"Joven, quiero saber cuánto dinero tengo en mi cuenta es urgente",consulta_saldo,consulta_saldo:0
+"Buenas tardes, hice una transferencia SPEI y no le ha llegado a la otra persona ¿me apoya?",transferencias,transferencias:0
+"Señorita, me llegó un mensaje con un enlace para actualizar mis datos y lo abrí es urgente",posible_fraude,posible_fraude:1
+"Que tal, la aplicacion se cierra cuando intento entrar ¿me pueden ayudar?",banca_digital,banca_digital:4
+"Disculpe, hice el pago de mi tarjeta y no se ve reflejado ¿me apoya?",tarjeta_credito,tarjeta_credito:7
+"Que tal, me robaron la cartera con mi tarjeta ¿que hago?",bloqueo_tarjeta,bloqueo_tarjeta:0
+"Joven, quiero descargar mi estado de cuenta en pdf gracias",consulta_saldo,consulta_saldo:16
+estoy harto de que no me resuelvan ¿me pueden ayudar?,queja_servicio,queja_servicio:13
+"Joven, quiero disputar un cargo de Mercado Libre ¿me apoya?",aclaracion_cargo,aclaracion_cargo:18
+"Disculpe, la banca en línea no carga gracias",banca_digital,banca_digital:19
+"Buenas tardes, me colgaron la llamada y quiero quejarme gracias",queja_servicio,queja_servicio:16
+"Hola, no recibo el mensaje con el codigo quedo atento",banca_digital,banca_digital:17
+"Senorita, meti mis datos en una pagina que parecia del banco ¿me apoya?",posible_fraude,posible_fraude:10
+me cobraron intereses en mi tarjeta de crédito necesito ayuda,tarjeta_credito,tarjeta_credito:13
+"Joven, voy a presentar una reclamación en CONDUSEF gracias",queja_servicio,queja_servicio:20
+"Oiga, no recibo el mensaje con el codigo ¿me pueden ayudar?",banca_digital,banca_digital:17
+"Buenas tardes, hay un pago que no autorice en mi estado de cuenta por favor",aclaracion_cargo,aclaracion_cargo:13
+Cuánto debo en total de mi tarjeta de crédito,tarjeta_credito,tarjeta_credito:10
+"Hola buenas noches, la transferencia aparece como enviada pero no llegó",transferencias,transferencias:12
+"Joven, me estafaron con un supuesto premio del banco ¿me apoya?",posible_fraude,posible_fraude:21
+"Disculpe, hay un pago que no autoricé en mi estado de cuenta ¿qué hago?",aclaracion_cargo,aclaracion_cargo:13
+"Oiga, me interesa un credito hipotecario para comprar casa",credito_prestamo,credito_prestamo:2
+"Joven, me pueden dar un préstamo es urgente",credito_prestamo,credito_prestamo:12
+"Hola, me pidieron actualizar mis datos, qué documentos necesito necesito ayuda",actualizacion_datos,actualizacion_datos:10
+"Disculpe, quiero corregir mi fecha de nacimiento necesito ayuda",actualizacion_datos,actualizacion_datos:17
+"Joven, cuánto debo de mi crédito personal necesito ayuda",credito_prestamo,credito_prestamo:4
+"Hola buenas noches, cual es el pago minimo de este mes necesito ayuda",tarjeta_credito,tarjeta_credito:16
+"Hola, necesito estados de cuenta de hace dos años necesito ayuda",consulta_saldo,consulta_saldo:10
+"Joven, quiero checar mis movimientos de esta semana ¿que hago?",consulta_saldo,consulta_saldo:13
+"Buenas tardes, hice el pago de mi tarjeta y no se ve reflejado por favor",tarjeta_credito,tarjeta_credito:7
+"Buenas tardes, la banca en linea no carga necesito ayuda",banca_digital,banca_digital:19
+"Qué tal, me robaron la identidad y abrieron una cuenta a mi nombre por favor",posible_fraude,posible_fraude:16
+"Hola, quiero poner una queja por la mala atencion en sucursal necesito ayuda",queja_servicio,queja_servicio:0
+"disculpe, cuánto dinero hay en mi cuenta de ahorro es urgente",consulta_saldo,consulta_saldo:20
+"Senorita, me siento muy mal atendido por el banco quedo atento",queja_servicio,queja_servicio:19
+"Hola, quiero diferir una compra de 350 a pagos fijos",tarjeta_credito,tarjeta_credito:8
+Me estafaron con un supuesto premio del banco necesito ayuda,posible_fraude,posible_fraude:21
+"Disculpe, quiero disputar un cargo de Netflix",aclaracion_cargo,aclaracion_cargo:18
+Aparece una compra de un supermercado que no realicé necesito ayuda,aclaracion_cargo,aclaracion_cargo:8
+"Buen día, me tienen dando vueltas y nadie resuelve ¿cómo le hago?",queja_servicio,queja_servicio:17
+"Señorita, me equivoqué en un dígito de la cuenta al transferir",transferencias,transferencias:7
+"Senorita, hay un cargo en mi tarjeta que no reconozco de el 3 de octubre quedo atento",aclaracion_cargo,aclaracion_cargo:3
+"Senorita, me iban a depositar por SPEI y no me ha llegado",transferencias,transferencias:9
+"Joven, quiero cambiar el celular donde me llegan los avisos es urgente",actualizacion_datos,actualizacion_datos:19
+"Señorita, quiero liquidar mi préstamo antes de tiempo ¿qué hago?",credito_prestamo,credito_prestamo:3
+"Buenas tardes, me sale un error al iniciar sesión quedo atento",banca_digital,banca_digital:7
+"Señorita, no me llega el estado de cuenta a mi correo quedo atento",consulta_saldo,consulta_saldo:6
+Me trataron muy mal en la sucursal hoy en la mañana ¿me pueden ayudar?,queja_servicio,queja_servicio:6
+"Buenas tardes, me sale un error al iniciar sesion por favor",banca_digital,banca_digital:7
+"Hola buenas noches, cómo hago para comprar una casa con crédito ¿cómo le hago?",credito_prestamo,credito_prestamo:20
+"Buen dia, quiero que quede registrado mi descontento ¿que hago?",queja_servicio,queja_servicio:10
+"oiga, cancelé una suscripción y me la siguen cobrando quedo atento",aclaracion_cargo,aclaracion_cargo:16
+"Disculpe, cómo doy de alta una cuenta para transferir quedo atento",transferencias,transferencias:10
+"Hola buenas noches, me aparece un cargo de 350 pesos que yo no hice ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:0
+"Disculpe, quiero descargar mi estado de cuenta en pdf ¿me apoya?",consulta_saldo,consulta_saldo:16
+"Qué tal, cuáles son los documentos para cambiar mi domicilio ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:21
+"Buenas tardes, necesito actualizar mi expediente ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:20
+"Buen dia, no puedo iniciar sesion en la app",banca_digital,banca_digital:13
+"oiga, la aplicación se cierra cuando intento entrar ¿me apoya?",banca_digital,banca_digital:4
+"Hola buenas noches, no me llega el código sms para activar la app ¿qué hago?",banca_digital,banca_digital:5
+"Buenas tardes, no puedo registrar un nuevo beneficiario para transferir",transferencias,transferencias:15
+Quiero levantar una aclaración por un cobro indebido necesito ayuda,aclaracion_cargo,aclaracion_cargo:4
+"Buenas tardes, me pueden prestar 640 pesos a plazos quedo atento",credito_prestamo,credito_prestamo:11
+"Hola, quiero reestructurar mi deuda ¿que hago?",credito_prestamo,credito_prestamo:10
+"Oiga, quiero hablar con un supervisor, el ejecutivo fue grosero es urgente",queja_servicio,queja_servicio:2
+"Hola buenas noches, en la app no me aparecen mis movimientos recientes ¿que hago?",consulta_saldo,consulta_saldo:19
+"Hola, el cajero no me dio el dinero pero si me lo desconto",aclaracion_cargo,aclaracion_cargo:14
+"Oiga, recibí un correo raro que dice que mi cuenta será cancelada",posible_fraude,posible_fraude:5
+"Buenas tardes, me estafaron con un supuesto premio del banco ¿me apoya?",posible_fraude,posible_fraude:21
+"Hola, quiero diferir una compra de 350 a pagos fijos gracias",tarjeta_credito,tarjeta_credito:8
+"hola, me puede decir mi saldo disponible por favor",consulta_saldo,consulta_saldo:1
+"Señorita, me cobraron una comisión que no me corresponde por favor",aclaracion_cargo,aclaracion_cargo:5
+"Señorita, cancelé una suscripción y me la siguen cobrando es urgente",aclaracion_cargo,aclaracion_cargo:16
+"Hola, me cambie de domicilio y quiero actualizarlo",actualizacion_datos,actualizacion_datos:1
+"Disculpe, necesito actualizar mi expediente por favor",actualizacion_datos,actualizacion_datos:20
+"Hola buenas noches, quiero reponer mi tarjeta porque se perdio ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Hola, hice una transferencia SPEI y no le ha llegado a la otra persona ¿me apoya?",transferencias,transferencias:0
+"Disculpe, cancelé una suscripción y me la siguen cobrando",aclaracion_cargo,aclaracion_cargo:16
+"Joven, no entiendo los intereses que me cobraron en el corte es urgente",tarjeta_credito,tarjeta_credito:11
+Me tienen dando vueltas y nadie resuelve ¿qué hago?,queja_servicio,queja_servicio:17
+La banca en línea no carga ¿cómo le hago?,banca_digital,banca_digital:19
+"Hola buenas noches, necesito una tarjeta nueva porque la perdi ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"Oiga, quiero saber cuánto dinero tengo en mi cuenta ¿cómo le hago?",consulta_saldo,consulta_saldo:0
+"Hola, perdí mi celular y tenía la app instalada ¿me pueden ayudar?",banca_digital,banca_digital:9
+"Joven, quiero ver mi saldo pero no sé dónde se consulta ¿me apoya?",consulta_saldo,consulta_saldo:9
+"Hola, me rechazaron una compra por falta de línea de crédito ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:20
+"Hola buenas noches, cómo hago para comprar una casa con crédito es urgente",credito_prestamo,credito_prestamo:20
+"Qué tal, quiero ver mi saldo pero no sé dónde se consulta gracias",consulta_saldo,consulta_saldo:9
+"Buenas tardes, quiero modificar a los beneficiarios de mi cuenta gracias",actualizacion_datos,actualizacion_datos:7
+"Disculpe, necesito cancelar mi tarjeta porque me la robaron gracias",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Oiga, no me llega el estado de cuenta a mi correo necesito ayuda",consulta_saldo,consulta_saldo:6
+"Hola, quiero que me regresen una transferencia que mandé por error quedo atento",transferencias,transferencias:11
+"Hola, meti mis datos en una pagina que parecia del banco quedo atento",posible_fraude,posible_fraude:10
+"Hola buenas noches, quiero registrarme en la banca en línea por favor",banca_digital,banca_digital:10
+"Señorita, me pueden decir cuánto tengo disponible para retirar",consulta_saldo,consulta_saldo:17
+mi tarjeta se quedó atorada en el cajero es urgente,bloqueo_tarjeta,bloqueo_tarjeta:17
+"Oiga, quiero bloquear la tarjeta de inmediato, la extravié",bloqueo_tarjeta,bloqueo_tarjeta:10
+"Disculpe, me atrasé en el pago de mi préstamo gracias",credito_prestamo,credito_prestamo:16
+No reconozco un cobro de una tienda en linea por 640 es urgente,aclaracion_cargo,aclaracion_cargo:1
+"qué tal, se me extravió la tarjeta de crédito ayer por favor",bloqueo_tarjeta,bloqueo_tarjeta:2
+"Buen dia, no reconozco un retiro de 12,750 pesos es urgente",aclaracion_cargo,aclaracion_cargo:17
+"Señorita, quiero descargar mi estado de cuenta en pdf es urgente",consulta_saldo,consulta_saldo:16
+"Oiga, quiero ver mi saldo pero no sé dónde se consulta ¿qué hago?",consulta_saldo,consulta_saldo:9
+"Joven, estoy muy molesto, ya es la quinta vez que llamo por lo mismo ¿como le hago?",queja_servicio,queja_servicio:3
+"Hola, creo que me clonaron la tarjeta por favor",posible_fraude,posible_fraude:3
+"Hola buenas noches, me dijeron que mi cuenta estaba en riesgo y me pidieron el token ¿qué hago?",posible_fraude,posible_fraude:20
+"Joven, necesito una tarjeta nueva porque la perdí ¿qué hago?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"Hola, cuánto debo en total de mi tarjeta de crédito ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:10
+"Buen día, me trataron muy mal en la sucursal el 3 de octubre",queja_servicio,queja_servicio:6
+"Buenas tardes, cancelé una suscripción y me la siguen cobrando ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:16
+"Señorita, alguien hizo transferencias desde mi cuenta sin mi permiso",posible_fraude,posible_fraude:2
+"Disculpe, ya me cayó el depósito o todavía no necesito ayuda",consulta_saldo,consulta_saldo:12
+"Señorita, cómo hago para comprar una casa con crédito ¿me pueden ayudar?",credito_prestamo,credito_prestamo:20
+"Hola, quiero dar de baja la tarjeta extraviada gracias",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Oiga, pague en Uber y me descontaron el doble ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:6
+"Joven, quiero aumentar mi límite de transferencias diarias ¿cómo le hago?",transferencias,transferencias:3
+"Buen día, me puede decir mi saldo disponible es urgente",consulta_saldo,consulta_saldo:1
+"Qué tal, me pueden mandar una constancia de saldo es urgente",consulta_saldo,consulta_saldo:7
+"Joven, quiero apagar la tarjeta mientras la busco",bloqueo_tarjeta,bloqueo_tarjeta:16
+"Joven, quiero poner una queja por la mala atencion en sucursal necesito ayuda",queja_servicio,queja_servicio:0
+"Señorita, se me extravió la tarjeta de crédito el 3 de octubre necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:2
+"Señorita, quiero saber el saldo de mi tarjeta de crédito es urgente",tarjeta_credito,tarjeta_credito:19
+"Buenas tardes, quiero liquidar mi préstamo antes de tiempo es urgente",credito_prestamo,credito_prestamo:3
+"Buenas tardes, me llamaron del banco pidiéndome el código que me llegó por mensaje ¿qué hago?",posible_fraude,posible_fraude:0
+"Oiga, olvidé mi contraseña de la app es urgente",banca_digital,banca_digital:0
+"Joven, cómo agrego beneficiarios ¿cómo le hago?",actualizacion_datos,actualizacion_datos:15
+Quiero liquidar mi préstamo antes de tiempo por favor,credito_prestamo,credito_prestamo:3
+"Oiga, el cajero no me dio el dinero pero sí me lo descontó ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:14
+"Qué tal, necesito una tarjeta nueva porque la perdí ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"Disculpe, cuando es mi fecha limite de pago quedo atento",tarjeta_credito,tarjeta_credito:3
+"Oiga, necesito cancelar mi tarjeta porque me la robaron ¿qué hago?",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Oiga, quiero bloquear la tarjeta de inmediato, la extravié gracias",bloqueo_tarjeta,bloqueo_tarjeta:10
+"Hola buenas noches, quiero liquidar mi prestamo antes de tiempo ¿que hago?",credito_prestamo,credito_prestamo:3
+"Hola, aparece una compra de Amazon que no realicé quedo atento",aclaracion_cargo,aclaracion_cargo:8
+"Joven, estoy harto de que no me resuelvan ¿me pueden ayudar?",queja_servicio,queja_servicio:13
+"Hola, quiero liquidar mi préstamo antes de tiempo ¿me pueden ayudar?",credito_prestamo,credito_prestamo:3
+"Señorita, quiero bloquear la tarjeta de inmediato, la extravié por favor",bloqueo_tarjeta,bloqueo_tarjeta:10
+"Oiga, cuanto debo de mi credito personal necesito ayuda",credito_prestamo,credito_prestamo:4
+"Hola, estoy harto de que no me resuelvan ¿cómo le hago?",queja_servicio,queja_servicio:13
+"Qué tal, me ofrecieron un crédito en la app, cómo lo acepto por favor",credito_prestamo,credito_prestamo:18
+"Qué tal, me atrasé en el pago de mi préstamo ¿me apoya?",credito_prestamo,credito_prestamo:16
+"Hola buenas noches, quiero aumentar mi límite de transferencias diarias ¿me apoya?",transferencias,transferencias:3
+Quiero cambiar el celular donde me llegan los avisos quedo atento,actualizacion_datos,actualizacion_datos:19
+"Hola, necesito una tarjeta nueva porque la perdí ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"hola buenas noches, no reconozco un cobro de un restaurante por 15,000 por favor",aclaracion_cargo,aclaracion_cargo:1
+"Senorita, quiero pasar una compra a meses sin intereses ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:5
+"Buenas tardes, se me cayó la tarjeta en la calle",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Señorita, no encuentro mi tarjeta, quiero apagarla ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Hola, aparece una compra de un restaurante que no realicé ¿me apoya?",aclaracion_cargo,aclaracion_cargo:8
+"Joven, mi tarjeta se quedo atorada en el cajero por favor",bloqueo_tarjeta,bloqueo_tarjeta:17
+"Qué tal, no reconozco un cobro de mercado libre por 12,750 quedo atento",aclaracion_cargo,aclaracion_cargo:1
+"Qué tal, llevo una hora esperando y nadie me resuelve, es pésimo servicio ¿cómo le hago?",queja_servicio,queja_servicio:1
+"Hola, me cobraron una anualidad que me dijeron que no tenía",aclaracion_cargo,aclaracion_cargo:9
+"qué tal, cuánto dinero hay en mi cuenta de ahorro ¿me apoya?",consulta_saldo,consulta_saldo:20
+"Joven, transferí dinero a una cuenta equivocada ¿me apoya?",transferencias,transferencias:2
+"Qué tal, me dijeron que mi cuenta estaba en riesgo y me pidieron el token ¿cómo le hago?",posible_fraude,posible_fraude:20
+"Hola, necesito el comprobante de la transferencia quedo atento",transferencias,transferencias:17
+"Disculpe, no entiendo los intereses que me cobraron en el corte ¿me apoya?",tarjeta_credito,tarjeta_credito:11
+"buen día, cómo pago mi tarjeta de crédito desde la app",tarjeta_credito,tarjeta_credito:6
+"Disculpe, quiero levantar una queja formal ¿me apoya?",queja_servicio,queja_servicio:5
+"Señorita, me ofrecieron un crédito en la app, cómo lo acepto es urgente",credito_prestamo,credito_prestamo:18
+"Joven, olvidé mi contraseña de la app",banca_digital,banca_digital:0
+"Oiga, me interesa un crédito hipotecario para comprar casa",credito_prestamo,credito_prestamo:2
+"Buenas tardes, me hablaron diciendo que eran de NexaBank y les di mi NIP ¿me apoya?",posible_fraude,posible_fraude:4
+"Hola, la app me marca error gracias",banca_digital,banca_digital:16
+"Senorita, me iban a depositar por SPEI y no me ha llegado ¿me apoya?",transferencias,transferencias:9
+"Buenas tardes, estoy harto de que no me resuelvan gracias",queja_servicio,queja_servicio:13
+"Señorita, necesito un crédito para mi negocio ¿me apoya?",credito_prestamo,credito_prestamo:15
+"Buen día, quiero consultar los últimos movimientos de ayer es urgente",consulta_saldo,consulta_saldo:4
+"Disculpe, tengo mal escrito mi nombre en la cuenta",actualizacion_datos,actualizacion_datos:6
+"Buen día, hice el pago de mi tarjeta y no se ve reflejado necesito ayuda",tarjeta_credito,tarjeta_credito:7
+"Buen dia, me cambie de domicilio y quiero actualizarlo necesito ayuda",actualizacion_datos,actualizacion_datos:1
+"Disculpe, necesito cancelar mi tarjeta porque me la robaron",bloqueo_tarjeta,bloqueo_tarjeta:3
+Quiero presentar una queja ¿qué hago?,queja_servicio,queja_servicio:12
+"qué tal, me iban a depositar por spei y no me ha llegado gracias",transferencias,transferencias:9
+"Hola buenas noches, por qué me bajaron el límite de mi tarjeta es urgente",tarjeta_credito,tarjeta_credito:9
+Me sale un error al iniciar sesion es urgente,banca_digital,banca_digital:7
+"oiga, quiero que me regresen una transferencia que mandé por error necesito ayuda",transferencias,transferencias:11
+"Hola buenas noches, quiero dar de baja la tarjeta extraviada es urgente",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Buenas tardes, en la app no me aparecen mis movimientos recientes gracias",consulta_saldo,consulta_saldo:19
+Me iban a depositar por spei y no me ha llegado por favor,transferencias,transferencias:9
+"Señorita, cuánto tengo en mi cuenta de nómina necesito ayuda",consulta_saldo,consulta_saldo:3
+"Disculpe, me estafaron con un supuesto premio del banco necesito ayuda",posible_fraude,posible_fraude:21
+Me trataron muy mal en la sucursal la semana pasada ¿me apoya?,queja_servicio,queja_servicio:6
+"Disculpe, quiero poner mi nuevo numero de telefono",actualizacion_datos,actualizacion_datos:13
+"Hola, quiero reponer mi tarjeta porque se perdio ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Señorita, me hablaron diciendo que eran de NexaBank y les di mi NIP es urgente",posible_fraude,posible_fraude:4
+me cobraron intereses en mi tarjeta de crédito por favor,tarjeta_credito,tarjeta_credito:13
+"buen día, quiero mandar dinero a otra cuenta ¿me apoya?",transferencias,transferencias:14
+"Hola, creo que me clonaron la tarjeta ¿qué hago?",posible_fraude,posible_fraude:3
+me dijeron que mi cuenta estaba en riesgo y me pidieron el token gracias,posible_fraude,posible_fraude:20
+"Oiga, quiero apagar la tarjeta mientras la busco ¿qué hago?",bloqueo_tarjeta,bloqueo_tarjeta:16
+necesito actualizar mi correo electrónico necesito ayuda,actualizacion_datos,actualizacion_datos:2
+No puedo entrar a la banca en línea gracias,banca_digital,banca_digital:1
+"Qué tal, necesito cancelar mi tarjeta porque me la robaron ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Buenas tardes, necesito cancelar mi tarjeta porque me la robaron necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:3
+"buen día, alguien hizo transferencias desde mi cuenta sin mi permiso ¿cómo le hago?",posible_fraude,posible_fraude:2
+"Disculpe, quiero mandar dinero a otra cuenta ¿cómo le hago?",transferencias,transferencias:14
+"Hola, la app no me deja hacer nada, se queda cargando por favor",banca_digital,banca_digital:8
+"Oiga, cómo consulto el estado de un SPEI ¿me apoya?",transferencias,transferencias:21
+"Hola buenas noches, quiero solicitar un prestamo personal",credito_prestamo,credito_prestamo:0
+"Señorita, me trataron muy mal en la sucursal el lunes gracias",queja_servicio,queja_servicio:6
+"buen día, me pidieron actualizar mis datos, qué documentos necesito ¿cómo le hago?",actualizacion_datos,actualizacion_datos:10
+"Qué tal, necesito el comprobante de la transferencia ¿me apoya?",transferencias,transferencias:17
+"Que tal, quiero ver mi saldo pero no se donde se consulta ¿me pueden ayudar?",consulta_saldo,consulta_saldo:9
+"Qué tal, quiero pasar una compra a meses sin intereses",tarjeta_credito,tarjeta_credito:5
+"Buen dia, hicieron compras con mi tarjeta y yo la tengo conmigo ¿que hago?",posible_fraude,posible_fraude:15
+"Disculpe, me pueden mandar una constancia de saldo gracias",consulta_saldo,consulta_saldo:7
+"Oiga, quiero diferir una compra de 5,000 a pagos fijos ¿me apoya?",tarjeta_credito,tarjeta_credito:8
+"Disculpe, por qué me bajaron el límite de mi tarjeta es urgente",tarjeta_credito,tarjeta_credito:9
+"Qué tal, me trataron muy mal en la sucursal el 3 de octubre ¿me pueden ayudar?",queja_servicio,queja_servicio:6
+quiero saber cuánto dinero tengo en mi cuenta necesito ayuda,consulta_saldo,consulta_saldo:0
+"Buenas tardes, me dijeron que mi cuenta estaba en riesgo y me pidieron el token ¿cómo le hago?",posible_fraude,posible_fraude:20
+"Hola buenas noches, ya no uso ese correo, quiero poner otro gracias",actualizacion_datos,actualizacion_datos:9
+"Hola, aparece una compra de Amazon que no realicé quedo atento",aclaracion_cargo,aclaracion_cargo:8
+"Hola, no me llega el codigo SMS para activar la app gracias",banca_digital,banca_digital:5
+"Disculpe, quiero disputar un cargo de mercado libre ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:18
+"Disculpe, quiero subir el límite de mi tarjeta por favor",tarjeta_credito,tarjeta_credito:14
+No se cuanto me queda en la tarjeta de debito gracias,consulta_saldo,consulta_saldo:14
+"Qué tal, olvidé mi contraseña de la app ¿me pueden ayudar?",banca_digital,banca_digital:0
+"Señorita, deposité a una CLABE equivocada es urgente",transferencias,transferencias:18
+No me llega el codigo SMS para activar la app ¿que hago?,banca_digital,banca_digital:5
+"Buen día, cómo activo el NexaToken en mi nuevo teléfono necesito ayuda",banca_digital,banca_digital:6
+"Que tal, cuanto dinero hay en mi cuenta de ahorro quedo atento",consulta_saldo,consulta_saldo:20
+"Hola, cuál es el pago mínimo de este mes ¿cómo le hago?",tarjeta_credito,tarjeta_credito:16
+"Disculpe, me están marcando de un número que dice ser del banco y me piden datos necesito ayuda",posible_fraude,posible_fraude:12
+"Senorita, estoy muy molesto, ya es la quinta vez que llamo por lo mismo ¿me apoya?",queja_servicio,queja_servicio:3
+"Joven, la atención fue pésima ¿me apoya?",queja_servicio,queja_servicio:14
+Quiero pasar una compra a meses sin intereses por favor,tarjeta_credito,tarjeta_credito:5
+"Señorita, me colgaron la llamada y quiero quejarme por favor",queja_servicio,queja_servicio:16
+"Buen día, me bloquearon el usuario por intentos fallidos necesito ayuda",banca_digital,banca_digital:2
+"Senorita, me siento muy mal atendido por el banco necesito ayuda",queja_servicio,queja_servicio:19
+me dice que la CLABE es incorrecta al transferir ¿qué hago?,transferencias,transferencias:4
+"qué tal, quiero disputar un cargo de uber necesito ayuda",aclaracion_cargo,aclaracion_cargo:18
+"Senorita, me colgaron la llamada y quiero quejarme es urgente",queja_servicio,queja_servicio:16
+"Oiga, cuáles son los documentos para cambiar mi domicilio por favor",actualizacion_datos,actualizacion_datos:21
+"Hola buenas noches, me trataron muy mal en la sucursal el 3 de octubre",queja_servicio,queja_servicio:6
+"Qué tal, me aparece un cargo de 5,000 pesos que yo no hice quedo atento",aclaracion_cargo,aclaracion_cargo:0
+Me pueden decir cuánto tengo disponible para retirar por favor,consulta_saldo,consulta_saldo:17
+"Disculpe, me casé y quiero cambiar mi apellido",actualizacion_datos,actualizacion_datos:18
+"Oiga, quiero reponer mi tarjeta porque se perdió es urgente",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Hola buenas noches, necesito una constancia de retenciones es urgente",consulta_saldo,consulta_saldo:18
+"Que tal, quiero solicitar un prestamo personal gracias",credito_prestamo,credito_prestamo:0
+"Qué tal, quiero checar mis movimientos de esta semana es urgente",consulta_saldo,consulta_saldo:13
+"Disculpe, me cambie de domicilio y quiero actualizarlo ¿como le hago?",actualizacion_datos,actualizacion_datos:1
+"Senorita, quiero presentar una queja ¿como le hago?",queja_servicio,queja_servicio:12
+"Hola, cómo consulto el estado de un SPEI necesito ayuda",transferencias,transferencias:21
+"Señorita, quiero registrarme en la banca en línea necesito ayuda",banca_digital,banca_digital:10
+"Buen día, compré otro celular y necesito pasar la app por favor",banca_digital,banca_digital:15
+"Señorita, deposité a una CLABE equivocada por favor",transferencias,transferencias:18
+"Hola buenas noches, quiero pagar por completo mi crédito ¿qué hago?",credito_prestamo,credito_prestamo:14
+"Qué tal, me colgaron la llamada y quiero quejarme ¿me apoya?",queja_servicio,queja_servicio:16
+"Oiga, cambié de teléfono de casa y quiero registrarlo ¿qué hago?",actualizacion_datos,actualizacion_datos:5
+"señorita, no reconozco un cobro de una gasolinera por 640 ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:1
+"Buenas tardes, pagué en una tienda en línea y me descontaron el doble ¿me apoya?",aclaracion_cargo,aclaracion_cargo:6
+"Hola, quiero dar de baja la tarjeta extraviada ¿como le hago?",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Oiga, no puedo entrar a la banca en linea ¿como le hago?",banca_digital,banca_digital:1
+"Hola, me pueden dar un préstamo necesito ayuda",credito_prestamo,credito_prestamo:12
+"Qué tal, quiero un préstamo a 24 meses quedo atento",credito_prestamo,credito_prestamo:19
+"buen día, me robaron la cartera con mi tarjeta quedo atento",bloqueo_tarjeta,bloqueo_tarjeta:0
+"Oiga, por qué me bajaron el límite de mi tarjeta ¿qué hago?",tarjeta_credito,tarjeta_credito:9
+"Hola, necesito un convenio de pago porque no me alcanza ¿como le hago?",credito_prestamo,credito_prestamo:21
+La atención fue pésima es urgente,queja_servicio,queja_servicio:14
+"Oiga, necesito estados de cuenta de hace dos años quedo atento",consulta_saldo,consulta_saldo:10
+"Joven, me hablaron diciendo que eran de NexaBank y les di mi NIP es urgente",posible_fraude,posible_fraude:4
+"Joven, me iban a depositar por spei y no me ha llegado ¿me apoya?",transferencias,transferencias:9
+"oiga, necesito la carta finiquito de mi crédito ¿qué hago?",credito_prestamo,credito_prestamo:8
+"Hola buenas noches, quiero mandar dinero a otra cuenta ¿que hago?",transferencias,transferencias:14
+"Que tal, me dice que la CLABE es incorrecta al transferir ¿me pueden ayudar?",transferencias,transferencias:4
+"Buen dia, quiero poner mi nuevo numero de telefono es urgente",actualizacion_datos,actualizacion_datos:13
+"Qué tal, necesito el comprobante de la transferencia por favor",transferencias,transferencias:17
+"Joven, me cobraron intereses en mi tarjeta de crédito ¿me apoya?",tarjeta_credito,tarjeta_credito:13
+"Buen día, necesito actualizar mi correo electrónico necesito ayuda",actualizacion_datos,actualizacion_datos:2
+"Joven, no me deja enviar mas de cincuenta mil pesos ¿me apoya?",transferencias,transferencias:8
+"Qué tal, mi tarjeta se quedó atorada en el cajero es urgente",bloqueo_tarjeta,bloqueo_tarjeta:17
+Voy a ir a CONDUSEF si no me resuelven ¿me pueden ayudar?,queja_servicio,queja_servicio:4
+"Hola buenas noches, me cobraron intereses en mi tarjeta de credito necesito ayuda",tarjeta_credito,tarjeta_credito:13
+"Hola buenas noches, nunca me respondieron la queja que puse hace un mes ¿me pueden ayudar?",queja_servicio,queja_servicio:7
+"Joven, cuándo tengo que pagar la tarjeta de crédito es urgente",tarjeta_credito,tarjeta_credito:12
+"qué tal, me equivoqué en un dígito de la cuenta al transferir quedo atento",transferencias,transferencias:7
+Me hackearon la app y movieron mi dinero es urgente,posible_fraude,posible_fraude:8
+"Hola buenas noches, no reconoce mi huella para entrar a la app ¿me pueden ayudar?",banca_digital,banca_digital:11
+"Hola, me equivoqué en un dígito de la cuenta al transferir es urgente",transferencias,transferencias:7
+"Buen día, ya no uso ese correo, quiero poner otro",actualizacion_datos,actualizacion_datos:9
+"Joven, me asaltaron y se llevaron mis tarjetas por favor",bloqueo_tarjeta,bloqueo_tarjeta:8
+"Hola, olvidé mi contraseña de la app ¿me pueden ayudar?",banca_digital,banca_digital:0
+"Señorita, quiero subir el límite de mi tarjeta ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:14
+"Joven, quiero corregir mi fecha de nacimiento por favor",actualizacion_datos,actualizacion_datos:17
+"Buen día, cuánto tengo que pagar para no generar intereses es urgente",tarjeta_credito,tarjeta_credito:1
+"Buen dia, me puede decir mi saldo disponible es urgente",consulta_saldo,consulta_saldo:1
+"Qué tal, hay un cargo en mi tarjeta que no reconozco de ayer",aclaracion_cargo,aclaracion_cargo:3
+"Que tal, me mude, donde actualizo mi direccion quedo atento",actualizacion_datos,actualizacion_datos:14
+"Disculpe, creo que alguien está usando mi identidad para pedir créditos por favor",posible_fraude,posible_fraude:7
+"Qué tal, me pueden prestar 1,200 pesos a plazos ¿me apoya?",credito_prestamo,credito_prestamo:11
+"Hola buenas noches, tengo mal escrito mi nombre en la cuenta es urgente",actualizacion_datos,actualizacion_datos:6
+el comercio me hizo un reembolso y no lo veo ¿que hago?,aclaracion_cargo,aclaracion_cargo:20
+"Buen día, cambié de celular y no sé cómo activar la app ¿me pueden ayudar?",banca_digital,banca_digital:3
+"Hola, me robaron la cartera con mi tarjeta es urgente",bloqueo_tarjeta,bloqueo_tarjeta:0
+"Hola, me atrasé en el pago de mi préstamo",credito_prestamo,credito_prestamo:16
+"Buenas tardes, me iban a depositar por SPEI y no me ha llegado quedo atento",transferencias,transferencias:9
+"Joven, alguien se llevó mi bolso con la tarjeta adentro es urgente",bloqueo_tarjeta,bloqueo_tarjeta:14
+"Señorita, qué día corta mi tarjeta ¿me apoya?",tarjeta_credito,tarjeta_credito:18
+alguien se llevo mi bolso con la tarjeta adentro ¿que hago?,bloqueo_tarjeta,bloqueo_tarjeta:14
+"Oiga, por que me bajaron el limite de mi tarjeta es urgente",tarjeta_credito,tarjeta_credito:9
+"Oiga, hice el pago de mi tarjeta y no se ve reflejado ¿qué hago?",tarjeta_credito,tarjeta_credito:7
+"Buenas tardes, como hago una transferencia a otro banco es urgente",transferencias,transferencias:1
+"Buen día, quiero solicitar un préstamo personal ¿me pueden ayudar?",credito_prestamo,credito_prestamo:0
+"Qué tal, olvidé mi contraseña de la app necesito ayuda",banca_digital,banca_digital:0
+"Hola buenas noches, quiero ver mi saldo pero no sé dónde se consulta ¿cómo le hago?",consulta_saldo,consulta_saldo:9
+"Me ofrecieron un crédito en la app, cómo lo acepto gracias",credito_prestamo,credito_prestamo:18
+"Disculpe, voy a presentar una reclamación en CONDUSEF ¿me apoya?",queja_servicio,queja_servicio:20
+"Qué tal, me aparece un cargo de 2,499.90 pesos que yo no hice ¿qué hago?",aclaracion_cargo,aclaracion_cargo:0
+"buenas tardes, me cobraron una anualidad que me dijeron que no tenía ¿qué hago?",aclaracion_cargo,aclaracion_cargo:9
+"Senorita, no recibo el mensaje con el codigo",banca_digital,banca_digital:17
+"Buenas tardes, mi identificación está vencida necesito ayuda",actualizacion_datos,actualizacion_datos:16
+"Disculpe, transferí dinero a una cuenta equivocada es urgente",transferencias,transferencias:2
+"Buenas tardes, no puedo entrar a la banca en línea por favor",banca_digital,banca_digital:1
+"Buenas tardes, me enganaron por telefono y transfirieron mi dinero por favor",posible_fraude,posible_fraude:18
+"Oiga, me siento muy mal atendido por el banco ¿qué hago?",queja_servicio,queja_servicio:19
+"Oiga, me siento muy mal atendido por el banco ¿me apoya?",queja_servicio,queja_servicio:19
+"Joven, quiero que quede registrado mi descontento necesito ayuda",queja_servicio,queja_servicio:10
+Necesito cancelar mi tarjeta porque me la robaron necesito ayuda,bloqueo_tarjeta,bloqueo_tarjeta:3
+"Buenas tardes, quiero saber el saldo para liquidar mi crédito quedo atento",credito_prestamo,credito_prestamo:17
+"Oiga, me pueden dar un prestamo ¿me apoya?",credito_prestamo,credito_prestamo:12
+"Señorita, cómo doy de alta una cuenta para transferir gracias",transferencias,transferencias:10
+me sale un error al iniciar sesion,banca_digital,banca_digital:7
+"Hola buenas noches, quiero ver mi saldo pero no sé dónde se consulta ¿qué hago?",consulta_saldo,consulta_saldo:9
+quiero dar de baja la tarjeta extraviada por favor,bloqueo_tarjeta,bloqueo_tarjeta:20
+"Joven, no reconoce mi huella para entrar a la app es urgente",banca_digital,banca_digital:11
+"Qué tal, se me extravió la tarjeta de crédito el día 15 necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:2
+"oiga, quiero pasar una compra a meses sin intereses ¿cómo le hago?",tarjeta_credito,tarjeta_credito:5
+Necesito el comprobante de la transferencia gracias,transferencias,transferencias:17
+"oiga, quiero dar de baja la tarjeta extraviada necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Disculpe, me cobraron una anualidad que me dijeron que no tenía",aclaracion_cargo,aclaracion_cargo:9
+"Senorita, no encuentro mi tarjeta, quiero apagarla necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Hola buenas noches, una persona me pidió el token por teléfono y se lo di",posible_fraude,posible_fraude:9
+"Hola buenas noches, no recibo el mensaje con el código necesito ayuda",banca_digital,banca_digital:17
+Hay un cargo en mi tarjeta que no reconozco de hoy en la manana ¿me apoya?,aclaracion_cargo,aclaracion_cargo:3
+"Que tal, quiero modificar a los beneficiarios de mi cuenta ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:7
+"Joven, deposité a una CLABE equivocada es urgente",transferencias,transferencias:18
+"Buenas tardes, quiero bloquear la tarjeta de inmediato, la extravié ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:10
+"qué tal, quiero disputar un cargo de netflix gracias",aclaracion_cargo,aclaracion_cargo:18
+"Hola, quiero ver mi saldo pero no sé dónde se consulta ¿cómo le hago?",consulta_saldo,consulta_saldo:9
+aparece una compra de un supermercado que no realice,aclaracion_cargo,aclaracion_cargo:8
+"Buen dia, creo que me clonaron la tarjeta ¿como le hago?",posible_fraude,posible_fraude:3
+"Disculpe, me estafaron con un supuesto premio del banco ¿cómo le hago?",posible_fraude,posible_fraude:21
+"Hola, cómo hago para comprar una casa con crédito por favor",credito_prestamo,credito_prestamo:20
+"Me pueden prestar 12,750 pesos a plazos gracias",credito_prestamo,credito_prestamo:11
+"Que tal, me estafaron con un supuesto premio del banco ¿que hago?",posible_fraude,posible_fraude:21
+"Buenas tardes, la app me marca error quedo atento",banca_digital,banca_digital:16
+"Hola, creo que alguien está usando mi identidad para pedir créditos ¿me pueden ayudar?",posible_fraude,posible_fraude:7
+"Oiga, olvidé la tarjeta en un taxi quedo atento",bloqueo_tarjeta,bloqueo_tarjeta:19
+"Oiga, no sé cuánto me queda en la tarjeta de débito gracias",consulta_saldo,consulta_saldo:14
+"Hola, me dice que la CLABE es incorrecta al transferir quedo atento",transferencias,transferencias:4
+"Joven, recibí un correo raro que dice que mi cuenta será cancelada ¿me pueden ayudar?",posible_fraude,posible_fraude:5
+"Qué tal, compré otro celular y necesito pasar la app ¿cómo le hago?",banca_digital,banca_digital:15
+"Disculpe, deposité a una CLABE equivocada ¿me pueden ayudar?",transferencias,transferencias:18
+"Señorita, cuánto tengo que pagar para no generar intereses ¿me apoya?",tarjeta_credito,tarjeta_credito:1
+"Hola buenas noches, me hicieron un cargo de 1,200 y nunca recibí el producto ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:7
+"Disculpe, voy a ir a condusef si no me resuelven necesito ayuda",queja_servicio,queja_servicio:4
+"Hola buenas noches, quiero que quede registrado mi descontento por favor",queja_servicio,queja_servicio:10
+Me sale un error al iniciar sesión gracias,banca_digital,banca_digital:7
+"Joven, en la app no me aparecen mis movimientos recientes",consulta_saldo,consulta_saldo:19
+"Joven, me enganaron por telefono y transfirieron mi dinero quedo atento",posible_fraude,posible_fraude:18
+"Buen día, olvidé mi contraseña de la app ¿me pueden ayudar?",banca_digital,banca_digital:0
+"Buenas tardes, me equivoqué en un dígito de la cuenta al transferir ¿me apoya?",transferencias,transferencias:7
+"Hola, quiero poner mi nuevo número de teléfono gracias",actualizacion_datos,actualizacion_datos:13
+"Oiga, cómo evito pagar intereses en la tarjeta",tarjeta_credito,tarjeta_credito:21
+"Buenas tardes, la app me marca error ¿cómo le hago?",banca_digital,banca_digital:16
+No reconoce mi huella para entrar a la app es urgente,banca_digital,banca_digital:11
+"Hola, quiero subir el limite de mi tarjeta quedo atento",tarjeta_credito,tarjeta_credito:14
+"Disculpe, quiero un préstamo a 24 meses ¿me apoya?",credito_prestamo,credito_prestamo:19
+"Señorita, pagué en una tienda en línea y me descontaron el doble ¿qué hago?",aclaracion_cargo,aclaracion_cargo:6
+"Buenas tardes, quiero bloquear la tarjeta de inmediato, la extravié ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:10
+"Buen dia, como activo el NexaToken en mi nuevo telefono por favor",banca_digital,banca_digital:6
+"Oiga, cómo evito pagar intereses en la tarjeta necesito ayuda",tarjeta_credito,tarjeta_credito:21
+"Hola buenas noches, necesito la clave de rastreo de mi transferencia ¿cómo le hago?",transferencias,transferencias:6
+"Senorita, quiero pagar por completo mi credito por favor",credito_prestamo,credito_prestamo:14
+Cuánto debo de mi crédito personal ¿cómo le hago?,credito_prestamo,credito_prestamo:4
+"hola buenas noches, perdí mi tarjeta de débito y quiero bloquearla ¿qué hago?",bloqueo_tarjeta,bloqueo_tarjeta:1
+Nunca me respondieron la queja que puse hace un mes es urgente,queja_servicio,queja_servicio:7
+"Hola buenas noches, el servicio de este banco es un desastre, quiero reportarlo ¿como le hago?",queja_servicio,queja_servicio:8
+"Oiga, necesito cancelar mi tarjeta porque me la robaron gracias",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Oiga, metí mis datos en una página que parecía del banco ¿qué hago?",posible_fraude,posible_fraude:10
+"Hola, alguien hizo transferencias desde mi cuenta sin mi permiso es urgente",posible_fraude,posible_fraude:2
+Me rechazaron la transferencia y no se por que por favor,transferencias,transferencias:16
+"Señorita, cancelé una suscripción y me la siguen cobrando necesito ayuda",aclaracion_cargo,aclaracion_cargo:16
+"Buen día, no sé cuánto me queda en la tarjeta de débito ¿me apoya?",consulta_saldo,consulta_saldo:14
+"Buenas tardes, cuánto dinero me queda después de la semana pasada ¿me apoya?",consulta_saldo,consulta_saldo:11
+"Disculpe, quiero hablar con un supervisor, el ejecutivo fue grosero",queja_servicio,queja_servicio:2
+"Hola, me aparece un cargo de 2,499.90 pesos que yo no hice ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:0
+"Que tal, se me bloqueo la tarjeta por poner mal el NIP",bloqueo_tarjeta,bloqueo_tarjeta:6
+"Joven, quiero hablar con un supervisor, el ejecutivo fue grosero ¿me apoya?",queja_servicio,queja_servicio:2
+Me interesa un credito hipotecario para comprar casa quedo atento,credito_prestamo,credito_prestamo:2
+"Disculpe, tengo mal escrito mi nombre en la cuenta ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:6
+"disculpe, me robaron la cartera con mi tarjeta ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:0
+"buenas tardes, me llamaron del banco pidiéndome el código que me llegó por mensaje por favor",posible_fraude,posible_fraude:0
+"Oiga, me hackearon la app y movieron mi dinero quedo atento",posible_fraude,posible_fraude:8
+"Señorita, me aparece un cargo de 350 pesos que yo no hice necesito ayuda",aclaracion_cargo,aclaracion_cargo:0
+"Quiero que me devuelvan un cargo duplicado de 15,000 ¿me apoya?",aclaracion_cargo,aclaracion_cargo:10
+Deposité a una clabe equivocada por favor,transferencias,transferencias:18
+"Qué tal, no me deja enviar más de cincuenta mil pesos ¿cómo le hago?",transferencias,transferencias:8
+Cambié de teléfono de casa y quiero registrarlo ¿me pueden ayudar?,actualizacion_datos,actualizacion_datos:5
+"Buen día, voy a ir a CONDUSEF si no me resuelven por favor",queja_servicio,queja_servicio:4
+"Joven, quiero levantar una queja formal",queja_servicio,queja_servicio:5
+"Qué tal, me pueden prestar 15,000 pesos a plazos por favor",credito_prestamo,credito_prestamo:11
+"Qué tal, me estafaron con un supuesto premio del banco ¿me apoya?",posible_fraude,posible_fraude:21
+"Oiga, ya me cayo el deposito o todavia no ¿como le hago?",consulta_saldo,consulta_saldo:12
+"Disculpe, me siento muy mal atendido por el banco necesito ayuda",queja_servicio,queja_servicio:19
+"Oiga, quiero un prestamo a 24 meses por favor",credito_prestamo,credito_prestamo:19
+"Joven, quiero agregar un beneficiario a mi cuenta gracias",actualizacion_datos,actualizacion_datos:4
+"Hola, quiero presentar una queja necesito ayuda",queja_servicio,queja_servicio:12
+"Hola buenas noches, se me extravió la tarjeta de crédito el 3 de octubre ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:2
+"Buenas tardes, perdí mi celular y tenía la app instalada ¿me pueden ayudar?",banca_digital,banca_digital:9
+"Qué tal, cómo pago mi tarjeta de crédito desde la app ¿cómo le hago?",tarjeta_credito,tarjeta_credito:6
+"Buenas tardes, necesito cambiar mi correo registrado ¿me apoya?",actualizacion_datos,actualizacion_datos:12
+"Hola, cuáles son los documentos para cambiar mi domicilio por favor",actualizacion_datos,actualizacion_datos:21
+"Qué tal, me pidieron actualizar mis datos, qué documentos necesito ¿qué hago?",actualizacion_datos,actualizacion_datos:10
+"Joven, cómo pongo una compra a meses ¿qué hago?",tarjeta_credito,tarjeta_credito:15
+"Hola buenas noches, quiero hablar con un supervisor, el ejecutivo fue grosero ¿cómo le hago?",queja_servicio,queja_servicio:2
+"Hola buenas noches, me equivoque en un digito de la cuenta al transferir ¿me apoya?",transferencias,transferencias:7
+"Disculpe, cuánto debo de mi crédito personal",credito_prestamo,credito_prestamo:4
+"qué tal, no puedo pagar mi préstamo este mes, qué opciones tengo ¿cómo le hago?",credito_prestamo,credito_prestamo:5
+"disculpe, quiero disputar un cargo de una gasolinera es urgente",aclaracion_cargo,aclaracion_cargo:18
+"Senorita, hay un pago que no autorice en mi estado de cuenta ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:13
+"Buenas tardes, voy a ir a CONDUSEF si no me resuelven ¿me pueden ayudar?",queja_servicio,queja_servicio:4
+cuánto dinero hay en mi cuenta de ahorro ¿me apoya?,consulta_saldo,consulta_saldo:20
+"Buen día, cómo pago mi tarjeta de crédito desde la app ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:6
+"Joven, el comercio me hizo un reembolso y no lo veo ¿que hago?",aclaracion_cargo,aclaracion_cargo:20
+"Hola, di mis datos en un enlace falso quedo atento",posible_fraude,posible_fraude:17
+"Disculpe, quiero un prestamo a 24 meses ¿me pueden ayudar?",credito_prestamo,credito_prestamo:19
+"Buenas tardes, me pidieron actualizar mis datos, qué documentos necesito ¿qué hago?",actualizacion_datos,actualizacion_datos:10
+"Buen día, el servicio de este banco es un desastre, quiero reportarlo ¿cómo le hago?",queja_servicio,queja_servicio:8
+"Señorita, me dice que la CLABE es incorrecta al transferir necesito ayuda",transferencias,transferencias:4
+"Señorita, cómo activo el NexaToken en mi nuevo teléfono gracias",banca_digital,banca_digital:6
+"disculpe, me pueden mandar una constancia de saldo necesito ayuda",consulta_saldo,consulta_saldo:7
+"Oiga, me atrasé en el pago de mi préstamo necesito ayuda",credito_prestamo,credito_prestamo:16
+"Qué tal, hay un pago que no autoricé en mi estado de cuenta gracias",aclaracion_cargo,aclaracion_cargo:13
+"Hola buenas noches, necesito la carta finiquito de mi crédito ¿qué hago?",credito_prestamo,credito_prestamo:8
+"hola, hice el pago de mi tarjeta y no se ve reflejado necesito ayuda",tarjeta_credito,tarjeta_credito:7
+"Oiga, mi tarjeta se quedo atorada en el cajero es urgente",bloqueo_tarjeta,bloqueo_tarjeta:17
+"Buenas tardes, cómo pongo una compra a meses necesito ayuda",tarjeta_credito,tarjeta_credito:15
+"Buen día, estoy harto de que no me resuelvan ¿qué hago?",queja_servicio,queja_servicio:13
+"Oiga, quiero reponer mi tarjeta porque se perdió gracias",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Buenas tardes, me llamaron del banco pidiendome el codigo que me llego por mensaje",posible_fraude,posible_fraude:0
+"Oiga, quiero levantar una aclaración por un cobro indebido necesito ayuda",aclaracion_cargo,aclaracion_cargo:4
+"Señorita, quiero reclamar un cobro que no me corresponde quedo atento",aclaracion_cargo,aclaracion_cargo:21
+"Disculpe, recibí un correo raro que dice que mi cuenta será cancelada necesito ayuda",posible_fraude,posible_fraude:5
+"Hola, no encuentro mi tarjeta, quiero apagarla ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Disculpe, me tienen dando vueltas y nadie resuelve",queja_servicio,queja_servicio:17
+"Que tal, la transferencia aparece como enviada pero no llego ¿que hago?",transferencias,transferencias:12
+"Disculpe, meti mis datos en una pagina que parecia del banco ¿como le hago?",posible_fraude,posible_fraude:10
+"Hola buenas noches, quiero subir el límite de mi tarjeta ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:14
+"Senorita, hicieron compras con mi tarjeta y yo la tengo conmigo por favor",posible_fraude,posible_fraude:15
+"Señorita, no recibo el mensaje con el código ¿me pueden ayudar?",banca_digital,banca_digital:17
+"Buenas tardes, no me deja enviar más de cincuenta mil pesos ¿qué hago?",transferencias,transferencias:8
+"hola buenas noches, me iban a depositar por spei y no me ha llegado quedo atento",transferencias,transferencias:9
+"Buen dia, cuanto debo en total de mi tarjeta de credito",tarjeta_credito,tarjeta_credito:10
+"Buen día, quiero poner una queja por la mala atención en sucursal ¿qué hago?",queja_servicio,queja_servicio:0
+"Qué tal, quiero hablar con el gerente",queja_servicio,queja_servicio:18
+"Buen dia, quiero pagar por completo mi credito gracias",credito_prestamo,credito_prestamo:14
+"Buenas tardes, necesito la carta finiquito de mi crédito quedo atento",credito_prestamo,credito_prestamo:8
+"Buen día, no sé cuánto me queda en la tarjeta de débito ¿me apoya?",consulta_saldo,consulta_saldo:14
+"Disculpe, me atrasé en el pago de mi préstamo es urgente",credito_prestamo,credito_prestamo:16
+"Señorita, recibí un correo raro que dice que mi cuenta será cancelada gracias",posible_fraude,posible_fraude:5
+"Hola buenas noches, cuales son los documentos para cambiar mi domicilio por favor",actualizacion_datos,actualizacion_datos:21
+"Disculpe, estoy harto de que no me resuelvan ¿qué hago?",queja_servicio,queja_servicio:13
+"Señorita, ya no uso ese correo, quiero poner otro ¿qué hago?",actualizacion_datos,actualizacion_datos:9
+"Disculpe, me engañaron por teléfono y transfirieron mi dinero ¿me pueden ayudar?",posible_fraude,posible_fraude:18
+"Hola buenas noches, me cobraron una comisión que no me corresponde necesito ayuda",aclaracion_cargo,aclaracion_cargo:5
+"Joven, cuanto debo en total de mi tarjeta de credito es urgente",tarjeta_credito,tarjeta_credito:10
+"Disculpe, creo que me clonaron la tarjeta",posible_fraude,posible_fraude:3
+"Oiga, deposité a una CLABE equivocada es urgente",transferencias,transferencias:18
+"Hola buenas noches, mi identificación está vencida quedo atento",actualizacion_datos,actualizacion_datos:16
+"Buen día, me hicieron un cargo de 15,000 y nunca recibí el producto por favor",aclaracion_cargo,aclaracion_cargo:7
+"Hola, no reconozco un retiro de 12,750 pesos ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:17
+"Que tal, se me cayo la tarjeta en la calle necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:12
+Cómo agrego beneficiarios es urgente,actualizacion_datos,actualizacion_datos:15
+"Señorita, no me llega el estado de cuenta a mi correo ¿me apoya?",consulta_saldo,consulta_saldo:6
+"Qué tal, quiero levantar una aclaración por un cobro indebido ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:4
+"Disculpe, hay un pago que no autorice en mi estado de cuenta gracias",aclaracion_cargo,aclaracion_cargo:13
+"Qué tal, me pidieron actualizar mis datos, qué documentos necesito es urgente",actualizacion_datos,actualizacion_datos:10
+"Buenas tardes, no reconoce mi huella para entrar a la app es urgente",banca_digital,banca_digital:11
+"Oiga, hay un pago que no autoricé en mi estado de cuenta ¿me apoya?",aclaracion_cargo,aclaracion_cargo:13
+"Hola buenas noches, quiero solicitar un prestamo personal gracias",credito_prestamo,credito_prestamo:0
+"Que tal, recibi un correo raro que dice que mi cuenta sera cancelada",posible_fraude,posible_fraude:5
+"Disculpe, no reconozco un retiro de 1,200 pesos ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:17
+"Disculpe, me siento muy mal atendido por el banco ¿me pueden ayudar?",queja_servicio,queja_servicio:19
+"Qué tal, compré otro celular y necesito pasar la app ¿me apoya?",banca_digital,banca_digital:15
+"Señorita, quiero bloquear la tarjeta de inmediato, la extravié quedo atento",bloqueo_tarjeta,bloqueo_tarjeta:10
+"Señorita, no puedo registrar un nuevo beneficiario para transferir ¿qué hago?",transferencias,transferencias:15
+"Hola buenas noches, por que me bajaron el limite de mi tarjeta",tarjeta_credito,tarjeta_credito:9
+"Hola, no me deja enviar más de cincuenta mil pesos es urgente",transferencias,transferencias:8
+"Hola buenas noches, me robaron la cartera con mi tarjeta por favor",bloqueo_tarjeta,bloqueo_tarjeta:0
+"Hola, no me llega el codigo SMS para activar la app por favor",banca_digital,banca_digital:5
+"disculpe, me hablaron diciendo que eran de nexabank y les di mi nip gracias",posible_fraude,posible_fraude:4
+"Buenas tardes, necesito actualizar mi correo electronico es urgente",actualizacion_datos,actualizacion_datos:2
+"Disculpe, no puedo registrar un nuevo beneficiario para transferir quedo atento",transferencias,transferencias:15
+"Hola buenas noches, hicieron compras con mi tarjeta y yo la tengo conmigo",posible_fraude,posible_fraude:15
+"Senorita, quiero pasar una compra a meses sin intereses ¿me apoya?",tarjeta_credito,tarjeta_credito:5
+"Qué tal, el comercio me hizo un reembolso y no lo veo",aclaracion_cargo,aclaracion_cargo:20
+"Oiga, transferi dinero a una cuenta equivocada ¿me pueden ayudar?",transferencias,transferencias:2
+"Disculpe, como hago para comprar una casa con credito por favor",credito_prestamo,credito_prestamo:20
+El cajero no me dio el dinero pero sí me lo descontó ¿me apoya?,aclaracion_cargo,aclaracion_cargo:14
+"Hola, cuanto tengo en mi cuenta de nomina ¿me pueden ayudar?",consulta_saldo,consulta_saldo:3
+"Joven, me hackearon la app y movieron mi dinero ¿qué hago?",posible_fraude,posible_fraude:8
+"Buen dia, no recibo el mensaje con el codigo",banca_digital,banca_digital:17
+Di mis datos en un enlace falso por favor,posible_fraude,posible_fraude:17
+"Buenas tardes, se me bloqueó la tarjeta por poner mal el NIP por favor",bloqueo_tarjeta,bloqueo_tarjeta:6
+"Buen día, por qué me bajaron el límite de mi tarjeta quedo atento",tarjeta_credito,tarjeta_credito:9
+Mi tarjeta se quedo atorada en el cajero ¿me apoya?,bloqueo_tarjeta,bloqueo_tarjeta:17
+"Oiga, olvidé la tarjeta en un taxi es urgente",bloqueo_tarjeta,bloqueo_tarjeta:19
+"Buenas tardes, no recibo el mensaje con el código necesito ayuda",banca_digital,banca_digital:17
+"Oiga, me iban a depositar por spei y no me ha llegado ¿cómo le hago?",transferencias,transferencias:9
+"Hola buenas noches, cómo pago mi tarjeta de crédito desde la app ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:6
+"Buen dia, quiero corregir mi fecha de nacimiento por favor",actualizacion_datos,actualizacion_datos:17
+"Oiga, necesito estados de cuenta de hace dos años gracias",consulta_saldo,consulta_saldo:10
+"Hola, el servicio de este banco es un desastre, quiero reportarlo ¿qué hago?",queja_servicio,queja_servicio:8
+"Senorita, me iban a depositar por SPEI y no me ha llegado por favor",transferencias,transferencias:9
+"Hola, llevo una hora esperando y nadie me resuelve, es pésimo servicio gracias",queja_servicio,queja_servicio:1
+"Joven, quiero pagar por completo mi crédito ¿me pueden ayudar?",credito_prestamo,credito_prestamo:14
+"Hola, necesito cambiar mi correo registrado es urgente",actualizacion_datos,actualizacion_datos:12
+"Qué tal, quiero mandar dinero a otra cuenta ¿me pueden ayudar?",transferencias,transferencias:14
+"Buenas tardes, necesito la carta finiquito de mi credito gracias",credito_prestamo,credito_prestamo:8
+Me puede decir mi saldo disponible ¿cómo le hago?,consulta_saldo,consulta_saldo:1
+"Buen día, me dijeron que mi cuenta estaba en riesgo y me pidieron el token ¿qué hago?",posible_fraude,posible_fraude:20
+"Hola buenas noches, se me cayo la tarjeta en la calle necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Joven, di mis datos en un enlace falso es urgente",posible_fraude,posible_fraude:17
+"Hola buenas noches, quiero hablar con el gerente ¿me pueden ayudar?",queja_servicio,queja_servicio:18
+"Joven, hay un cargo en mi tarjeta que no reconozco de ayer ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:3
+"Hola buenas noches, me ofrecieron un crédito en la app, cómo lo acepto ¿qué hago?",credito_prestamo,credito_prestamo:18
+"Disculpe, no puedo registrar un nuevo beneficiario para transferir ¿como le hago?",transferencias,transferencias:15
+"Qué tal, hay un pago que no autoricé en mi estado de cuenta por favor",aclaracion_cargo,aclaracion_cargo:13
+"Joven, cómo doy de alta una cuenta para transferir",transferencias,transferencias:10
+"Buenas tardes, cómo activo el NexaToken en mi nuevo teléfono ¿me pueden ayudar?",banca_digital,banca_digital:6
+"hola, quiero corregir mi fecha de nacimiento ¿cómo le hago?",actualizacion_datos,actualizacion_datos:17
+"Oiga, pagué en una gasolinera y me descontaron el doble ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:6
+"Buenas tardes, me dijeron que mi cuenta estaba en riesgo y me pidieron el token es urgente",posible_fraude,posible_fraude:20
+"Buen día, quiero dar de baja la tarjeta extraviada ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Cómo desbloqueo mi tarjeta, ya no me deja pagar ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:11
+Quiero apagar la tarjeta mientras la busco es urgente,bloqueo_tarjeta,bloqueo_tarjeta:16
+"Disculpe, no encuentro mi tarjeta, quiero apagarla gracias",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Hola, ocupo saber si ya me depositaron la nómina quedo atento",consulta_saldo,consulta_saldo:8
+"Hola, cómo consulto el estado de un SPEI ¿qué hago?",transferencias,transferencias:21
+"Buen día, necesito la clave de rastreo de mi transferencia",transferencias,transferencias:6
+"Señorita, creo que me clonaron la tarjeta es urgente",posible_fraude,posible_fraude:3
+"Hola, me equivoque en un digito de la cuenta al transferir",transferencias,transferencias:7
+"Joven, mi tarjeta se quedó atorada en el cajero ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:17
+"Disculpe, cuanto debo de mi credito personal quedo atento",credito_prestamo,credito_prestamo:4
+"Disculpe, quiero corregir mi fecha de nacimiento es urgente",actualizacion_datos,actualizacion_datos:17
+"buenas tardes, creo que me clonaron la tarjeta",posible_fraude,posible_fraude:3
+Quiero saber el saldo para liquidar mi crédito ¿qué hago?,credito_prestamo,credito_prestamo:17
+"Buen día, cambié de celular y no sé cómo activar la app necesito ayuda",banca_digital,banca_digital:3
+"Buen día, me cambié de domicilio y quiero actualizarlo necesito ayuda",actualizacion_datos,actualizacion_datos:1
+"Hola buenas noches, no reconoce mi huella para entrar a la app por favor",banca_digital,banca_digital:11
+"disculpe, olvidé mi contraseña de la app es urgente",banca_digital,banca_digital:0
+"Buenas tardes, se me cayó la tarjeta en la calle gracias",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Qué tal, me ofrecieron un crédito en la app, cómo lo acepto gracias",credito_prestamo,credito_prestamo:18
+"Buen día, me pueden decir cuánto tengo disponible para retirar es urgente",consulta_saldo,consulta_saldo:17
+"Senorita, cuando tengo que pagar la tarjeta de credito por favor",tarjeta_credito,tarjeta_credito:12
+"Disculpe, quiero poner mi nuevo número de teléfono necesito ayuda",actualizacion_datos,actualizacion_datos:13
+"Oiga, quiero diferir una compra de 12,750 a pagos fijos ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:8
+"Oiga, me pueden mandar una constancia de saldo necesito ayuda",consulta_saldo,consulta_saldo:7
+"Joven, quiero disputar un cargo de Netflix ¿como le hago?",aclaracion_cargo,aclaracion_cargo:18
+"Joven, me cobraron una comision que no me corresponde gracias",aclaracion_cargo,aclaracion_cargo:5
+"Señorita, necesito estados de cuenta de hace dos años ¿cómo le hago?",consulta_saldo,consulta_saldo:10
+"Joven, la atención fue pésima ¿me pueden ayudar?",queja_servicio,queja_servicio:14
+"Que tal, que requisitos piden para un credito ¿que hago?",credito_prestamo,credito_prestamo:1
+"joven, me cobraron intereses en mi tarjeta de crédito ¿qué hago?",tarjeta_credito,tarjeta_credito:13
+"Buenas tardes, la banca en linea no carga por favor",banca_digital,banca_digital:19
+"Disculpe, me están marcando de un número que dice ser del banco y me piden datos quedo atento",posible_fraude,posible_fraude:12
+"Oiga, me sale un error al iniciar sesión ¿qué hago?",banca_digital,banca_digital:7
+"Disculpe, quiero corregir mi fecha de nacimiento necesito ayuda",actualizacion_datos,actualizacion_datos:17
+"Hola, quiero disputar un cargo de amazon gracias",aclaracion_cargo,aclaracion_cargo:18
+"Señorita, quiero liquidar mi préstamo antes de tiempo ¿me apoya?",credito_prestamo,credito_prestamo:3
+Alguien entró a mi banca en línea sin permiso,posible_fraude,posible_fraude:19
+"Señorita, quiero pasar una compra a meses sin intereses ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:5
+"Buen día, ocupo saber si ya me depositaron la nómina por favor",consulta_saldo,consulta_saldo:8
+"Oiga, hay un cargo en mi tarjeta que no reconozco de ayer por favor",aclaracion_cargo,aclaracion_cargo:3
+"Señorita, quiero presentar una queja es urgente",queja_servicio,queja_servicio:12
+"Disculpe, en la app no me aparecen mis movimientos recientes ¿me pueden ayudar?",consulta_saldo,consulta_saldo:19
+"Disculpe, me robaron la cartera con mi tarjeta gracias",bloqueo_tarjeta,bloqueo_tarjeta:0
+"Hola buenas noches, cómo desbloqueo mi tarjeta, ya no me deja pagar ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:11
+Necesito la carta finiquito de mi crédito por favor,credito_prestamo,credito_prestamo:8
+"Buenas tardes, voy a ir a CONDUSEF si no me resuelven ¿me pueden ayudar?",queja_servicio,queja_servicio:4
+"Oiga, me engañaron por teléfono y transfirieron mi dinero quedo atento",posible_fraude,posible_fraude:18
+"Que tal, como hago para comprar una casa con credito quedo atento",credito_prestamo,credito_prestamo:20
+"Oiga, me pueden decir cuánto tengo disponible para retirar ¿qué hago?",consulta_saldo,consulta_saldo:17
+"Hola buenas noches, quiero saber el saldo para liquidar mi crédito gracias",credito_prestamo,credito_prestamo:17
+"Hola buenas noches, necesito el comprobante de la transferencia ¿me pueden ayudar?",transferencias,transferencias:17
+"Disculpe, no encuentro mi tarjeta, quiero apagarla es urgente",bloqueo_tarjeta,bloqueo_tarjeta:4
+"Qué tal, la app me marca error por favor",banca_digital,banca_digital:16
+"Hola buenas noches, por que me bajaron el limite de mi tarjeta por favor",tarjeta_credito,tarjeta_credito:9
+"Señorita, cambié de teléfono de casa y quiero registrarlo por favor",actualizacion_datos,actualizacion_datos:5
+Mi identificación está vencida ¿me pueden ayudar?,actualizacion_datos,actualizacion_datos:16
+"Señorita, me casé y quiero cambiar mi apellido ¿qué hago?",actualizacion_datos,actualizacion_datos:18
+"Buenas tardes, metí mis datos en una página que parecía del banco es urgente",posible_fraude,posible_fraude:10
+"Qué tal, quiero diferir una compra de 12,750 a pagos fijos necesito ayuda",tarjeta_credito,tarjeta_credito:8
+Quiero poner una queja por la mala atencion en sucursal necesito ayuda,queja_servicio,queja_servicio:0
+Me rechazaron la transferencia y no sé por qué ¿me apoya?,transferencias,transferencias:16
+"Hola buenas noches, cómo consulto el estado de un SPEI gracias",transferencias,transferencias:21
+"Buen día, me trataron muy mal en la sucursal ayer por favor",queja_servicio,queja_servicio:6
+"disculpe, necesito una constancia de retenciones ¿me apoya?",consulta_saldo,consulta_saldo:18
+"Joven, me colgaron la llamada y quiero quejarme es urgente",queja_servicio,queja_servicio:16
+"Señorita, quiero levantar una queja formal necesito ayuda",queja_servicio,queja_servicio:5
+"Oiga, necesito actualizar mi expediente gracias",actualizacion_datos,actualizacion_datos:20
+"joven, la banca en línea no carga",banca_digital,banca_digital:19
+"Hola buenas noches, ya no uso ese correo, quiero poner otro es urgente",actualizacion_datos,actualizacion_datos:9
+"Qué tal, deposité a una CLABE equivocada por favor",transferencias,transferencias:18
+"Señorita, cómo hago una transferencia a otro banco es urgente",transferencias,transferencias:1
+"Disculpe, que requisitos piden para un credito es urgente",credito_prestamo,credito_prestamo:1
+Necesito cancelar mi tarjeta porque me la robaron ¿me pueden ayudar?,bloqueo_tarjeta,bloqueo_tarjeta:3
+"Qué tal, me robaron la cartera con mi tarjeta quedo atento",bloqueo_tarjeta,bloqueo_tarjeta:0
+"Disculpe, la transferencia aparece como enviada pero no llegó ¿qué hago?",transferencias,transferencias:12
+"Senorita, el servicio de este banco es un desastre, quiero reportarlo ¿como le hago?",queja_servicio,queja_servicio:8
+"Que tal, quiero subir el limite de mi tarjeta ¿me apoya?",tarjeta_credito,tarjeta_credito:14
+"Buenas tardes, cuánto tengo en mi cuenta de nómina por favor",consulta_saldo,consulta_saldo:3
+"Buenas tardes, recibi un correo raro que dice que mi cuenta sera cancelada ¿como le hago?",posible_fraude,posible_fraude:5
+"hola, mi identificación está vencida gracias",actualizacion_datos,actualizacion_datos:16
+"Joven, no puedo entrar a la banca en línea",banca_digital,banca_digital:1
+"Hola, me rechazaron una compra por falta de línea de crédito ¿me pueden ayudar?",tarjeta_credito,tarjeta_credito:20
+"Señorita, quiero pagar por completo mi crédito por favor",credito_prestamo,credito_prestamo:14
+"Joven, cuánto debo en total de mi tarjeta de crédito es urgente",tarjeta_credito,tarjeta_credito:10
+"Oiga, la app me marca error",banca_digital,banca_digital:16
+"Oiga, quiero hablar con un supervisor, el ejecutivo fue grosero ¿me apoya?",queja_servicio,queja_servicio:2
+"Señorita, el comercio me hizo un reembolso y no lo veo es urgente",aclaracion_cargo,aclaracion_cargo:20
+"Buen dia, quiero saber cuanto dinero tengo en mi cuenta por favor",consulta_saldo,consulta_saldo:0
+"Buenas tardes, quiero presentar una queja ¿cómo le hago?",queja_servicio,queja_servicio:12
+"Hola buenas noches, no reconoce mi huella para entrar a la app gracias",banca_digital,banca_digital:11
+"Buen día, olvidé la tarjeta en un taxi necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:19
+quiero diferir una compra de 899 a pagos fijos es urgente,tarjeta_credito,tarjeta_credito:8
+"Que tal, quiero saber el saldo para liquidar mi credito",credito_prestamo,credito_prestamo:17
+"Disculpe, voy a presentar una reclamación en condusef necesito ayuda",queja_servicio,queja_servicio:20
+"Buen dia, necesito estados de cuenta de hace dos anos por favor",consulta_saldo,consulta_saldo:10
+"buenas tardes, quiero saber el saldo de mi tarjeta de crédito gracias",tarjeta_credito,tarjeta_credito:19
+"Hola buenas noches, me dice que la CLABE es incorrecta al transferir gracias",transferencias,transferencias:4
+"Buenas tardes, me robaron la identidad y abrieron una cuenta a mi nombre ¿como le hago?",posible_fraude,posible_fraude:16
+me pueden decir cuánto tengo disponible para retirar gracias,consulta_saldo,consulta_saldo:17
+"Disculpe, necesito cambiar mi correo registrado ¿qué hago?",actualizacion_datos,actualizacion_datos:12
+"Señorita, hice el pago de mi tarjeta y no se ve reflejado ¿me apoya?",tarjeta_credito,tarjeta_credito:7
+"Disculpe, el servicio de este banco es un desastre, quiero reportarlo ¿me pueden ayudar?",queja_servicio,queja_servicio:8
+"Buen día, me bloquearon el usuario por intentos fallidos es urgente",banca_digital,banca_digital:2
+"Buen dia, quiero saber el saldo para liquidar mi credito ¿que hago?",credito_prestamo,credito_prestamo:17
+"Señorita, quiero disputar un cargo de un restaurante quedo atento",aclaracion_cargo,aclaracion_cargo:18
+"Qué tal, cuánto dinero me queda después de el lunes quedo atento",consulta_saldo,consulta_saldo:11
+Quiero hablar con el gerente gracias,queja_servicio,queja_servicio:18
+"Qué tal, quiero poner una queja por la mala atención en sucursal quedo atento",queja_servicio,queja_servicio:0
+"Qué tal, quiero descargar mi estado de cuenta en pdf ¿me apoya?",consulta_saldo,consulta_saldo:16
+No me llega el estado de cuenta a mi correo ¿que hago?,consulta_saldo,consulta_saldo:6
+"Oiga, quiero agregar un beneficiario a mi cuenta ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:4
+"Buenas tardes, no puedo registrar un nuevo beneficiario para transferir por favor",transferencias,transferencias:15
+"Qué tal, quiero aumentar mi límite de transferencias diarias ¿me pueden ayudar?",transferencias,transferencias:3
+Tengo mal escrito mi nombre en la cuenta gracias,actualizacion_datos,actualizacion_datos:6
+"Buen día, cuándo es mi fecha límite de pago ¿cómo le hago?",tarjeta_credito,tarjeta_credito:3
+"Hola, quiero corregir mi fecha de nacimiento gracias",actualizacion_datos,actualizacion_datos:17
+Necesito actualizar mi expediente quedo atento,actualizacion_datos,actualizacion_datos:20
+"Hola, me mudé, dónde actualizo mi dirección quedo atento",actualizacion_datos,actualizacion_datos:14
+"Qué tal, perdí mi tarjeta de débito y quiero bloquearla gracias",bloqueo_tarjeta,bloqueo_tarjeta:1
+"Hola buenas noches, quiero saber el saldo para liquidar mi crédito ¿me pueden ayudar?",credito_prestamo,credito_prestamo:17
+Voy a ir a CONDUSEF si no me resuelven por favor,queja_servicio,queja_servicio:4
+"Hola buenas noches, me llamaron del banco pidiendome el codigo que me llego por mensaje ¿me apoya?",posible_fraude,posible_fraude:0
+quiero dar de baja la tarjeta extraviada necesito ayuda,bloqueo_tarjeta,bloqueo_tarjeta:20
+"Disculpe, necesito cancelar mi tarjeta porque me la robaron ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Disculpe, tengo mal escrito mi nombre en la cuenta ¿me apoya?",actualizacion_datos,actualizacion_datos:6
+"Hola buenas noches, me hablaron diciendo que eran de NexaBank y les di mi NIP ¿qué hago?",posible_fraude,posible_fraude:4
+"Oiga, quiero aumentar mi limite de transferencias diarias gracias",transferencias,transferencias:3
+"Buen día, quiero saber el saldo para liquidar mi crédito quedo atento",credito_prestamo,credito_prestamo:17
+"Disculpe, quiero reclamar un cobro que no me corresponde gracias",aclaracion_cargo,aclaracion_cargo:21
+"Qué tal, cuánto debo en total de mi tarjeta de crédito",tarjeta_credito,tarjeta_credito:10
+"Senorita, me cobraron una anualidad que me dijeron que no tenia ¿que hago?",aclaracion_cargo,aclaracion_cargo:9
+"Oiga, me puede decir mi saldo disponible necesito ayuda",consulta_saldo,consulta_saldo:1
+"Hola buenas noches, la banca en línea no carga es urgente",banca_digital,banca_digital:19
+cuánto dinero hay en mi cuenta de ahorro quedo atento,consulta_saldo,consulta_saldo:20
+"Buen día, quiero reclamar un cobro que no me corresponde por favor",aclaracion_cargo,aclaracion_cargo:21
+Se me cayó la tarjeta en la calle por favor,bloqueo_tarjeta,bloqueo_tarjeta:12
+"Disculpe, me dijeron que mi cuenta estaba en riesgo y me pidieron el token quedo atento",posible_fraude,posible_fraude:20
+"Buen día, cuál es el pago mínimo de este mes ¿cómo le hago?",tarjeta_credito,tarjeta_credito:16
+"Hola buenas noches, no puedo entrar a la banca en línea ¿qué hago?",banca_digital,banca_digital:1
+"Joven, cuánto dinero hay en mi cuenta de ahorro gracias",consulta_saldo,consulta_saldo:20
+"Qué tal, no entiendo los intereses que me cobraron en el corte ¿me apoya?",tarjeta_credito,tarjeta_credito:11
+"Hola, quiero registrarme en la banca en linea ¿como le hago?",banca_digital,banca_digital:10
+"Disculpe, no reconoce mi huella para entrar a la app",banca_digital,banca_digital:11
+"Joven, no puedo pagar mi préstamo este mes, qué opciones tengo necesito ayuda",credito_prestamo,credito_prestamo:5
+"hola, cuánto tengo en mi cuenta de nómina ¿me pueden ayudar?",consulta_saldo,consulta_saldo:3
+"Oiga, me colgaron la llamada y quiero quejarme ¿cómo le hago?",queja_servicio,queja_servicio:16
+"Buenas tardes, se me extravió la tarjeta de crédito el 3 de octubre es urgente",bloqueo_tarjeta,bloqueo_tarjeta:2
+"Joven, mi tarjeta se quedó atorada en el cajero quedo atento",bloqueo_tarjeta,bloqueo_tarjeta:17
+"Buen día, metí mis datos en una página que parecía del banco ¿qué hago?",posible_fraude,posible_fraude:10
+"Que tal, quiero descargar mi estado de cuenta en pdf quedo atento",consulta_saldo,consulta_saldo:16
+"Señorita, me estafaron con un supuesto premio del banco por favor",posible_fraude,posible_fraude:21
+"Buenas tardes, me dijeron que mi cuenta estaba en riesgo y me pidieron el token gracias",posible_fraude,posible_fraude:20
+"Hola, se me cayo la tarjeta en la calle es urgente",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Buenas tardes, me sale un error al iniciar sesión ¿cómo le hago?",banca_digital,banca_digital:7
+"el servicio de este banco es un desastre, quiero reportarlo ¿me pueden ayudar?",queja_servicio,queja_servicio:8
+"Joven, no me deja enviar más de cincuenta mil pesos ¿qué hago?",transferencias,transferencias:8
+"Senorita, en la app no me aparecen mis movimientos recientes ¿como le hago?",consulta_saldo,consulta_saldo:19
+"Buen dia, cuanto tengo que pagar para no generar intereses es urgente",tarjeta_credito,tarjeta_credito:1
+"Que tal, me rechazaron una compra por falta de linea de credito ¿me apoya?",tarjeta_credito,tarjeta_credito:20
+"Buenas tardes, se me bloqueo la tarjeta por poner mal el NIP",bloqueo_tarjeta,bloqueo_tarjeta:6
+"Hola buenas noches, quiero levantar una queja formal ¿qué hago?",queja_servicio,queja_servicio:5
+"Senorita, la app no me deja hacer nada, se queda cargando ¿como le hago?",banca_digital,banca_digital:8
+Quiero levantar una queja formal quedo atento,queja_servicio,queja_servicio:5
+"Qué tal, quiero dar de baja la tarjeta extraviada ¿cómo le hago?",bloqueo_tarjeta,bloqueo_tarjeta:20
+"Señorita, me siento muy mal atendido por el banco gracias",queja_servicio,queja_servicio:19
+"Disculpe, quiero pagar por completo mi credito necesito ayuda",credito_prestamo,credito_prestamo:14
+"Joven, quiero saber el saldo para liquidar mi crédito",credito_prestamo,credito_prestamo:17
+"Buen día, me cambié de domicilio y quiero actualizarlo quedo atento",actualizacion_datos,actualizacion_datos:1
+"Hola buenas noches, me puede decir mi saldo disponible es urgente",consulta_saldo,consulta_saldo:1
+"Disculpe, me llegó un mensaje con un enlace para actualizar mis datos y lo abrí necesito ayuda",posible_fraude,posible_fraude:1
+"Señorita, perdí mi celular y tenía la app instalada ¿cómo le hago?",banca_digital,banca_digital:9
+"Buenas tardes, quiero presentar una queja ¿como le hago?",queja_servicio,queja_servicio:12
+"joven, quiero modificar a los beneficiarios de mi cuenta necesito ayuda",actualizacion_datos,actualizacion_datos:7
+"Buenas tardes, pague en una tienda en linea y me descontaron el doble ¿me apoya?",aclaracion_cargo,aclaracion_cargo:6
+En la app no me aparecen mis movimientos recientes ¿qué hago?,consulta_saldo,consulta_saldo:19
+"Hola, necesito una tarjeta nueva porque la perdí ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"Joven, recibi un correo raro que dice que mi cuenta sera cancelada es urgente",posible_fraude,posible_fraude:5
+"Hola buenas noches, me pueden decir cuánto tengo disponible para retirar",consulta_saldo,consulta_saldo:17
+"Hola, me están marcando de un número que dice ser del banco y me piden datos ¿cómo le hago?",posible_fraude,posible_fraude:12
+"Senorita, recibi un correo raro que dice que mi cuenta sera cancelada es urgente",posible_fraude,posible_fraude:5
+"Qué tal, quiero agregar un beneficiario a mi cuenta necesito ayuda",actualizacion_datos,actualizacion_datos:4
+"Disculpe, quiero saber el saldo de mi tarjeta de credito",tarjeta_credito,tarjeta_credito:19
+"Oiga, me tienen dando vueltas y nadie resuelve es urgente",queja_servicio,queja_servicio:17
+"Buen día, cómo evito pagar intereses en la tarjeta gracias",tarjeta_credito,tarjeta_credito:21
+"Disculpe, no me deja enviar más de cincuenta mil pesos ¿qué hago?",transferencias,transferencias:8
+"Disculpe, quiero reclamar un cobro que no me corresponde quedo atento",aclaracion_cargo,aclaracion_cargo:21
+"Hola buenas noches, quiero dar de baja la tarjeta extraviada ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:20
+quiero un préstamo a 24 meses ¿cómo le hago?,credito_prestamo,credito_prestamo:19
+Me cobraron intereses en mi tarjeta de crédito ¿me apoya?,tarjeta_credito,tarjeta_credito:13
+"Hola, la atención fue pésima quedo atento",queja_servicio,queja_servicio:14
+"Hola buenas noches, la app me marca error ¿me apoya?",banca_digital,banca_digital:16
+"Oiga, necesito cancelar mi tarjeta porque me la robaron gracias",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Buen día, cuánto dinero hay en mi cuenta de ahorro",consulta_saldo,consulta_saldo:20
+"Disculpe, el comercio me hizo un reembolso y no lo veo",aclaracion_cargo,aclaracion_cargo:20
+"Qué tal, cuánto dinero hay en mi cuenta de ahorro ¿cómo le hago?",consulta_saldo,consulta_saldo:20
+"Disculpe, me atrasé en el pago de mi préstamo gracias",credito_prestamo,credito_prestamo:16
+"Que tal, no puedo entrar a la banca en linea gracias",banca_digital,banca_digital:1
+"Buen dia, hicieron compras con mi tarjeta y yo la tengo conmigo gracias",posible_fraude,posible_fraude:15
+"Hola, por qué me bajaron el límite de mi tarjeta ¿qué hago?",tarjeta_credito,tarjeta_credito:9
+"Senorita, me equivoque en un digito de la cuenta al transferir por favor",transferencias,transferencias:7
+"Señorita, me hackearon la app y movieron mi dinero es urgente",posible_fraude,posible_fraude:8
+"Hola buenas noches, no me llega el codigo SMS para activar la app ¿que hago?",banca_digital,banca_digital:5
+"Senorita, quiero disputar un cargo de Mercado Libre ¿me apoya?",aclaracion_cargo,aclaracion_cargo:18
+"Señorita, cómo pongo una compra a meses es urgente",tarjeta_credito,tarjeta_credito:15
+"Buenas tardes, ocupo saber si ya me depositaron la nómina necesito ayuda",consulta_saldo,consulta_saldo:8
+"Hola, una persona me pidio el token por telefono y se lo di quedo atento",posible_fraude,posible_fraude:9
+"Hola, me bloquearon el usuario por intentos fallidos ¿me pueden ayudar?",banca_digital,banca_digital:2
+"Señorita, me rechazaron la transferencia y no sé por qué necesito ayuda",transferencias,transferencias:16
+"Disculpe, cambié de teléfono de casa y quiero registrarlo ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:5
+"Disculpe, se me cayo la tarjeta en la calle ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:12
+"Buen día, cuánto tengo que pagar para no generar intereses ¿cómo le hago?",tarjeta_credito,tarjeta_credito:1
+Quiero que quede registrado mi descontento quedo atento,queja_servicio,queja_servicio:10
+"Buenas tardes, cómo evito pagar intereses en la tarjeta necesito ayuda",tarjeta_credito,tarjeta_credito:21
+"Joven, ya no uso ese correo, quiero poner otro ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:9
+"Buenas tardes, el cajero no me dio el dinero pero si me lo desconto es urgente",aclaracion_cargo,aclaracion_cargo:14
+"Disculpe, quiero aumentar mi límite de transferencias diarias necesito ayuda",transferencias,transferencias:3
+"Hola buenas noches, cuáles son los documentos para cambiar mi domicilio ¿cómo le hago?",actualizacion_datos,actualizacion_datos:21
+"Disculpe, quiero saber el saldo para liquidar mi crédito gracias",credito_prestamo,credito_prestamo:17
+"Buen día, cuánto dinero hay en mi cuenta de ahorro gracias",consulta_saldo,consulta_saldo:20
+"Buenas tardes, como agrego beneficiarios gracias",actualizacion_datos,actualizacion_datos:15
+"Joven, qué día corta mi tarjeta ¿me apoya?",tarjeta_credito,tarjeta_credito:18
+"Oiga, no puedo entrar a la banca en línea quedo atento",banca_digital,banca_digital:1
+me pueden mandar una constancia de saldo por favor,consulta_saldo,consulta_saldo:7
+"disculpe, me casé y quiero cambiar mi apellido necesito ayuda",actualizacion_datos,actualizacion_datos:18
+Cambie de celular y no se como activar la app por favor,banca_digital,banca_digital:3
+"Buen día, quiero que quede registrado mi descontento por favor",queja_servicio,queja_servicio:10
+"Buen día, necesito un crédito para mi negocio ¿cómo le hago?",credito_prestamo,credito_prestamo:15
+El cajero se quedó con mi tarjeta ¿me apoya?,bloqueo_tarjeta,bloqueo_tarjeta:5
+"Senorita, ocupo saber si ya me depositaron la nomina por favor",consulta_saldo,consulta_saldo:8
+"Señorita, cómo pago mi tarjeta de crédito desde la app es urgente",tarjeta_credito,tarjeta_credito:6
+"Buenas tardes, no reconozco un retiro de 640 pesos quedo atento",aclaracion_cargo,aclaracion_cargo:17
+"Disculpe, me ofrecieron un credito en la app, como lo acepto es urgente",credito_prestamo,credito_prestamo:18
+"Hola, quiero reclamar un cobro que no me corresponde ¿qué hago?",aclaracion_cargo,aclaracion_cargo:21
+"Que tal, mi identificacion esta vencida",actualizacion_datos,actualizacion_datos:16
+Me cobraron una comisión que no me corresponde por favor,aclaracion_cargo,aclaracion_cargo:5
+"Disculpe, la app me marca error por favor",banca_digital,banca_digital:16
+"buen día, mi tarjeta se quedó atorada en el cajero gracias",bloqueo_tarjeta,bloqueo_tarjeta:17
+"Hola, me hablaron diciendo que eran de NexaBank y les di mi NIP",posible_fraude,posible_fraude:4
+"qué tal, me colgaron la llamada y quiero quejarme gracias",queja_servicio,queja_servicio:16
+"Oiga, quiero hablar con un supervisor, el ejecutivo fue grosero gracias",queja_servicio,queja_servicio:2
+"Oiga, quiero saber cuanto dinero tengo en mi cuenta ¿que hago?",consulta_saldo,consulta_saldo:0
+"Disculpe, la banca en línea no carga necesito ayuda",banca_digital,banca_digital:19
+Hice el pago de mi tarjeta y no se ve reflejado ¿qué hago?,tarjeta_credito,tarjeta_credito:7
+"Oiga, quiero liquidar mi préstamo antes de tiempo quedo atento",credito_prestamo,credito_prestamo:3
+"Que tal, como hago una transferencia a otro banco ¿como le hago?",transferencias,transferencias:1
+"Qué tal, olvidé la tarjeta en un taxi ¿qué hago?",bloqueo_tarjeta,bloqueo_tarjeta:19
+"Buenas tardes, me pidieron actualizar mis datos, que documentos necesito ¿como le hago?",actualizacion_datos,actualizacion_datos:10
+"Oiga, alguien hizo transferencias desde mi cuenta sin mi permiso ¿cómo le hago?",posible_fraude,posible_fraude:2
+"Disculpe, me cobraron intereses en mi tarjeta de crédito por favor",tarjeta_credito,tarjeta_credito:13
+"Oiga, me atrasé en el pago de mi préstamo ¿me apoya?",credito_prestamo,credito_prestamo:16
+"Buenas tardes, quiero disputar un cargo de Mercado Libre ¿qué hago?",aclaracion_cargo,aclaracion_cargo:18
+"Qué tal, me casé y quiero cambiar mi apellido ¿me apoya?",actualizacion_datos,actualizacion_datos:18
+"Que tal, quiero reestructurar mi deuda",credito_prestamo,credito_prestamo:10
+"Joven, me robaron la identidad y abrieron una cuenta a mi nombre por favor",posible_fraude,posible_fraude:16
+"Qué tal, me pueden mandar una constancia de saldo es urgente",consulta_saldo,consulta_saldo:7
+"Qué tal, me llegó un mensaje con un enlace para actualizar mis datos y lo abrí ¿cómo le hago?",posible_fraude,posible_fraude:1
+"Hola buenas noches, no me llega el código SMS para activar la app",banca_digital,banca_digital:5
+"Disculpe, alguien se llevó mi bolso con la tarjeta adentro por favor",bloqueo_tarjeta,bloqueo_tarjeta:14
+"Joven, me llamaron del banco pidiéndome el código que me llegó por mensaje ¿cómo le hago?",posible_fraude,posible_fraude:0
+"Joven, quiero disputar un cargo de Amazon quedo atento",aclaracion_cargo,aclaracion_cargo:18
+cómo evito pagar intereses en la tarjeta quedo atento,tarjeta_credito,tarjeta_credito:21
+"Señorita, ocupo saber si ya me depositaron la nómina es urgente",consulta_saldo,consulta_saldo:8
+"Joven, olvide mi contrasena de la app necesito ayuda",banca_digital,banca_digital:0
+"Oiga, me interesa un crédito hipotecario para comprar casa ¿cómo le hago?",credito_prestamo,credito_prestamo:2
+"Buenas tardes, como pongo una compra a meses",tarjeta_credito,tarjeta_credito:15
+"Señorita, no entiendo los intereses que me cobraron en el corte",tarjeta_credito,tarjeta_credito:11
+"Oiga, quiero que me regresen una transferencia que mande por error ¿que hago?",transferencias,transferencias:11
+"Qué tal, di mis datos en un enlace falso ¿qué hago?",posible_fraude,posible_fraude:17
+"Senorita, hicieron compras con mi tarjeta y yo la tengo conmigo necesito ayuda",posible_fraude,posible_fraude:15
+"Buenas tardes, no se cuanto me queda en la tarjeta de debito",consulta_saldo,consulta_saldo:14
+"Hola buenas noches, la app me marca error quedo atento",banca_digital,banca_digital:16
+"Hola, me pueden prestar 12,750 pesos a plazos es urgente",credito_prestamo,credito_prestamo:11
+"Buen dia, me aparece un cargo de 15,000 pesos que yo no hice ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:0
+"Joven, hice el pago de mi tarjeta y no se ve reflejado ¿que hago?",tarjeta_credito,tarjeta_credito:7
+Necesito actualizar mi expediente necesito ayuda,actualizacion_datos,actualizacion_datos:20
+"Oiga, cómo consulto el estado de un SPEI ¿me apoya?",transferencias,transferencias:21
+"Disculpe, me atrasé en el pago de mi préstamo ¿qué hago?",credito_prestamo,credito_prestamo:16
+"Señorita, cómo evito pagar intereses en la tarjeta ¿cómo le hago?",tarjeta_credito,tarjeta_credito:21
+"Que tal, quiero reponer mi tarjeta porque se perdio quedo atento",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Oiga, cómo hago para comprar una casa con crédito ¿me apoya?",credito_prestamo,credito_prestamo:20
+"Disculpe, necesito cancelar mi tarjeta porque me la robaron gracias",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Hola, quiero pasar una compra a meses sin intereses por favor",tarjeta_credito,tarjeta_credito:5
+"Hola buenas noches, no reconozco un cobro de una tienda en línea por 899 ¿me pueden ayudar?",aclaracion_cargo,aclaracion_cargo:1
+Me dice que la clabe es incorrecta al transferir ¿me apoya?,transferencias,transferencias:4
+"Señorita, me cambié de domicilio y quiero actualizarlo",actualizacion_datos,actualizacion_datos:1
+"Señorita, por qué me bajaron el límite de mi tarjeta quedo atento",tarjeta_credito,tarjeta_credito:9
+"Hola, no puedo entrar a la banca en línea",banca_digital,banca_digital:1
+"Buen día, recibí un correo raro que dice que mi cuenta será cancelada ¿me apoya?",posible_fraude,posible_fraude:5
+"Buenas tardes, cuándo tengo que pagar la tarjeta de crédito necesito ayuda",tarjeta_credito,tarjeta_credito:12
+"Joven, no me llega el codigo SMS para activar la app ¿que hago?",banca_digital,banca_digital:5
+"Joven, me hicieron un cargo de 640 y nunca recibi el producto ¿me apoya?",aclaracion_cargo,aclaracion_cargo:7
+quiero saber el saldo para liquidar mi crédito ¿cómo le hago?,credito_prestamo,credito_prestamo:17
+"Que tal, necesito cancelar mi tarjeta porque me la robaron ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:3
+"Hola, me sale un error al iniciar sesion ¿me apoya?",banca_digital,banca_digital:7
+"Senorita, me pueden decir cuanto tengo disponible para retirar ¿como le hago?",consulta_saldo,consulta_saldo:17
+"señorita, qué día corta mi tarjeta es urgente",tarjeta_credito,tarjeta_credito:18
+"Buen día, se me bloqueó la tarjeta por poner mal el NIP necesito ayuda",bloqueo_tarjeta,bloqueo_tarjeta:6
+"Señorita, cómo doy de alta una cuenta para transferir necesito ayuda",transferencias,transferencias:10
+"Buenas tardes, el comercio me hizo un reembolso y no lo veo es urgente",aclaracion_cargo,aclaracion_cargo:20
+"Hola, necesito actualizar mi correo electrónico necesito ayuda",actualizacion_datos,actualizacion_datos:2
+"Senorita, meti mis datos en una pagina que parecia del banco quedo atento",posible_fraude,posible_fraude:10
+"Hola buenas noches, deposite a una CLABE equivocada ¿que hago?",transferencias,transferencias:18
+"Buenas tardes, me llamaron del banco pidiendome el codigo que me llego por mensaje por favor",posible_fraude,posible_fraude:0
+"Hola, quiero disputar un cargo de una gasolinera ¿como le hago?",aclaracion_cargo,aclaracion_cargo:18
+"Hola, quiero reestructurar mi deuda ¿cómo le hago?",credito_prestamo,credito_prestamo:10
+Me pueden prestar 640 pesos a plazos,credito_prestamo,credito_prestamo:11
+"Buen dia, quiero reponer mi tarjeta porque se perdio por favor",bloqueo_tarjeta,bloqueo_tarjeta:7
+"Senorita, me llego un mensaje con un enlace para actualizar mis datos y lo abri ¿que hago?",posible_fraude,posible_fraude:1
+"Hola buenas noches, quiero apagar la tarjeta mientras la busco por favor",bloqueo_tarjeta,bloqueo_tarjeta:16
+"Buenas tardes, quiero checar mis movimientos de esta semana gracias",consulta_saldo,consulta_saldo:13
+"Qué tal, quiero poner mi nuevo número de teléfono quedo atento",actualizacion_datos,actualizacion_datos:13
+"Joven, alguien se llevó mi bolso con la tarjeta adentro gracias",bloqueo_tarjeta,bloqueo_tarjeta:14
+"Buen dia, cuando tengo que pagar la tarjeta de credito ¿como le hago?",tarjeta_credito,tarjeta_credito:12
+"Qué tal, necesito actualizar mi correo electrónico ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:2
+"Oiga, me pueden prestar 1,200 pesos a plazos",credito_prestamo,credito_prestamo:11
+"Disculpe, me asaltaron y se llevaron mis tarjetas por favor",bloqueo_tarjeta,bloqueo_tarjeta:8
+"Disculpe, quiero saber el saldo para liquidar mi credito quedo atento",credito_prestamo,credito_prestamo:17
+"Buen día, llevo una hora esperando y nadie me resuelve, es pésimo servicio ¿me apoya?",queja_servicio,queja_servicio:1
+"Señorita, me puede decir mi saldo disponible ¿cómo le hago?",consulta_saldo,consulta_saldo:1
+"Hola, necesito un crédito para mi negocio gracias",credito_prestamo,credito_prestamo:15
+"Disculpe, quiero apagar la tarjeta mientras la busco ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:16
+"Hola buenas noches, quiero bloquear la tarjeta de inmediato, la extravié gracias",bloqueo_tarjeta,bloqueo_tarjeta:10
+"Disculpe, creo que alguien está usando mi identidad para pedir créditos ¿me apoya?",posible_fraude,posible_fraude:7
+"Hola buenas noches, me sale un error al iniciar sesión ¿me pueden ayudar?",banca_digital,banca_digital:7
+"Señorita, me interesa un crédito hipotecario para comprar casa gracias",credito_prestamo,credito_prestamo:2
+"Hola buenas noches, necesito una tarjeta nueva porque la perdi ¿me apoya?",bloqueo_tarjeta,bloqueo_tarjeta:15
+"buen día, la banca en línea no carga ¿qué hago?",banca_digital,banca_digital:19
+"Buenas tardes, olvide la tarjeta en un taxi ¿me pueden ayudar?",bloqueo_tarjeta,bloqueo_tarjeta:19
+"Buen día, cuánto tengo en mi cuenta de nómina por favor",consulta_saldo,consulta_saldo:3
+"Hola, quiero saber el saldo de mi tarjeta de credito por favor",tarjeta_credito,tarjeta_credito:19
+"Señorita, quiero aumentar mi límite de transferencias diarias",transferencias,transferencias:3
+"Hola buenas noches, quiero poner mi nuevo número de teléfono necesito ayuda",actualizacion_datos,actualizacion_datos:13
+"Disculpe, me mudé, dónde actualizo mi dirección",actualizacion_datos,actualizacion_datos:14
+"señorita, me cobraron una comisión que no me corresponde ¿cómo le hago?",aclaracion_cargo,aclaracion_cargo:5
+"Qué tal, no recibo el mensaje con el código ¿me apoya?",banca_digital,banca_digital:17
+"Oiga, me llamaron del banco pidiendome el codigo que me llego por mensaje necesito ayuda",posible_fraude,posible_fraude:0
+"Joven, no sé cuánto me queda en la tarjeta de débito ¿qué hago?",consulta_saldo,consulta_saldo:14
+Quiero un prestamo a 24 meses quedo atento,credito_prestamo,credito_prestamo:19
+"Hola, cuando tengo que pagar la tarjeta de credito ¿como le hago?",tarjeta_credito,tarjeta_credito:12
+"Disculpe, no recibo el mensaje con el código por favor",banca_digital,banca_digital:17
+"Qué tal, quiero solicitar un préstamo personal es urgente",credito_prestamo,credito_prestamo:0
+"Buenas tardes, me cobraron intereses en mi tarjeta de crédito",tarjeta_credito,tarjeta_credito:13
+"Disculpe, necesito el comprobante de la transferencia ¿que hago?",transferencias,transferencias:17
+"Senorita, necesito el comprobante de la transferencia por favor",transferencias,transferencias:17
+"Disculpe, me sale un error al iniciar sesion ¿me pueden ayudar?",banca_digital,banca_digital:7
+"Disculpe, no entiendo los intereses que me cobraron en el corte quedo atento",tarjeta_credito,tarjeta_credito:11
+"Hola buenas noches, quiero agregar un beneficiario a mi cuenta ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:4
+"Hola buenas noches, quiero poner mi nuevo número de teléfono por favor",actualizacion_datos,actualizacion_datos:13
+"Disculpe, quiero cambiar el celular donde me llegan los avisos gracias",actualizacion_datos,actualizacion_datos:19
+"Hola, no sé cuánto me queda en la tarjeta de débito necesito ayuda",consulta_saldo,consulta_saldo:14
+"Que tal, me colgaron la llamada y quiero quejarme ¿me apoya?",queja_servicio,queja_servicio:16
+"Joven, la atención fue pésima ¿qué hago?",queja_servicio,queja_servicio:14
+"Hola buenas noches, me siento muy mal atendido por el banco por favor",queja_servicio,queja_servicio:19
+"Oiga, alguien se llevó mi bolso con la tarjeta adentro",bloqueo_tarjeta,bloqueo_tarjeta:14
+"Buen día, cuánto debo de mi crédito personal gracias",credito_prestamo,credito_prestamo:4
+"Señorita, por qué me bajaron el límite de mi tarjeta necesito ayuda",tarjeta_credito,tarjeta_credito:9
+"Hola buenas noches, me están marcando de un número que dice ser del banco y me piden datos ¿me pueden ayudar?",posible_fraude,posible_fraude:12
+"Buen día, no reconozco un cobro de un supermercado por 2,499.90",aclaracion_cargo,aclaracion_cargo:1
+"Hola buenas noches, quiero un préstamo a 24 meses ¿me apoya?",credito_prestamo,credito_prestamo:19
+"Oiga, necesito la carta finiquito de mi crédito quedo atento",credito_prestamo,credito_prestamo:8
+"Hola, voy a ir a CONDUSEF si no me resuelven ¿como le hago?",queja_servicio,queja_servicio:4
+"Disculpe, cuales son los documentos para cambiar mi domicilio ¿que hago?",actualizacion_datos,actualizacion_datos:21
+"Disculpe, quiero apagar la tarjeta mientras la busco por favor",bloqueo_tarjeta,bloqueo_tarjeta:16
+"Joven, me puede decir mi saldo disponible por favor",consulta_saldo,consulta_saldo:1
+"Hola buenas noches, como pago mi tarjeta de credito desde la app necesito ayuda",tarjeta_credito,tarjeta_credito:6
+Me cobraron una anualidad que me dijeron que no tenia quedo atento,aclaracion_cargo,aclaracion_cargo:9
+"Oiga, necesito un convenio de pago porque no me alcanza necesito ayuda",credito_prestamo,credito_prestamo:21
+"Señorita, necesito estados de cuenta de hace dos años",consulta_saldo,consulta_saldo:10
+Cuál es el pago mínimo de este mes ¿cómo le hago?,tarjeta_credito,tarjeta_credito:16
+"Oiga, me trataron muy mal en la sucursal ayer es urgente",queja_servicio,queja_servicio:6
+"Oiga, hice el pago de mi tarjeta y no se ve reflejado ¿qué hago?",tarjeta_credito,tarjeta_credito:7
+"Oiga, necesito la carta finiquito de mi crédito quedo atento",credito_prestamo,credito_prestamo:8
+"Buen día, quiero agregar un beneficiario a mi cuenta ¿cómo le hago?",actualizacion_datos,actualizacion_datos:4
+"Disculpe, se me bloqueo la tarjeta por poner mal el NIP es urgente",bloqueo_tarjeta,bloqueo_tarjeta:6
+Quiero cambiar mi contraseña de la app gracias,banca_digital,banca_digital:20
+"Oiga, hicieron compras con mi tarjeta y yo la tengo conmigo ¿que hago?",posible_fraude,posible_fraude:15
+"Buen día, no me llega el código SMS para activar la app",banca_digital,banca_digital:5
+"Qué tal, el cajero no me dio el dinero pero sí me lo descontó quedo atento",aclaracion_cargo,aclaracion_cargo:14
+"Hola buenas noches, me pueden mandar una constancia de saldo ¿como le hago?",consulta_saldo,consulta_saldo:7
+"Oiga, cómo doy de alta una cuenta para transferir ¿me pueden ayudar?",transferencias,transferencias:10
+"qué tal, ya no uso ese correo, quiero poner otro ¿me pueden ayudar?",actualizacion_datos,actualizacion_datos:9
+Me estafaron con un supuesto premio del banco ¿me pueden ayudar?,posible_fraude,posible_fraude:21
+"Oiga, quiero que me regresen una transferencia que mandé por error necesito ayuda",transferencias,transferencias:11
+"Disculpe, hicieron compras con mi tarjeta y yo la tengo conmigo ¿cómo le hago?",posible_fraude,posible_fraude:15
+"Hola buenas noches, cambié de celular y no sé cómo activar la app necesito ayuda",banca_digital,banca_digital:3
+"Oiga, el cajero no me dio el dinero pero sí me lo descontó gracias",aclaracion_cargo,aclaracion_cargo:14
+"Buenas tardes, como hago una transferencia a otro banco gracias",transferencias,transferencias:1
+"Señorita, quiero presentar una queja ¿cómo le hago?",queja_servicio,queja_servicio:12

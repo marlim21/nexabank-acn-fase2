@@ -1,0 +1,763 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "Asistente Cognitivo NexaBank (ACN)",
+        "description": "API del Asistente Cognitivo NexaBank (empresa ficticia, proyecto académico). Clasifica el motivo de contacto, recupera artículos de la base de conocimiento (RAG), sugiere una respuesta y resume el caso. Toda salida requiere aprobación de un agente humano.",
+        "version": "2.0.0"
+    },
+    "paths": {
+        "/health": {
+            "get": {
+                "tags": [
+                    "Operación"
+                ],
+                "summary": "Estado del servicio y del modelo",
+                "operationId": "health_health_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/HealthResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/suggest": {
+            "post": {
+                "tags": [
+                    "Asistente ACN"
+                ],
+                "summary": "Sugerencia de respuesta (RAG) para el agente",
+                "operationId": "suggest_api_v1_suggest_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/SuggestRequest"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/SuggestResponse"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Datos de entrada inválidos",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "Modelo no disponible",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/classify": {
+            "post": {
+                "tags": [
+                    "Asistente ACN"
+                ],
+                "summary": "Clasificación del motivo de contacto",
+                "operationId": "classify_api_v1_classify_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/ClassifyRequest"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/Motive"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Datos de entrada inválidos",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "Modelo no disponible",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/summarize": {
+            "post": {
+                "tags": [
+                    "Asistente ACN"
+                ],
+                "summary": "Resumen del caso para el CRM (requiere aprobación humana)",
+                "operationId": "summarize_api_v1_summarize_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/SummarizeRequest"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/SummarizeResponse"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Datos de entrada inválidos",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "Modelo no disponible",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/feedback": {
+            "post": {
+                "tags": [
+                    "Asistente ACN"
+                ],
+                "summary": "Registra la decisión del agente sobre una sugerencia (human-in-the-loop)",
+                "operationId": "feedback_api_v1_feedback_post",
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "$ref": "#/components/schemas/FeedbackRequest"
+                            }
+                        }
+                    },
+                    "required": true
+                },
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/FeedbackResponse"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Datos de entrada inválidos",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "Modelo no disponible",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    },
+                    "404": {
+                        "description": "Not Found",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/metrics/adoption": {
+            "get": {
+                "tags": [
+                    "Asistente ACN"
+                ],
+                "summary": "KPI de adopción: tasa de aceptación de sugerencias",
+                "operationId": "adoption_api_v1_metrics_adoption_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "additionalProperties": true,
+                                    "type": "object",
+                                    "title": "Response Adoption Api V1 Metrics Adoption Get"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/model/info": {
+            "get": {
+                "tags": [
+                    "Asistente ACN"
+                ],
+                "summary": "Información y métricas del modelo cargado",
+                "operationId": "model_info_api_v1_model_info_get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "additionalProperties": true,
+                                    "type": "object",
+                                    "title": "Response Model Info Api V1 Model Info Get"
+                                }
+                            }
+                        }
+                    },
+                    "422": {
+                        "description": "Datos de entrada inválidos",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    },
+                    "503": {
+                        "description": "Modelo no disponible",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "$ref": "#/components/schemas/ErrorResponse"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Alternative": {
+                "properties": {
+                    "intent": {
+                        "type": "string",
+                        "title": "Intent"
+                    },
+                    "confianza": {
+                        "type": "number",
+                        "title": "Confianza"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "intent",
+                    "confianza"
+                ],
+                "title": "Alternative"
+            },
+            "ClassifyRequest": {
+                "properties": {
+                    "texto": {
+                        "type": "string",
+                        "maxLength": 2000,
+                        "minLength": 3,
+                        "title": "Texto",
+                        "examples": [
+                            "Olvidé mi contraseña de la app"
+                        ]
+                    }
+                },
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                    "texto"
+                ],
+                "title": "ClassifyRequest"
+            },
+            "Entities": {
+                "properties": {
+                    "montos": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array",
+                        "title": "Montos"
+                    },
+                    "fechas": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array",
+                        "title": "Fechas"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "montos",
+                    "fechas"
+                ],
+                "title": "Entities"
+            },
+            "ErrorResponse": {
+                "properties": {
+                    "error": {
+                        "type": "string",
+                        "title": "Error"
+                    },
+                    "detalle": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "items": {},
+                                "type": "array"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Detalle"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "error"
+                ],
+                "title": "ErrorResponse"
+            },
+            "FeedbackRequest": {
+                "properties": {
+                    "id_sugerencia": {
+                        "type": "string",
+                        "maxLength": 36,
+                        "minLength": 36,
+                        "title": "Id Sugerencia"
+                    },
+                    "decision": {
+                        "type": "string",
+                        "enum": [
+                            "aprobada",
+                            "editada",
+                            "rechazada"
+                        ],
+                        "title": "Decision"
+                    }
+                },
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                    "id_sugerencia",
+                    "decision"
+                ],
+                "title": "FeedbackRequest"
+            },
+            "FeedbackResponse": {
+                "properties": {
+                    "registrado": {
+                        "type": "boolean",
+                        "title": "Registrado"
+                    },
+                    "estadisticas": {
+                        "additionalProperties": true,
+                        "type": "object",
+                        "title": "Estadisticas"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "registrado",
+                    "estadisticas"
+                ],
+                "title": "FeedbackResponse"
+            },
+            "HealthResponse": {
+                "properties": {
+                    "status": {
+                        "type": "string",
+                        "enum": [
+                            "ok",
+                            "degradado"
+                        ],
+                        "title": "Status"
+                    },
+                    "modelo_cargado": {
+                        "type": "boolean",
+                        "title": "Modelo Cargado"
+                    },
+                    "version": {
+                        "type": "string",
+                        "title": "Version"
+                    },
+                    "entorno": {
+                        "type": "string",
+                        "title": "Entorno"
+                    },
+                    "modo_generacion": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Modo Generacion"
+                    },
+                    "detalle": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Detalle"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "status",
+                    "modelo_cargado",
+                    "version",
+                    "entorno"
+                ],
+                "title": "HealthResponse"
+            },
+            "Motive": {
+                "properties": {
+                    "intent": {
+                        "type": "string",
+                        "title": "Intent"
+                    },
+                    "etiqueta": {
+                        "type": "string",
+                        "title": "Etiqueta"
+                    },
+                    "confianza": {
+                        "type": "number",
+                        "title": "Confianza"
+                    },
+                    "alternativas": {
+                        "items": {
+                            "$ref": "#/components/schemas/Alternative"
+                        },
+                        "type": "array",
+                        "title": "Alternativas"
+                    },
+                    "sensible": {
+                        "type": "boolean",
+                        "title": "Sensible"
+                    },
+                    "confianza_baja": {
+                        "type": "boolean",
+                        "title": "Confianza Baja"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "intent",
+                    "etiqueta",
+                    "confianza",
+                    "alternativas",
+                    "sensible",
+                    "confianza_baja"
+                ],
+                "title": "Motive"
+            },
+            "Source": {
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "title": "Id"
+                    },
+                    "titulo": {
+                        "type": "string",
+                        "title": "Titulo"
+                    },
+                    "categoria": {
+                        "type": "string",
+                        "title": "Categoria"
+                    },
+                    "score": {
+                        "type": "number",
+                        "title": "Score"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "id",
+                    "titulo",
+                    "categoria",
+                    "score"
+                ],
+                "title": "Source"
+            },
+            "SuggestRequest": {
+                "properties": {
+                    "mensaje": {
+                        "type": "string",
+                        "maxLength": 2000,
+                        "minLength": 3,
+                        "title": "Mensaje",
+                        "description": "Mensaje del cliente (texto libre)",
+                        "examples": [
+                            "Me aparece un cargo de 1,200 pesos en Amazon que yo no hice"
+                        ]
+                    },
+                    "top_k": {
+                        "type": "integer",
+                        "maximum": 5.0,
+                        "minimum": 1.0,
+                        "title": "Top K",
+                        "description": "Número de artículos a recuperar",
+                        "default": 3
+                    }
+                },
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                    "mensaje"
+                ],
+                "title": "SuggestRequest"
+            },
+            "SuggestResponse": {
+                "properties": {
+                    "id_sugerencia": {
+                        "type": "string",
+                        "title": "Id Sugerencia"
+                    },
+                    "motivo": {
+                        "$ref": "#/components/schemas/Motive"
+                    },
+                    "sugerencia": {
+                        "type": "string",
+                        "title": "Sugerencia"
+                    },
+                    "modo_generacion": {
+                        "type": "string",
+                        "title": "Modo Generacion"
+                    },
+                    "fuentes": {
+                        "items": {
+                            "$ref": "#/components/schemas/Source"
+                        },
+                        "type": "array",
+                        "title": "Fuentes"
+                    },
+                    "acciones_sugeridas": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array",
+                        "title": "Acciones Sugeridas"
+                    },
+                    "escalamiento_requerido": {
+                        "type": "boolean",
+                        "title": "Escalamiento Requerido"
+                    },
+                    "requiere_aprobacion_humana": {
+                        "type": "boolean",
+                        "title": "Requiere Aprobacion Humana"
+                    },
+                    "mensaje_enmascarado": {
+                        "type": "string",
+                        "title": "Mensaje Enmascarado"
+                    },
+                    "latencia_ms": {
+                        "type": "number",
+                        "title": "Latencia Ms"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "id_sugerencia",
+                    "motivo",
+                    "sugerencia",
+                    "modo_generacion",
+                    "fuentes",
+                    "acciones_sugeridas",
+                    "escalamiento_requerido",
+                    "requiere_aprobacion_humana",
+                    "mensaje_enmascarado",
+                    "latencia_ms"
+                ],
+                "title": "SuggestResponse"
+            },
+            "SummarizeRequest": {
+                "properties": {
+                    "turnos": {
+                        "items": {
+                            "$ref": "#/components/schemas/Turn"
+                        },
+                        "type": "array",
+                        "maxItems": 50,
+                        "minItems": 1,
+                        "title": "Turnos"
+                    }
+                },
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                    "turnos"
+                ],
+                "title": "SummarizeRequest"
+            },
+            "SummarizeResponse": {
+                "properties": {
+                    "motivo": {
+                        "$ref": "#/components/schemas/Motive"
+                    },
+                    "resumen": {
+                        "type": "string",
+                        "title": "Resumen"
+                    },
+                    "entidades": {
+                        "$ref": "#/components/schemas/Entities"
+                    },
+                    "acciones_sugeridas": {
+                        "items": {
+                            "type": "string"
+                        },
+                        "type": "array",
+                        "title": "Acciones Sugeridas"
+                    },
+                    "fuente": {
+                        "anyOf": [
+                            {
+                                "type": "string"
+                            },
+                            {
+                                "type": "null"
+                            }
+                        ],
+                        "title": "Fuente"
+                    },
+                    "escalamiento_requerido": {
+                        "type": "boolean",
+                        "title": "Escalamiento Requerido"
+                    },
+                    "requiere_aprobacion_humana": {
+                        "type": "boolean",
+                        "title": "Requiere Aprobacion Humana"
+                    },
+                    "turnos_procesados": {
+                        "type": "integer",
+                        "title": "Turnos Procesados"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "motivo",
+                    "resumen",
+                    "entidades",
+                    "acciones_sugeridas",
+                    "fuente",
+                    "escalamiento_requerido",
+                    "requiere_aprobacion_humana",
+                    "turnos_procesados"
+                ],
+                "title": "SummarizeResponse"
+            },
+            "Turn": {
+                "properties": {
+                    "rol": {
+                        "type": "string",
+                        "enum": [
+                            "cliente",
+                            "agente"
+                        ],
+                        "title": "Rol"
+                    },
+                    "texto": {
+                        "type": "string",
+                        "maxLength": 2000,
+                        "minLength": 1,
+                        "title": "Texto"
+                    }
+                },
+                "additionalProperties": false,
+                "type": "object",
+                "required": [
+                    "rol",
+                    "texto"
+                ],
+                "title": "Turn"
+            }
+        }
+    }
+}

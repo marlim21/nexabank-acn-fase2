@@ -1,0 +1,277 @@
+{
+  "_nota": "Base de conocimiento SINTÉTICA de NexaBank (empresa ficticia) construida con fines académicos. No representa políticas reales de ninguna institución financiera.",
+  "version": "1.2.0",
+  "articles": [
+    {
+      "id": "KB-001",
+      "category": "consulta_saldo",
+      "title": "Consulta de saldo y movimientos",
+      "content": "El cliente puede consultar su saldo disponible y los últimos 90 días de movimientos en la app NexaBank Móvil, en banca en línea o en cualquier cajero NexaBank sin costo. El agente puede informar el saldo únicamente después de autenticar al cliente con su NIP telefónico o con la validación de datos de identificación. Los movimientos con más de 90 días se solicitan como estado de cuenta histórico.",
+      "next_steps": [
+        "Autenticar al cliente antes de informar saldos",
+        "Indicar los canales de autoservicio para consultas futuras"
+      ],
+      "customer_reply": "Con gusto le apoyo. Una vez que validemos su identidad le comparto su saldo; también puede consultarlo, junto con sus movimientos de los últimos 90 días, en la app NexaBank Móvil o en cualquier cajero NexaBank sin costo.",
+      "keywords": "saldo disponible cuánto tengo dinero movimientos consultar cuenta nómina depósito"
+    },
+    {
+      "id": "KB-002",
+      "category": "consulta_saldo",
+      "title": "Estados de cuenta y constancias",
+      "content": "Los estados de cuenta mensuales están disponibles en formato PDF en la app y en banca en línea a partir del tercer día hábil posterior a la fecha de corte. El cliente puede solicitar estados de cuenta de hasta 5 años de antigüedad sin costo. Las constancias de saldo y de retenciones se generan en línea o se envían al correo registrado en un máximo de 48 horas.",
+      "next_steps": [
+        "Confirmar el correo electrónico registrado",
+        "Generar la solicitud de estado de cuenta histórico si aplica"
+      ],
+      "customer_reply": "Sus estados de cuenta están disponibles en PDF en la app y en banca en línea a partir del tercer día hábil después de su fecha de corte. Si necesita uno de meses anteriores, lo solicitamos sin costo y se lo enviamos a su correo registrado en un máximo de 48 horas.",
+      "keywords": "estado de cuenta pdf histórico constancia retenciones correo"
+    },
+    {
+      "id": "KB-003",
+      "category": "aclaracion_cargo",
+      "title": "Aclaración de cargos no reconocidos",
+      "content": "Cuando el cliente no reconoce un cargo, el agente debe registrar una solicitud de aclaración con fecha, monto, comercio y canal de la operación. NexaBank tiene un plazo máximo de 45 días naturales para dar respuesta y, en cargos con tarjeta de débito, puede realizar un abono provisional dentro de los 2 días hábiles siguientes. El cliente cuenta con 90 días naturales desde la fecha del cargo para presentar la aclaración.",
+      "next_steps": [
+        "Registrar folio de aclaración con fecha, monto y comercio",
+        "Informar el plazo de respuesta de 45 días naturales",
+        "Evaluar si procede abono provisional"
+      ],
+      "customer_reply": "Lamento la situación. Voy a registrar una aclaración por el cargo que no reconoce; necesito la fecha, el monto y el comercio. NexaBank le dará respuesta en un plazo máximo de 45 días naturales y le compartiré su número de folio.",
+      "keywords": "cargo no reconocido no hice compra desconocida aclaración reclamar cobro indebido"
+    },
+    {
+      "id": "KB-004",
+      "category": "aclaracion_cargo",
+      "title": "Cobros duplicados y comisiones no reconocidas",
+      "content": "Si un comercio realizó un cobro duplicado, el agente debe verificar si el segundo cargo aparece como operación liquidada o como autorización pendiente. Las autorizaciones pendientes se liberan automáticamente en un plazo de 3 a 7 días hábiles. Las comisiones cobradas por NexaBank que el cliente considere improcedentes se revisan con el área de Aclaraciones y, de proceder, se bonifican en el siguiente corte.",
+      "next_steps": [
+        "Verificar si el cargo está liquidado o pendiente",
+        "Levantar aclaración si el cargo ya fue liquidado"
+      ],
+      "customer_reply": "Reviso el cargo con usted. Si aparece como autorización pendiente, se libera automáticamente en 3 a 7 días hábiles; si ya fue cobrado, registro una aclaración para su revisión y le entrego un folio de seguimiento.",
+      "keywords": "cobro duplicado doble cargo dos veces comisión anualidad cobrada"
+    },
+    {
+      "id": "KB-005",
+      "category": "bloqueo_tarjeta",
+      "title": "Bloqueo por robo o extravío de tarjeta",
+      "content": "Ante robo o extravío, el bloqueo definitivo de la tarjeta debe hacerse de inmediato desde la app, en la línea NexaBank 24 horas o con el agente. A partir del reporte, el cliente no es responsable de los cargos posteriores. La reposición de la tarjeta física se envía al domicilio registrado en un plazo de 5 a 7 días hábiles y la tarjeta digital queda disponible en la app de forma inmediata.",
+      "next_steps": [
+        "Bloquear definitivamente la tarjeta y entregar folio de reporte",
+        "Confirmar domicilio para la reposición",
+        "Revisar con el cliente movimientos recientes no reconocidos"
+      ],
+      "customer_reply": "Lamento lo ocurrido. Procedo a bloquear su tarjeta de forma definitiva para que no pueda usarse; a partir de este reporte usted no es responsable de cargos posteriores. Su tarjeta digital estará disponible de inmediato en la app y la física llegará a su domicilio en 5 a 7 días hábiles.",
+      "keywords": "perdí perdida extravié robaron robo asalto cartera bloquear cancelar reposición tarjeta nueva"
+    },
+    {
+      "id": "KB-006",
+      "category": "bloqueo_tarjeta",
+      "title": "Bloqueo temporal y desbloqueo de tarjeta",
+      "content": "El cliente puede apagar y encender su tarjeta de forma temporal desde la app NexaBank Móvil cuando no la encuentra pero sospecha que está en casa. Si la tarjeta fue bloqueada por intentos fallidos de NIP, se desbloquea en el cajero cambiando el NIP o con el agente después de autenticar al cliente. Una tarjeta con bloqueo definitivo no puede reactivarse y requiere reposición.",
+      "next_steps": [
+        "Distinguir entre bloqueo temporal y definitivo",
+        "Guiar al cliente en la opción de apagar tarjeta de la app"
+      ],
+      "customer_reply": "Si cree que su tarjeta está en casa, puede apagarla temporalmente desde la app NexaBank Móvil y encenderla cuando la encuentre. Si se bloqueó por intentos de NIP, puede desbloquearla en un cajero cambiando su NIP o con mi apoyo una vez validada su identidad.",
+      "keywords": "apagar encender tarjeta temporal NIP incorrecto intentos desbloquear cajero retuvo"
+    },
+    {
+      "id": "KB-007",
+      "category": "posible_fraude",
+      "title": "Protocolo ante posible fraude o suplantación",
+      "content": "Si el cliente reporta llamadas, mensajes o correos en los que se solicitaron sus datos, códigos de seguridad o NIP, o si detecta operaciones que no realizó, se trata de un posible fraude. El agente NO debe resolver el caso por su cuenta: debe bloquear preventivamente los productos afectados y transferir el caso al área de Prevención de Fraudes, que da seguimiento y contacta al cliente. NexaBank nunca solicita contraseñas, NIP ni códigos de la app por teléfono, correo o mensaje.",
+      "next_steps": [
+        "Bloquear preventivamente los productos afectados",
+        "Escalar al área de Prevención de Fraudes con folio",
+        "Recordar que NexaBank nunca solicita NIP ni códigos"
+      ],
+      "customer_reply": "Gracias por avisarnos. Por su seguridad voy a bloquear preventivamente sus productos y canalizar su caso con nuestra área de Prevención de Fraudes, que le dará seguimiento con un folio. Recuerde que NexaBank nunca solicita su NIP, contraseñas ni códigos por teléfono, correo o mensaje.",
+      "keywords": "fraude llamada falsa me pidieron código NIP token suplantación estafa engaño clonaron"
+    },
+    {
+      "id": "KB-008",
+      "category": "posible_fraude",
+      "title": "Phishing, enlaces sospechosos y robo de identidad",
+      "content": "Cuando el cliente recibió un enlace o mensaje sospechoso que imita a NexaBank, se le pide no abrirlo y reenviarlo a la cuenta oficial de reportes. Si el cliente ya ingresó sus datos en un sitio falso, debe cambiar de inmediato su contraseña de banca digital y el caso se escala a Prevención de Fraudes. En casos de robo de identidad se recomienda presentar denuncia ante el Ministerio Público y entregar copia al banco.",
+      "next_steps": [
+        "Solicitar cambio inmediato de contraseña",
+        "Escalar a Prevención de Fraudes",
+        "Orientar sobre la denuncia por robo de identidad"
+      ],
+      "customer_reply": "Le recomiendo no abrir ese enlace. Si ya ingresó sus datos, cambie de inmediato su contraseña de banca digital; voy a canalizar su caso con nuestra área de Prevención de Fraudes para su seguimiento.",
+      "keywords": "phishing enlace link mensaje SMS correo falso página falsa robo de identidad hackeo"
+    },
+    {
+      "id": "KB-009",
+      "category": "transferencias",
+      "title": "Transferencias SPEI: horarios y límites",
+      "content": "Las transferencias SPEI se procesan en segundos, las 24 horas, los 365 días del año. El límite diario predeterminado en la app es de 50,000 pesos y el cliente puede modificarlo desde la sección de configuración, sujeto a autenticación reforzada. Para enviar dinero se necesita la CLABE interbancaria de 18 dígitos o el número de tarjeta de débito del beneficiario.",
+      "next_steps": [
+        "Verificar el límite diario configurado",
+        "Confirmar que la CLABE del beneficiario tenga 18 dígitos"
+      ],
+      "customer_reply": "Las transferencias SPEI se procesan en segundos, las 24 horas, todos los días. Su límite diario predeterminado en la app es de 50,000 pesos y puede ajustarlo en la sección de configuración; para enviar dinero necesita la CLABE de 18 dígitos o la tarjeta de débito del beneficiario.",
+      "keywords": "transferir SPEI límite diario CLABE otro banco enviar dinero alta beneficiario"
+    },
+    {
+      "id": "KB-010",
+      "category": "transferencias",
+      "title": "Transferencias no recibidas o enviadas por error",
+      "content": "Si una transferencia no se refleja en la cuenta destino, el agente debe obtener la clave de rastreo y consultar su estado en el portal CEP de Banco de México. Las transferencias enviadas a una cuenta equivocada no pueden revertirse unilateralmente: NexaBank solicita la devolución al banco receptor, que requiere autorización del titular de la cuenta destino. El seguimiento se registra con folio y se informa al cliente en un plazo de hasta 10 días hábiles.",
+      "next_steps": [
+        "Solicitar la clave de rastreo",
+        "Consultar el comprobante CEP",
+        "Registrar solicitud de devolución si fue enviada por error"
+      ],
+      "customer_reply": "Con la clave de rastreo de su transferencia puedo consultar su estado en el sistema de Banco de México. Si el envío fue a una cuenta equivocada, solicitaremos la devolución al banco receptor, que requiere autorización del titular destino; le daremos seguimiento con folio en un plazo de hasta 10 días hábiles.",
+      "keywords": "transferencia no llegó no se refleja cuenta equivocada error devolución clave de rastreo"
+    },
+    {
+      "id": "KB-011",
+      "category": "credito_prestamo",
+      "title": "Préstamo personal NexaBank: requisitos",
+      "content": "El préstamo personal se ofrece a clientes con nómina o con al menos 6 meses de antigüedad, por montos de 10,000 a 500,000 pesos y plazos de 12 a 60 meses. La tasa y el monto dependen del análisis de crédito, por lo que el agente no puede garantizar la aprobación. El cliente puede consultar ofertas preaprobadas en la app y la decisión final la toma el área de Crédito.",
+      "next_steps": [
+        "Consultar si el cliente tiene oferta preaprobada",
+        "Explicar que la aprobación depende del análisis de crédito"
+      ],
+      "customer_reply": "Con gusto le informo. El préstamo personal NexaBank va de 10,000 a 500,000 pesos a plazos de 12 a 60 meses; la tasa y el monto dependen del análisis de crédito. Puede revisar si tiene una oferta preaprobada en la app.",
+      "keywords": "préstamo personal crédito requisitos solicitar oferta preaprobada tasa"
+    },
+    {
+      "id": "KB-012",
+      "category": "credito_prestamo",
+      "title": "Pagos anticipados y liquidación de créditos",
+      "content": "El cliente puede realizar pagos anticipados a capital sin penalización, eligiendo reducir el plazo o el monto de la mensualidad. Para liquidar el crédito se solicita una carta de saldo total, vigente por 5 días hábiles. Una vez liquidado, la carta finiquito se emite en un plazo de 10 días hábiles y se reporta el cierre a las sociedades de información crediticia.",
+      "next_steps": [
+        "Emitir carta de saldo total si el cliente desea liquidar",
+        "Explicar opciones de reducción de plazo o mensualidad"
+      ],
+      "customer_reply": "Puede realizar pagos anticipados a capital sin penalización, eligiendo reducir el plazo o la mensualidad. Si desea liquidar su crédito, le genero una carta de saldo total vigente por 5 días hábiles.",
+      "keywords": "liquidar pagar adelantado anticipado capital carta finiquito saldo total"
+    },
+    {
+      "id": "KB-013",
+      "category": "credito_prestamo",
+      "title": "Crédito hipotecario y reestructuras",
+      "content": "Las solicitudes de crédito hipotecario se canalizan con un asesor hipotecario especializado, quien revisa ingresos, enganche y avalúo. Los clientes con dificultades de pago pueden solicitar una reestructura o un convenio de pago, que el área de Cobranza evalúa caso por caso. El agente debe registrar la solicitud y no comprometer condiciones específicas.",
+      "next_steps": [
+        "Canalizar con asesor hipotecario o con Cobranza",
+        "No comprometer tasas ni condiciones"
+      ],
+      "customer_reply": "Con gusto canalizo su solicitud con un asesor especializado, quien revisará su caso y le explicará las opciones disponibles. Registraré su solicitud para que le contacten.",
+      "keywords": "hipoteca hipotecario casa vivienda reestructura convenio no puedo pagar atraso"
+    },
+    {
+      "id": "KB-014",
+      "category": "tarjeta_credito",
+      "title": "Fecha de corte, fecha límite de pago y pago mínimo",
+      "content": "La fecha de corte de la tarjeta de crédito es fija cada mes y la fecha límite de pago es 20 días naturales después del corte. Pagar solo el mínimo genera intereses sobre el saldo restante; para no generar intereses se debe cubrir el pago para no generar intereses que aparece en el estado de cuenta. Los pagos realizados por SPEI o en la app se aplican el mismo día.",
+      "next_steps": [
+        "Informar fecha de corte y fecha límite de pago",
+        "Explicar la diferencia entre pago mínimo y pago para no generar intereses"
+      ],
+      "customer_reply": "Su fecha límite de pago es 20 días naturales después de su fecha de corte. Si paga solo el mínimo se generan intereses sobre el saldo restante; para evitarlos, cubra el pago para no generar intereses que aparece en su estado de cuenta. Los pagos por SPEI o en la app se aplican el mismo día.",
+      "keywords": "fecha de corte fecha límite pago mínimo intereses pagar tarjeta de crédito"
+    },
+    {
+      "id": "KB-015",
+      "category": "tarjeta_credito",
+      "title": "Aumento de línea de crédito y meses sin intereses",
+      "content": "El aumento de línea de crédito se ofrece automáticamente a clientes con buen historial de pago y también puede solicitarse en la app; la evaluación tarda hasta 3 días hábiles. Las compras a meses sin intereses dependen de las promociones vigentes de cada comercio. El cliente puede convertir compras mayores a 1,500 pesos a pagos fijos desde la app.",
+      "next_steps": [
+        "Revisar si existe una oferta de incremento de línea",
+        "Explicar el proceso de solicitud en la app"
+      ],
+      "customer_reply": "Puede solicitar un aumento de línea de crédito desde la app; la evaluación tarda hasta 3 días hábiles. Además, puede convertir compras mayores a 1,500 pesos a pagos fijos desde la misma app.",
+      "keywords": "aumento de línea límite tarjeta de crédito meses sin intereses pagos fijos diferir"
+    },
+    {
+      "id": "KB-016",
+      "category": "actualizacion_datos",
+      "title": "Actualización de domicilio, teléfono y correo",
+      "content": "El cliente puede actualizar su correo electrónico y su teléfono celular desde la app, con validación mediante un código enviado al dato anterior. El cambio de domicilio requiere un comprobante de domicilio con antigüedad no mayor a 3 meses y puede realizarse en sucursal o en la app con foto del comprobante. El agente no puede modificar datos de contacto por teléfono sin autenticación reforzada.",
+      "next_steps": [
+        "Indicar el canal para actualizar el dato",
+        "Solicitar comprobante de domicilio vigente si aplica"
+      ],
+      "customer_reply": "Su correo y celular puede actualizarlos en la app con un código de validación. Para el cambio de domicilio necesitamos un comprobante con antigüedad no mayor a 3 meses, que puede cargar en la app o presentar en sucursal.",
+      "keywords": "cambiar domicilio dirección teléfono celular correo actualizar datos"
+    },
+    {
+      "id": "KB-017",
+      "category": "actualizacion_datos",
+      "title": "Actualización de identificación y beneficiarios",
+      "content": "Cuando la identificación oficial del cliente vence, debe actualizarse en sucursal o en la app mediante captura de INE o pasaporte vigente. Los beneficiarios de la cuenta pueden registrarse o modificarse únicamente en sucursal con firma del titular. Mantener los datos actualizados es un requisito regulatorio para evitar restricciones en la cuenta.",
+      "next_steps": [
+        "Explicar el proceso de actualización de identificación",
+        "Orientar sobre el registro de beneficiarios en sucursal"
+      ],
+      "customer_reply": "Puede actualizar su identificación oficial en la app o en sucursal con su INE o pasaporte vigente. El registro o cambio de beneficiarios se realiza en sucursal con su firma.",
+      "keywords": "INE identificación vencida pasaporte beneficiario beneficiaria"
+    },
+    {
+      "id": "KB-018",
+      "category": "banca_digital",
+      "title": "Recuperación de contraseña y acceso a la app",
+      "content": "Si el cliente olvidó su contraseña de banca digital, puede restablecerla desde la opción Olvidé mi contraseña de la app usando su tarjeta de débito y un código enviado por SMS. Después de 3 intentos fallidos el acceso se bloquea por 24 horas por seguridad. El agente puede desbloquear el usuario después de autenticar al cliente, pero nunca debe solicitar ni conocer la contraseña.",
+      "next_steps": [
+        "Guiar el restablecimiento de contraseña",
+        "Desbloquear usuario tras autenticación",
+        "No solicitar la contraseña al cliente"
+      ],
+      "customer_reply": "Puede restablecer su contraseña desde la opción Olvidé mi contraseña de la app, con su tarjeta de débito y un código por SMS. Si su usuario se bloqueó por intentos fallidos, puedo desbloquearlo tras validar su identidad; nunca le pediremos su contraseña.",
+      "keywords": "contraseña olvidé usuario bloqueado acceso app banca en línea iniciar sesión"
+    },
+    {
+      "id": "KB-019",
+      "category": "banca_digital",
+      "title": "Activación de la app en un nuevo celular y NexaToken",
+      "content": "Al cambiar de celular, el cliente debe activar la app nuevamente; el NexaToken digital se vincula a un solo dispositivo a la vez. La activación requiere tarjeta de débito, código SMS y validación biométrica. Si el cliente ya no tiene acceso al celular anterior, el agente desvincula el dispositivo después de una autenticación reforzada.",
+      "next_steps": [
+        "Guiar la activación en el nuevo dispositivo",
+        "Desvincular el dispositivo anterior si el cliente no tiene acceso"
+      ],
+      "customer_reply": "Para usar la app en su nuevo celular, actívela con su tarjeta de débito, el código SMS y su validación biométrica; el NexaToken se vincula a un solo dispositivo. Si ya no tiene el celular anterior, puedo desvincularlo tras una validación reforzada.",
+      "keywords": "celular nuevo teléfono nuevo token NexaToken activar app dispositivo desvincular"
+    },
+    {
+      "id": "KB-020",
+      "category": "banca_digital",
+      "title": "Errores y fallas de la app",
+      "content": "Ante errores en la app, se recomienda actualizarla a la versión más reciente, verificar la conexión a internet y reiniciar el dispositivo. Si el error persiste, el agente registra un reporte técnico con modelo del celular, versión del sistema operativo y captura del mensaje de error. Las fallas generales del servicio se publican en el aviso de estatus de NexaBank.",
+      "next_steps": [
+        "Validar versión de la app y conexión",
+        "Registrar reporte técnico con datos del dispositivo"
+      ],
+      "customer_reply": "Le sugiero actualizar la app a la versión más reciente, verificar su conexión y reiniciar su celular. Si el error continúa, registro un reporte técnico; para ello necesito el modelo de su celular y el mensaje de error que aparece.",
+      "keywords": "error app falla se cierra no carga actualizar aplicación"
+    },
+    {
+      "id": "KB-021",
+      "category": "queja_servicio",
+      "title": "Registro de quejas formales",
+      "content": "Cuando el cliente expresa inconformidad con la atención recibida o con un producto, el agente debe registrar una queja formal con folio y no intentar resolverla con compromisos no autorizados. La Unidad Especializada de Atención a Usuarios (UNE) de NexaBank responde en un plazo máximo de 30 días hábiles. El caso se escala a un supervisor cuando el cliente lo solicita o cuando la queja involucra un trato indebido.",
+      "next_steps": [
+        "Registrar queja formal con folio",
+        "Escalar a supervisor si el cliente lo solicita",
+        "Informar plazo de respuesta de la UNE"
+      ],
+      "customer_reply": "Lamento mucho su experiencia. Voy a registrar su queja formal y le compartiré el número de folio; nuestra Unidad Especializada de Atención a Usuarios le responderá en un plazo máximo de 30 días hábiles. Si lo desea, también canalizo su caso con un supervisor.",
+      "keywords": "queja mala atención grosero supervisor inconformidad reportar ejecutivo"
+    },
+    {
+      "id": "KB-022",
+      "category": "queja_servicio",
+      "title": "Orientación sobre CONDUSEF",
+      "content": "Si el cliente no está conforme con la respuesta de la UNE, puede acudir a la CONDUSEF para presentar una reclamación. El agente debe proporcionar la información de contacto de la UNE y el número de folio de la queja. Las quejas se analizan mensualmente por el Comité de Calidad para identificar causas recurrentes.",
+      "next_steps": [
+        "Proporcionar el folio y los datos de la UNE",
+        "Orientar sobre la opción de acudir a CONDUSEF"
+      ],
+      "customer_reply": "Le comparto el folio de su queja y los datos de nuestra Unidad Especializada de Atención a Usuarios. Si no queda conforme con la respuesta, puede acudir a la CONDUSEF para presentar una reclamación.",
+      "keywords": "CONDUSEF reclamación UNE no resolvieron queja respuesta"
+    }
+  ]
+}

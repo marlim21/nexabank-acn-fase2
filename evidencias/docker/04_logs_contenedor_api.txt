@@ -1,0 +1,50 @@
+INFO:     Started server process [1]
+INFO:     Waiting for application startup.
+2026-11-01 19:35:41,627 INFO acn.assistant Modelo cargado: 10 clases, 22 artículos, generación=extractivo
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2026-11-01 19:35:45,573 INFO acn req=51c1ff77abb7 GET /health -> 200 1.1ms
+INFO:     127.0.0.1:46198 - "GET /health HTTP/1.1" 200 OK
+2026-11-01 19:35:46,578 INFO acn req=e4c31551d264 GET /health -> 200 0.5ms
+INFO:     172.17.0.1:41830 - "GET /health HTTP/1.1" 200 OK
+2026-11-01 19:35:46,595 INFO acn.api suggest intent=aclaracion_cargo conf=0.845 fuentes=2 modo=extractivo escalar=False
+INFO:     172.17.0.1:41836 - "POST /api/v1/suggest HTTP/1.1" 200 OK
+2026-11-01 19:35:46,596 INFO acn req=f246c5ef2d31 POST /api/v1/suggest -> 200 7.5ms
+2026-11-01 19:35:46,639 INFO acn.api suggest intent=posible_fraude conf=0.594 fuentes=3 modo=extractivo escalar=True
+2026-11-01 19:35:46,639 INFO acn req=fe70f2d8bc90 POST /api/v1/suggest -> 200 2.9ms
+INFO:     172.17.0.1:41852 - "POST /api/v1/suggest HTTP/1.1" 200 OK
+2026-11-01 19:35:46,675 INFO acn req=0444baa09cc3 POST /api/v1/classify -> 200 2.3ms
+INFO:     172.17.0.1:41866 - "POST /api/v1/classify HTTP/1.1" 200 OK
+2026-11-01 19:35:46,711 INFO acn req=ace6f50318f9 POST /api/v1/summarize -> 200 2.8ms
+INFO:     172.17.0.1:41870 - "POST /api/v1/summarize HTTP/1.1" 200 OK
+2026-11-01 19:35:46,744 INFO acn req=5b7033c1ec08 POST /api/v1/suggest -> 422 0.4ms
+INFO:     172.17.0.1:41882 - "POST /api/v1/suggest HTTP/1.1" 422 Unprocessable Content
+INFO:     172.17.0.1:41896 - "GET /api/v1/model/info HTTP/1.1" 200 OK
+2026-11-01 19:35:46,755 INFO acn req=4004a4b3ecf8 GET /api/v1/model/info -> 200 0.5ms
+INFO:     172.17.0.1:41908 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-11-01 19:35:46,809 INFO acn req=49f1132211d6 GET /openapi.json -> 200 18.1ms
+2026-11-01 19:35:48,626 INFO acn req=f049e94ce990 GET /health -> 200 0.9ms
+INFO:     172.17.0.1:41914 - "GET /health HTTP/1.1" 200 OK
+INFO:     172.17.0.1:41914 - "GET / HTTP/1.1" 200 OK
+2026-11-01 19:35:48,632 INFO acn req=70f10474e00a GET / -> 200 3.0ms
+INFO:     172.17.0.1:41914 - "GET /app.js HTTP/1.1" 200 OK
+2026-11-01 19:35:48,634 INFO acn req=bcbafe063db2 GET /app.js -> 200 0.7ms
+2026-11-01 19:35:48,640 INFO acn.api suggest intent=bloqueo_tarjeta conf=0.520 fuentes=3 modo=extractivo escalar=False
+2026-11-01 19:35:48,640 INFO acn req=3b5f9ad3270b POST /api/v1/suggest -> 200 3.9ms
+INFO:     172.17.0.1:41914 - "POST /api/v1/suggest HTTP/1.1" 200 OK
+2026-11-01 19:35:48,644 INFO acn.api suggest intent=banca_digital conf=0.505 fuentes=3 modo=extractivo escalar=False
+2026-11-01 19:35:48,644 INFO acn req=4e3b791da343 POST /api/v1/suggest -> 200 2.3ms
+INFO:     172.17.0.1:41914 - "POST /api/v1/suggest HTTP/1.1" 200 OK
+2026-11-01 19:35:48,646 INFO acn req=e07b8c8d8e4e POST /api/v1/feedback -> 200 0.7ms
+INFO:     172.17.0.1:41914 - "POST /api/v1/feedback HTTP/1.1" 200 OK
+2026-11-01 19:35:48,648 INFO acn req=fdbd4e21acd5 GET /api/v1/metrics/adoption -> 200 0.4ms
+INFO:     172.17.0.1:41914 - "GET /api/v1/metrics/adoption HTTP/1.1" 200 OK
+2026-11-01 19:35:48,652 INFO acn req=1bd0d7e681ca POST /api/v1/summarize -> 200 2.2ms
+INFO:     172.17.0.1:41914 - "POST /api/v1/summarize HTTP/1.1" 200 OK
+2026-11-01 19:35:48,654 INFO acn req=503ab997e880 POST /api/v1/suggest -> 422 0.4ms
+INFO:     172.17.0.1:41914 - "POST /api/v1/suggest HTTP/1.1" 422 Unprocessable Content
+INFO:     172.17.0.1:41914 - "POST /api/v1/suggest HTTP/1.1" 413 Content Too Large
+2026-11-01 19:35:48,658 INFO acn req=07d92b4edc16 GET /docs -> 200 0.2ms
+INFO:     172.17.0.1:41914 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.17.0.1:41914 - "GET /openapi.json HTTP/1.1" 200 OK
+2026-11-01 19:35:48,660 INFO acn req=6cb66f2aebc9 GET /openapi.json -> 200 0.3ms

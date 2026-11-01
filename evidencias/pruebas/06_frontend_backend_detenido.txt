@@ -1,0 +1,2 @@
+Estado mostrado: Servicio no disponible | Mensaje: No hay comunicación con el backend (504). Verifica que el servicio esté activo.
+X-19 APROBADO

@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test-and-container:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements-dev.txt
+
+      - name: Pruebas unitarias, API, casos extremos y validación del modelo
+        run: pytest -v --cov=backend/app --cov-report=term-missing
+
+      - name: Construir imagen Docker
+        run: docker build -t nexabank-acn:ci .
+
+      - name: Ejecutar contenedor y esperar healthcheck
+        run: |
+          docker run -d --name acn -p 8000:8000 nexabank-acn:ci
+          for i in $(seq 1 30); do
+            [ "$(docker inspect --format '{{.State.Health.Status}}' acn)" = "healthy" ] && exit 0
+            sleep 2
+          done
+          docker logs acn; exit 1
+
+      - name: Pruebas de integración contra el contenedor
+        run: ACN_BASE_URL=http://localhost:8000 pytest tests/test_integration.py -v
+
+      - name: Logs del contenedor
+        if: always()
+        run: docker logs acn || true

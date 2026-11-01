@@ -1,0 +1,27 @@
+{
+  "_nota": "Holdout del recuperador redactado DESPUÉS de agregar palabras clave a la base de conocimiento (v1.2.0), para medir sin sesgo de ajuste. Sintético.",
+  "queries": [
+    {"query": "Quisiera saber si ya tengo disponible el dinero de mi quincena", "expected": "KB-001"},
+    {"query": "Ocupo mis estados de cuenta del año pasado para un trámite", "expected": "KB-002"},
+    {"query": "En mi tarjeta salió una compra en una tienda que ni conozco", "expected": "KB-003"},
+    {"query": "El súper me pasó la tarjeta dos veces por la misma compra", "expected": "KB-004"},
+    {"query": "Se me olvidó la tarjeta en el restaurante y ya no estaba", "expected": "KB-005"},
+    {"query": "Creo que la tarjeta está en mi otra bolsa, ¿la puedo pausar un rato?", "expected": "KB-006"},
+    {"query": "Un señor dijo ser del área de seguridad del banco y le pasé el número que me llegó", "expected": "KB-007"},
+    {"query": "Me escribieron por WhatsApp con una liga para desbloquear mi cuenta y entré", "expected": "KB-008"},
+    {"query": "¿Puedo mandar dinero a una cuenta de otro banco un domingo?", "expected": "KB-009"},
+    {"query": "Le deposité a quien no era, me equivoqué de número de cuenta", "expected": "KB-010"},
+    {"query": "¿Cuánto es lo máximo que me pueden prestar y a cuántos meses?", "expected": "KB-011"},
+    {"query": "Me sobró dinero y quiero abonar para terminar antes mi crédito", "expected": "KB-012"},
+    {"query": "Me quedé sin trabajo y no puedo con las mensualidades de mi casa", "expected": "KB-013"},
+    {"query": "¿Qué pasa si este mes nada más doy el pago mínimo?", "expected": "KB-014"},
+    {"query": "Necesito que me den más crédito en la tarjeta para un viaje", "expected": "KB-015"},
+    {"query": "Ya no vivo en la dirección que tienen registrada", "expected": "KB-016"},
+    {"query": "Mi credencial de elector ya no está vigente", "expected": "KB-017"},
+    {"query": "Intenté entrar varias veces y ahora no me deja ingresar a la banca", "expected": "KB-018"},
+    {"query": "Estrené teléfono y la aplicación me pide activar todo de nuevo", "expected": "KB-019"},
+    {"query": "La aplicación se queda en blanco cuando la abro", "expected": "KB-020"},
+    {"query": "La persona de la ventanilla me gritó y no me quiso atender", "expected": "KB-021"},
+    {"query": "El banco no me dio solución a mi reclamo, ¿a dónde más puedo acudir?", "expected": "KB-022"}
+  ]
+}

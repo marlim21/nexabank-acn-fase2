@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Consola ACN · NexaBank</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">N</span>
+      <div>
+        <h1>Asistente Cognitivo NexaBank</h1>
+        <p class="sub">Consola del agente · NexaBank es una empresa ficticia (proyecto académico)</p>
+      </div>
+    </div>
+    <div id="status" class="status status--pending" role="status" aria-live="polite">Verificando servicio…</div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab is-active" role="tab" aria-selected="true" data-tab="suggest" id="tab-suggest">Sugerencia en vivo</button>
+    <button class="tab" role="tab" aria-selected="false" data-tab="summary" id="tab-summary">Resumen para CRM</button>
+  </nav>
+
+  <main>
+    <!-- Panel 1: sugerencia de respuesta (RAG) -->
+    <section class="panel" id="panel-suggest" role="tabpanel" aria-labelledby="tab-suggest">
+      <form id="suggest-form" class="card" novalidate>
+        <label for="mensaje">Mensaje del cliente</label>
+        <textarea id="mensaje" name="mensaje" rows="4" maxlength="2000" placeholder="Ej. Me aparece un cargo de 1,200 pesos en Amazon que yo no hice" required></textarea>
+        <div class="row">
+          <span class="hint"><span id="char-count">0</span>/2000 · Los datos sensibles se enmascaran antes de procesarse</span>
+          <div class="actions">
+            <label class="inline" for="top_k">Fuentes
+              <select id="top_k" name="top_k"><option>1</option><option>2</option><option selected>3</option><option>4</option><option>5</option></select>
+            </label>
+            <button type="submit" class="btn btn--primary" id="suggest-btn">Obtener sugerencia</button>
+          </div>
+        </div>
+        <div class="examples" aria-label="Ejemplos">
+          <span>Ejemplos:</span>
+          <button type="button" class="chip" data-example="Perdí mi tarjeta de débito ayer en el metro, quiero bloquearla">Robo/extravío</button>
+          <button type="button" class="chip" data-example="Me llamaron diciendo que eran del banco y les di el código que me llegó por SMS">Posible fraude</button>
+          <button type="button" class="chip" data-example="Hice una transferencia SPEI de 5,000 pesos y no le llega a mi hermana">Transferencia</button>
+          <button type="button" class="chip" data-example="¿Cuándo es la fecha límite de pago de mi tarjeta de crédito?">Tarjeta de crédito</button>
+        </div>
+        <p id="suggest-error" class="error" role="alert" hidden></p>
+      </form>
+
+      <article id="suggest-result" class="card result" hidden aria-live="polite">
+        <div id="escalation" class="banner banner--danger" hidden>
+          ⚠ Caso sensible: la IA no lo resuelve por sí sola. Escala al área especializada.
+        </div>
+        <div id="lowconf" class="banner banner--warn" hidden>
+          Confianza baja en el motivo detectado: valida el motivo con el cliente antes de usar la sugerencia.
+        </div>
+        <div class="result-head">
+          <div>
+            <span class="label">Motivo detectado</span>
+            <h2 id="r-motivo">—</h2>
+          </div>
+          <div class="meter" aria-label="Confianza">
+            <span class="label">Confianza</span>
+            <div class="bar"><div id="r-bar" class="bar-fill"></div></div>
+            <strong id="r-conf">—</strong>
+          </div>
+        </div>
+        <span class="label">Borrador de respuesta <small id="r-mode"></small></span>
+        <textarea id="r-sugerencia" class="draft" rows="5" aria-label="Borrador editable"></textarea>
+        <div class="grid2">
+          <div>
+            <span class="label">Fuentes consultadas (base de conocimiento)</span>
+            <ul id="r-fuentes" class="list"></ul>
+          </div>
+          <div>
+            <span class="label">Acciones sugeridas</span>
+            <ul id="r-acciones" class="list list--check"></ul>
+          </div>
+        </div>
+        <details>
+          <summary>Mensaje procesado (enmascarado) y metadatos</summary>
+          <p id="r-masked" class="mono"></p>
+          <p class="mono" id="r-meta"></p>
+        </details>
+        <div class="feedback">
+          <span class="label">Decisión del agente (obligatoria antes de enviar)</span>
+          <div class="actions">
+            <button class="btn btn--ok" data-decision="aprobada">Aprobar</button>
+            <button class="btn" data-decision="editada">Aprobar con edición</button>
+            <button class="btn btn--danger" data-decision="rechazada">Rechazar</button>
+          </div>
+          <p id="feedback-msg" class="hint" aria-live="polite"></p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Panel 2: resumen del caso -->
+    <section class="panel" id="panel-summary" role="tabpanel" aria-labelledby="tab-summary" hidden>
+      <form id="summary-form" class="card" novalidate>
+        <label for="conversacion">Conversación (una línea por turno, inicia con <code>Cliente:</code> o <code>Agente:</code>)</label>
+        <textarea id="conversacion" rows="8" placeholder="Cliente: Hola, me cobraron dos veces 899 pesos en Netflix el 3 de octubre&#10;Agente: Con gusto, ya registré la aclaración con folio 12345."></textarea>
+        <div class="row">
+          <button type="button" class="chip" id="summary-example">Cargar ejemplo</button>
+          <button type="submit" class="btn btn--primary" id="summary-btn">Generar resumen</button>
+        </div>
+        <p id="summary-error" class="error" role="alert" hidden></p>
+      </form>
+      <article id="summary-result" class="card result" hidden aria-live="polite">
+        <div id="s-escalation" class="banner banner--danger" hidden>⚠ Caso sensible: requiere escalamiento.</div>
+        <span class="label">Motivo</span>
+        <h2 id="s-motivo">—</h2>
+        <span class="label">Resumen propuesto para el CRM (editable, requiere aprobación)</span>
+        <textarea id="s-resumen" class="draft" rows="4"></textarea>
+        <div class="grid2">
+          <div><span class="label">Entidades detectadas</span><ul id="s-entidades" class="list"></ul></div>
+          <div><span class="label">Acciones sugeridas</span><ul id="s-acciones" class="list list--check"></ul></div>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span id="model-info">Modelo: —</span>
+    <span id="adoption">Tasa de aceptación: —</span>
+    <a href="/docs" target="_blank" rel="noopener">Documentación de la API</a>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>

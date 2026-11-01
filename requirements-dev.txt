@@ -1,0 +1,8 @@
+-r requirements.txt
+pytest==9.2.0
+httpx==0.28.1
+# Prueba E2E en navegador (opcional)
+playwright==1.55.0
+pytest-cov==7.0.0
+matplotlib==3.10.7  # figuras de evidencia
+markdown==3.9  # generación de PDFs de documentación

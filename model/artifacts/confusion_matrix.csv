@@ -1,0 +1,11 @@
+real\predicho,aclaracion_cargo,actualizacion_datos,banca_digital,bloqueo_tarjeta,consulta_saldo,credito_prestamo,posible_fraude,queja_servicio,tarjeta_credito,transferencias
+aclaracion_cargo,30,0,0,0,0,0,0,0,0,0
+actualizacion_datos,0,30,0,0,0,0,0,0,0,0
+banca_digital,0,3,17,0,0,0,10,0,0,0
+bloqueo_tarjeta,0,0,0,27,0,0,0,0,3,0
+consulta_saldo,0,0,0,0,30,0,0,0,0,0
+credito_prestamo,4,0,0,0,5,13,0,2,6,0
+posible_fraude,8,0,1,0,0,0,21,0,0,0
+queja_servicio,0,0,0,0,0,0,0,30,0,0
+tarjeta_credito,0,0,0,10,0,3,0,0,17,0
+transferencias,7,0,0,0,6,0,0,0,0,17

@@ -1,0 +1,30 @@
+{
+  "model_name": "acn-intent-classifier",
+  "model_version": "1.0.0",
+  "algorithm": "FeatureUnion(TF-IDF palabras 1-2 + TF-IDF caracteres 3-5) -> LogisticRegression(C=0.5, balanced)",
+  "classes": [
+    "aclaracion_cargo",
+    "actualizacion_datos",
+    "banca_digital",
+    "bloqueo_tarjeta",
+    "consulta_saldo",
+    "credito_prestamo",
+    "posible_fraude",
+    "queja_servicio",
+    "tarjeta_credito",
+    "transferencias"
+  ],
+  "sensitive_intents": [
+    "posible_fraude",
+    "queja_servicio"
+  ],
+  "trained_at": "2026-11-01T19:16:35+00:00",
+  "train_size": 1200,
+  "test_size": 300,
+  "seed": 42,
+  "sklearn_version": "1.9.1",
+  "python_version": "3.13.16",
+  "classifier_sha256": "c157f5568ccff78904cfa0ef762707153bf6fe12f891f5e8f82d3ee3ad4dca56",
+  "confidence_threshold": 0.3,
+  "data_note": "Datos sintéticos generados por training/generate_dataset.py (NexaBank es ficticia)."
+}

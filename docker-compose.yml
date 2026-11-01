@@ -1,0 +1,31 @@
+# Arquitectura local de dos servicios:
+#   frontend (nginx, puerto 8080)  --proxy /api-->  api (FastAPI + modelo, puerto 8000)
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: nexabank-acn-api:2.0.0
+    container_name: acn-api
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      ACN_ENV: docker-compose
+      ACN_SERVE_FRONTEND: "false"
+      ACN_CORS_ORIGINS: http://localhost:8080
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+    image: nexabank-acn-frontend:2.0.0
+    container_name: acn-frontend
+    ports:
+      - "8080:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+    restart: unless-stopped

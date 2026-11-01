@@ -1,0 +1,15 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.13.16, pytest-9.2.0, pluggy-1.7.0 -- /Users/martinlimon/Documents/Maestria/Fase_II_Proyecto_IA/01_Repositorio_Proyecto/.venv/bin/python
+rootdir: /Users/martinlimon/Documents/Maestria/Fase_II_Proyecto_IA/01_Repositorio_Proyecto
+plugins: anyio-4.16.0, cov-7.0.0
+collecting ... collected 7 items
+
+tests/e2e/test_frontend_e2e.py::test_carga_y_estado_del_servicio PASSED  [ 14%]
+tests/e2e/test_frontend_e2e.py::test_sugerencia_caso_normal PASSED       [ 28%]
+tests/e2e/test_frontend_e2e.py::test_aprobacion_humana_registra_kpi PASSED [ 42%]
+tests/e2e/test_frontend_e2e.py::test_caso_sensible_muestra_escalamiento PASSED [ 57%]
+tests/e2e/test_frontend_e2e.py::test_validacion_en_frontend PASSED       [ 71%]
+tests/e2e/test_frontend_e2e.py::test_resumen_crm PASSED                  [ 85%]
+tests/e2e/test_frontend_e2e.py::test_error_de_formato_en_resumen PASSED  [100%]
+
+============================== 7 passed in 2.09s ===============================

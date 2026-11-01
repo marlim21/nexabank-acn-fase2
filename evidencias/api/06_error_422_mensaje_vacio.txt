@@ -1,0 +1,9 @@
+HTTP/1.1 422 Unprocessable Content
+date: Sun, 01 Nov 2026 19:35:45 GMT
+server: uvicorn
+content-length: 110
+content-type: application/json
+vary: Origin
+x-request-id: 5b7033c1ec08
+
+{"error":"datos_invalidos","detalle":[{"campo":"mensaje","error":"String should have at least 3 characters"}]}
